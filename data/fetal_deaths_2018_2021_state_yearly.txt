@@ -1,0 +1,1341 @@
+"Notes"	"Standard Residence States"	"Standard Residence States Code"	"Age of Mother 9"	"Age of Mother 9 Code"	"Mother's Bridged Race"	"Mother's Bridged Race Code"	"Year"	"Year Code"	Fetal Deaths
+	"Alabama"	"01"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	14
+	"Alabama"	"01"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	21
+	"Alabama"	"01"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	23
+	"Alabama"	"01"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	13
+	"Alabama"	"01"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	48
+	"Alabama"	"01"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	36
+	"Alabama"	"01"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	89
+	"Alabama"	"01"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	64
+	"Alabama"	"01"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	52
+	"Alabama"	"01"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	72
+	"Alabama"	"01"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	119
+	"Alabama"	"01"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	118
+	"Alabama"	"01"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	72
+	"Alabama"	"01"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	72
+	"Alabama"	"01"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	56
+	"Alabama"	"01"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	74
+	"Alabama"	"01"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	135
+	"Alabama"	"01"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	139
+	"Alabama"	"01"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	38
+	"Alabama"	"01"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	59
+	"Alabama"	"01"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	58
+	"Alabama"	"01"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	55
+	"Alabama"	"01"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	104
+	"Alabama"	"01"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	139
+	"Alabama"	"01"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	32
+	"Alabama"	"01"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	35
+	"Alabama"	"01"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	35
+	"Alabama"	"01"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	37
+	"Alabama"	"01"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	63
+	"Alabama"	"01"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	66
+	"Alabama"	"01"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2018"	"2018"	10
+	"Alabama"	"01"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	16
+	"Alabama"	"01"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	11
+	"Alaska"	"02"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	11
+	"Alaska"	"02"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	12
+	"Alaska"	"02"	"25-29 years"	"25-29"	"American Indian or Alaska Native"	"1002-5"	"2019"	"2019"	10
+	"Alaska"	"02"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	16
+	"Alaska"	"02"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	15
+	"Alaska"	"02"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	13
+	"Alaska"	"02"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	15
+	"Alaska"	"02"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	10
+	"Arizona"	"04"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	19
+	"Arizona"	"04"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	21
+	"Arizona"	"04"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	24
+	"Arizona"	"04"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	28
+	"Arizona"	"04"	"20-24 years"	"20-24"	"American Indian or Alaska Native"	"1002-5"	"2018"	"2018"	12
+	"Arizona"	"04"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	14
+	"Arizona"	"04"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	65
+	"Arizona"	"04"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	69
+	"Arizona"	"04"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	98
+	"Arizona"	"04"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	97
+	"Arizona"	"04"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	16
+	"Arizona"	"04"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	18
+	"Arizona"	"04"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	105
+	"Arizona"	"04"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	107
+	"Arizona"	"04"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	120
+	"Arizona"	"04"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	132
+	"Arizona"	"04"	"30-34 years"	"30-34"	"American Indian or Alaska Native"	"1002-5"	"2018"	"2018"	15
+	"Arizona"	"04"	"30-34 years"	"30-34"	"American Indian or Alaska Native"	"1002-5"	"2019"	"2019"	11
+	"Arizona"	"04"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	15
+	"Arizona"	"04"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	98
+	"Arizona"	"04"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	102
+	"Arizona"	"04"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	114
+	"Arizona"	"04"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	128
+	"Arizona"	"04"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	12
+	"Arizona"	"04"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	63
+	"Arizona"	"04"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	54
+	"Arizona"	"04"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	85
+	"Arizona"	"04"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	73
+	"Arizona"	"04"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	18
+	"Arizona"	"04"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	21
+	"Arizona"	"04"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	14
+	"Arizona"	"04"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	25
+	"Arkansas"	"05"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	13
+	"Arkansas"	"05"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	15
+	"Arkansas"	"05"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	29
+	"Arkansas"	"05"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	20
+	"Arkansas"	"05"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	23
+	"Arkansas"	"05"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	29
+	"Arkansas"	"05"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	34
+	"Arkansas"	"05"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	45
+	"Arkansas"	"05"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	77
+	"Arkansas"	"05"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	68
+	"Arkansas"	"05"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	35
+	"Arkansas"	"05"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	26
+	"Arkansas"	"05"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	48
+	"Arkansas"	"05"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	58
+	"Arkansas"	"05"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	81
+	"Arkansas"	"05"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	101
+	"Arkansas"	"05"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	14
+	"Arkansas"	"05"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	18
+	"Arkansas"	"05"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	34
+	"Arkansas"	"05"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	42
+	"Arkansas"	"05"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	74
+	"Arkansas"	"05"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	65
+	"Arkansas"	"05"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	12
+	"Arkansas"	"05"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	16
+	"Arkansas"	"05"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	17
+	"Arkansas"	"05"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	25
+	"Arkansas"	"05"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	48
+	"Arkansas"	"05"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	39
+	"Arkansas"	"05"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	10
+	"California"	"06"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	19
+	"California"	"06"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	16
+	"California"	"06"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	103
+	"California"	"06"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	70
+	"California"	"06"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	91
+	"California"	"06"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	76
+	"California"	"06"	"20-24 years"	"20-24"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	19
+	"California"	"06"	"20-24 years"	"20-24"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	12
+	"California"	"06"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	47
+	"California"	"06"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	46
+	"California"	"06"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	290
+	"California"	"06"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	256
+	"California"	"06"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	335
+	"California"	"06"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	340
+	"California"	"06"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	54
+	"California"	"06"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	62
+	"California"	"06"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	89
+	"California"	"06"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	80
+	"California"	"06"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	440
+	"California"	"06"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	443
+	"California"	"06"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	530
+	"California"	"06"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	545
+	"California"	"06"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	126
+	"California"	"06"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	101
+	"California"	"06"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	82
+	"California"	"06"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	73
+	"California"	"06"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	441
+	"California"	"06"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	426
+	"California"	"06"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	618
+	"California"	"06"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	633
+	"California"	"06"	"35-39 years"	"35-39"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	64
+	"California"	"06"	"35-39 years"	"35-39"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	88
+	"California"	"06"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	37
+	"California"	"06"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	41
+	"California"	"06"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	301
+	"California"	"06"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	288
+	"California"	"06"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	464
+	"California"	"06"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	484
+	"California"	"06"	"40-44 years"	"40-44"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	28
+	"California"	"06"	"40-44 years"	"40-44"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	24
+	"California"	"06"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2018"	"2018"	12
+	"California"	"06"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2019"	"2019"	14
+	"California"	"06"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	93
+	"California"	"06"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	103
+	"California"	"06"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	142
+	"California"	"06"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	145
+	"California"	"06"	"45-49 years"	"45-49"	"Not Reported"	"100"	"2020"	"2020"	13
+	"California"	"06"	"45-49 years"	"45-49"	"Not Reported"	"100"	"2021"	"2021"	13
+	"Colorado"	"08"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	23
+	"Colorado"	"08"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	13
+	"Colorado"	"08"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	14
+	"Colorado"	"08"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	41
+	"Colorado"	"08"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	31
+	"Colorado"	"08"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	51
+	"Colorado"	"08"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	58
+	"Colorado"	"08"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	17
+	"Colorado"	"08"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	80
+	"Colorado"	"08"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	73
+	"Colorado"	"08"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	92
+	"Colorado"	"08"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	83
+	"Colorado"	"08"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	14
+	"Colorado"	"08"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	10
+	"Colorado"	"08"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	77
+	"Colorado"	"08"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	81
+	"Colorado"	"08"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	89
+	"Colorado"	"08"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	88
+	"Colorado"	"08"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	48
+	"Colorado"	"08"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	74
+	"Colorado"	"08"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	63
+	"Colorado"	"08"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	54
+	"Colorado"	"08"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	15
+	"Colorado"	"08"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	17
+	"Colorado"	"08"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	18
+	"Colorado"	"08"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	14
+	"Connecticut"	"09"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	10
+	"Connecticut"	"09"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	10
+	"Connecticut"	"09"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	11
+	"Connecticut"	"09"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	18
+	"Connecticut"	"09"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	24
+	"Connecticut"	"09"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	14
+	"Connecticut"	"09"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	23
+	"Connecticut"	"09"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	14
+	"Connecticut"	"09"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	37
+	"Connecticut"	"09"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	40
+	"Connecticut"	"09"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	15
+	"Connecticut"	"09"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	11
+	"Connecticut"	"09"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	35
+	"Connecticut"	"09"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	26
+	"Connecticut"	"09"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	46
+	"Connecticut"	"09"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	53
+	"Connecticut"	"09"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	14
+	"Connecticut"	"09"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	19
+	"Connecticut"	"09"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	20
+	"Connecticut"	"09"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	28
+	"Connecticut"	"09"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	34
+	"Connecticut"	"09"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	15
+	"Delaware"	"10"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	10
+	"Delaware"	"10"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	10
+	"Delaware"	"10"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	11
+	"Delaware"	"10"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	18
+	"Delaware"	"10"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	14
+	"Delaware"	"10"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	12
+	"Delaware"	"10"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	12
+	"Delaware"	"10"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	17
+	"Delaware"	"10"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	13
+	"Delaware"	"10"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	11
+	"District of Columbia"	"11"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	15
+	"District of Columbia"	"11"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	21
+	"District of Columbia"	"11"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	24
+	"District of Columbia"	"11"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	14
+	"District of Columbia"	"11"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	20
+	"District of Columbia"	"11"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	14
+	"District of Columbia"	"11"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	13
+	"District of Columbia"	"11"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	17
+	"District of Columbia"	"11"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	16
+	"District of Columbia"	"11"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	14
+	"District of Columbia"	"11"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	17
+	"Florida"	"12"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	35
+	"Florida"	"12"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	37
+	"Florida"	"12"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	38
+	"Florida"	"12"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	52
+	"Florida"	"12"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	73
+	"Florida"	"12"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	86
+	"Florida"	"12"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	140
+	"Florida"	"12"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	122
+	"Florida"	"12"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	151
+	"Florida"	"12"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	163
+	"Florida"	"12"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	243
+	"Florida"	"12"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	285
+	"Florida"	"12"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	13
+	"Florida"	"12"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	167
+	"Florida"	"12"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	170
+	"Florida"	"12"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	245
+	"Florida"	"12"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	222
+	"Florida"	"12"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	396
+	"Florida"	"12"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	419
+	"Florida"	"12"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	13
+	"Florida"	"12"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	10
+	"Florida"	"12"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	141
+	"Florida"	"12"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	145
+	"Florida"	"12"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	240
+	"Florida"	"12"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	218
+	"Florida"	"12"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	388
+	"Florida"	"12"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	425
+	"Florida"	"12"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	92
+	"Florida"	"12"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	104
+	"Florida"	"12"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	145
+	"Florida"	"12"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	169
+	"Florida"	"12"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	269
+	"Florida"	"12"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	302
+	"Florida"	"12"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2018"	"2018"	28
+	"Florida"	"12"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2019"	"2019"	33
+	"Florida"	"12"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	49
+	"Florida"	"12"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	53
+	"Florida"	"12"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	78
+	"Florida"	"12"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	64
+	"Florida"	"12"	"45-49 years"	"45-49"	"Not Reported"	"100"	"2020"	"2020"	10
+	"Florida"	"12"	"45-49 years"	"45-49"	"Not Reported"	"100"	"2021"	"2021"	11
+	"Georgia"	"13"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	41
+	"Georgia"	"13"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	49
+	"Georgia"	"13"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	18
+	"Georgia"	"13"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	24
+	"Georgia"	"13"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	66
+	"Georgia"	"13"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	50
+	"Georgia"	"13"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	135
+	"Georgia"	"13"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	138
+	"Georgia"	"13"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	69
+	"Georgia"	"13"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	75
+	"Georgia"	"13"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	223
+	"Georgia"	"13"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	220
+	"Georgia"	"13"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	138
+	"Georgia"	"13"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	128
+	"Georgia"	"13"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	115
+	"Georgia"	"13"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	104
+	"Georgia"	"13"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	273
+	"Georgia"	"13"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	257
+	"Georgia"	"13"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	16
+	"Georgia"	"13"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	122
+	"Georgia"	"13"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	119
+	"Georgia"	"13"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	99
+	"Georgia"	"13"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	111
+	"Georgia"	"13"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	241
+	"Georgia"	"13"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	270
+	"Georgia"	"13"	"35-39 years"	"35-39"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	11
+	"Georgia"	"13"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	77
+	"Georgia"	"13"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	73
+	"Georgia"	"13"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	74
+	"Georgia"	"13"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	73
+	"Georgia"	"13"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	150
+	"Georgia"	"13"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	162
+	"Georgia"	"13"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2018"	"2018"	18
+	"Georgia"	"13"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2019"	"2019"	21
+	"Georgia"	"13"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	27
+	"Georgia"	"13"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	24
+	"Georgia"	"13"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	46
+	"Georgia"	"13"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	50
+	"Hawaii"	"15"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	11
+	"Hawaii"	"15"	"20-24 years"	"20-24"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	15
+	"Hawaii"	"15"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	14
+	"Hawaii"	"15"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	12
+	"Hawaii"	"15"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	16
+	"Hawaii"	"15"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	15
+	"Hawaii"	"15"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	10
+	"Hawaii"	"15"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	22
+	"Hawaii"	"15"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	21
+	"Hawaii"	"15"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	26
+	"Hawaii"	"15"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	14
+	"Hawaii"	"15"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	16
+	"Hawaii"	"15"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	25
+	"Hawaii"	"15"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	23
+	"Hawaii"	"15"	"35-39 years"	"35-39"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	10
+	"Hawaii"	"15"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	20
+	"Hawaii"	"15"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	39
+	"Hawaii"	"15"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	11
+	"Idaho"	"16"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	19
+	"Idaho"	"16"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	25
+	"Idaho"	"16"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	21
+	"Idaho"	"16"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	17
+	"Idaho"	"16"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	34
+	"Idaho"	"16"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	24
+	"Idaho"	"16"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	31
+	"Idaho"	"16"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	29
+	"Idaho"	"16"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	26
+	"Idaho"	"16"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	27
+	"Idaho"	"16"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	29
+	"Idaho"	"16"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	36
+	"Idaho"	"16"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	14
+	"Idaho"	"16"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	14
+	"Idaho"	"16"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	14
+	"Idaho"	"16"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	20
+	"Idaho"	"16"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	11
+	"Illinois"	"17"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	21
+	"Illinois"	"17"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	19
+	"Illinois"	"17"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	32
+	"Illinois"	"17"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	25
+	"Illinois"	"17"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	42
+	"Illinois"	"17"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	33
+	"Illinois"	"17"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	89
+	"Illinois"	"17"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	65
+	"Illinois"	"17"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	91
+	"Illinois"	"17"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	89
+	"Illinois"	"17"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	134
+	"Illinois"	"17"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	118
+	"Illinois"	"17"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	13
+	"Illinois"	"17"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	93
+	"Illinois"	"17"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	84
+	"Illinois"	"17"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	123
+	"Illinois"	"17"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	117
+	"Illinois"	"17"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	181
+	"Illinois"	"17"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	203
+	"Illinois"	"17"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	16
+	"Illinois"	"17"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	15
+	"Illinois"	"17"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	74
+	"Illinois"	"17"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	53
+	"Illinois"	"17"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	152
+	"Illinois"	"17"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	146
+	"Illinois"	"17"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	219
+	"Illinois"	"17"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	234
+	"Illinois"	"17"	"35-39 years"	"35-39"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	14
+	"Illinois"	"17"	"35-39 years"	"35-39"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	15
+	"Illinois"	"17"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	22
+	"Illinois"	"17"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	36
+	"Illinois"	"17"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	96
+	"Illinois"	"17"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	103
+	"Illinois"	"17"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	139
+	"Illinois"	"17"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	158
+	"Illinois"	"17"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2018"	"2018"	15
+	"Illinois"	"17"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	30
+	"Illinois"	"17"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	30
+	"Illinois"	"17"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	34
+	"Illinois"	"17"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	42
+	"Indiana"	"18"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	16
+	"Indiana"	"18"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	25
+	"Indiana"	"18"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	18
+	"Indiana"	"18"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	29
+	"Indiana"	"18"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	25
+	"Indiana"	"18"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	25
+	"Indiana"	"18"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	21
+	"Indiana"	"18"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	84
+	"Indiana"	"18"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	75
+	"Indiana"	"18"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	90
+	"Indiana"	"18"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	96
+	"Indiana"	"18"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	36
+	"Indiana"	"18"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	25
+	"Indiana"	"18"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	103
+	"Indiana"	"18"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	107
+	"Indiana"	"18"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	155
+	"Indiana"	"18"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	120
+	"Indiana"	"18"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	21
+	"Indiana"	"18"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	29
+	"Indiana"	"18"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	92
+	"Indiana"	"18"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	97
+	"Indiana"	"18"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	112
+	"Indiana"	"18"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	103
+	"Indiana"	"18"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	13
+	"Indiana"	"18"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	67
+	"Indiana"	"18"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	44
+	"Indiana"	"18"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	75
+	"Indiana"	"18"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	59
+	"Indiana"	"18"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	18
+	"Indiana"	"18"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	13
+	"Indiana"	"18"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	22
+	"Iowa"	"19"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	11
+	"Iowa"	"19"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	12
+	"Iowa"	"19"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	33
+	"Iowa"	"19"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	33
+	"Iowa"	"19"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	32
+	"Iowa"	"19"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	33
+	"Iowa"	"19"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	11
+	"Iowa"	"19"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	31
+	"Iowa"	"19"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	39
+	"Iowa"	"19"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	57
+	"Iowa"	"19"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	43
+	"Iowa"	"19"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	27
+	"Iowa"	"19"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	36
+	"Iowa"	"19"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	38
+	"Iowa"	"19"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	45
+	"Iowa"	"19"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	16
+	"Iowa"	"19"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	29
+	"Iowa"	"19"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	20
+	"Iowa"	"19"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	24
+	"Kansas"	"20"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	12
+	"Kansas"	"20"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	18
+	"Kansas"	"20"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	27
+	"Kansas"	"20"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	39
+	"Kansas"	"20"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	33
+	"Kansas"	"20"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	37
+	"Kansas"	"20"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	54
+	"Kansas"	"20"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	37
+	"Kansas"	"20"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	47
+	"Kansas"	"20"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	61
+	"Kansas"	"20"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	12
+	"Kansas"	"20"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	48
+	"Kansas"	"20"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	41
+	"Kansas"	"20"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	44
+	"Kansas"	"20"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	52
+	"Kansas"	"20"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	27
+	"Kansas"	"20"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	24
+	"Kansas"	"20"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	17
+	"Kansas"	"20"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	32
+	"Kentucky"	"21"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	19
+	"Kentucky"	"21"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	17
+	"Kentucky"	"21"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	25
+	"Kentucky"	"21"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	21
+	"Kentucky"	"21"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	13
+	"Kentucky"	"21"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	14
+	"Kentucky"	"21"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	61
+	"Kentucky"	"21"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	56
+	"Kentucky"	"21"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	74
+	"Kentucky"	"21"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	74
+	"Kentucky"	"21"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	12
+	"Kentucky"	"21"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	61
+	"Kentucky"	"21"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	63
+	"Kentucky"	"21"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	104
+	"Kentucky"	"21"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	106
+	"Kentucky"	"21"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	13
+	"Kentucky"	"21"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	15
+	"Kentucky"	"21"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	66
+	"Kentucky"	"21"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	58
+	"Kentucky"	"21"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	67
+	"Kentucky"	"21"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	74
+	"Kentucky"	"21"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	37
+	"Kentucky"	"21"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	31
+	"Kentucky"	"21"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	44
+	"Kentucky"	"21"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	45
+	"Kentucky"	"21"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	10
+	"Kentucky"	"21"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	13
+	"Kentucky"	"21"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	11
+	"Louisiana"	"22"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	21
+	"Louisiana"	"22"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	12
+	"Louisiana"	"22"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	14
+	"Louisiana"	"22"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	18
+	"Louisiana"	"22"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	21
+	"Louisiana"	"22"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	48
+	"Louisiana"	"22"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	42
+	"Louisiana"	"22"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	34
+	"Louisiana"	"22"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	34
+	"Louisiana"	"22"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	91
+	"Louisiana"	"22"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	84
+	"Louisiana"	"22"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	43
+	"Louisiana"	"22"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	46
+	"Louisiana"	"22"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	50
+	"Louisiana"	"22"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	36
+	"Louisiana"	"22"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	94
+	"Louisiana"	"22"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	80
+	"Louisiana"	"22"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	36
+	"Louisiana"	"22"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	28
+	"Louisiana"	"22"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	24
+	"Louisiana"	"22"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	35
+	"Louisiana"	"22"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	73
+	"Louisiana"	"22"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	62
+	"Louisiana"	"22"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	19
+	"Louisiana"	"22"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	16
+	"Louisiana"	"22"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	18
+	"Louisiana"	"22"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	14
+	"Louisiana"	"22"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	36
+	"Louisiana"	"22"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	50
+	"Maine"	"23"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	13
+	"Maine"	"23"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	13
+	"Maine"	"23"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	11
+	"Maine"	"23"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	18
+	"Maine"	"23"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	15
+	"Maine"	"23"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	18
+	"Maine"	"23"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	13
+	"Maine"	"23"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	20
+	"Maine"	"23"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	18
+	"Maine"	"23"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	29
+	"Maine"	"23"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	18
+	"Maine"	"23"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	10
+	"Maine"	"23"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	12
+	"Maine"	"23"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	11
+	"Maine"	"23"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	19
+	"Maryland"	"24"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	15
+	"Maryland"	"24"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	10
+	"Maryland"	"24"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	23
+	"Maryland"	"24"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	30
+	"Maryland"	"24"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	36
+	"Maryland"	"24"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	42
+	"Maryland"	"24"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	36
+	"Maryland"	"24"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	30
+	"Maryland"	"24"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	65
+	"Maryland"	"24"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	59
+	"Maryland"	"24"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	77
+	"Maryland"	"24"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	67
+	"Maryland"	"24"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	60
+	"Maryland"	"24"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	61
+	"Maryland"	"24"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	100
+	"Maryland"	"24"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	109
+	"Maryland"	"24"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	13
+	"Maryland"	"24"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	51
+	"Maryland"	"24"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	59
+	"Maryland"	"24"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	63
+	"Maryland"	"24"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	49
+	"Maryland"	"24"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	125
+	"Maryland"	"24"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	123
+	"Maryland"	"24"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	45
+	"Maryland"	"24"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	43
+	"Maryland"	"24"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	43
+	"Maryland"	"24"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	43
+	"Maryland"	"24"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	107
+	"Maryland"	"24"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	97
+	"Maryland"	"24"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2018"	"2018"	13
+	"Maryland"	"24"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2019"	"2019"	18
+	"Maryland"	"24"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	10
+	"Maryland"	"24"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	40
+	"Maryland"	"24"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	39
+	"Massachusetts"	"25"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	18
+	"Massachusetts"	"25"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	10
+	"Massachusetts"	"25"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	28
+	"Massachusetts"	"25"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	25
+	"Massachusetts"	"25"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	36
+	"Massachusetts"	"25"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	26
+	"Massachusetts"	"25"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	26
+	"Massachusetts"	"25"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	19
+	"Massachusetts"	"25"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	42
+	"Massachusetts"	"25"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	32
+	"Massachusetts"	"25"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	54
+	"Massachusetts"	"25"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	70
+	"Massachusetts"	"25"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	10
+	"Massachusetts"	"25"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	10
+	"Massachusetts"	"25"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	28
+	"Massachusetts"	"25"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	25
+	"Massachusetts"	"25"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	64
+	"Massachusetts"	"25"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	66
+	"Massachusetts"	"25"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	87
+	"Massachusetts"	"25"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	94
+	"Massachusetts"	"25"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	24
+	"Massachusetts"	"25"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	15
+	"Massachusetts"	"25"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	42
+	"Massachusetts"	"25"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	45
+	"Massachusetts"	"25"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	62
+	"Massachusetts"	"25"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	72
+	"Massachusetts"	"25"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	13
+	"Massachusetts"	"25"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	20
+	"Massachusetts"	"25"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	18
+	"Michigan"	"26"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	23
+	"Michigan"	"26"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	16
+	"Michigan"	"26"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	17
+	"Michigan"	"26"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	20
+	"Michigan"	"26"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	38
+	"Michigan"	"26"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	34
+	"Michigan"	"26"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	58
+	"Michigan"	"26"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	50
+	"Michigan"	"26"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	67
+	"Michigan"	"26"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	67
+	"Michigan"	"26"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	117
+	"Michigan"	"26"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	94
+	"Michigan"	"26"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	61
+	"Michigan"	"26"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	70
+	"Michigan"	"26"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	125
+	"Michigan"	"26"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	114
+	"Michigan"	"26"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	169
+	"Michigan"	"26"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	179
+	"Michigan"	"26"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	37
+	"Michigan"	"26"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	54
+	"Michigan"	"26"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	121
+	"Michigan"	"26"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	110
+	"Michigan"	"26"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	170
+	"Michigan"	"26"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	177
+	"Michigan"	"26"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	19
+	"Michigan"	"26"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	26
+	"Michigan"	"26"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	74
+	"Michigan"	"26"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	68
+	"Michigan"	"26"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	91
+	"Michigan"	"26"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	96
+	"Michigan"	"26"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2018"	"2018"	11
+	"Michigan"	"26"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	16
+	"Michigan"	"26"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	28
+	"Michigan"	"26"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	25
+	"Michigan"	"26"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	18
+	"Minnesota"	"27"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	10
+	"Minnesota"	"27"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	12
+	"Minnesota"	"27"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	22
+	"Minnesota"	"27"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	14
+	"Minnesota"	"27"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	13
+	"Minnesota"	"27"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	51
+	"Minnesota"	"27"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	31
+	"Minnesota"	"27"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	41
+	"Minnesota"	"27"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	36
+	"Minnesota"	"27"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	12
+	"Minnesota"	"27"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	28
+	"Minnesota"	"27"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	16
+	"Minnesota"	"27"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	70
+	"Minnesota"	"27"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	63
+	"Minnesota"	"27"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	99
+	"Minnesota"	"27"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	103
+	"Minnesota"	"27"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	10
+	"Minnesota"	"27"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	20
+	"Minnesota"	"27"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	24
+	"Minnesota"	"27"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	76
+	"Minnesota"	"27"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	85
+	"Minnesota"	"27"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	114
+	"Minnesota"	"27"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	91
+	"Minnesota"	"27"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	10
+	"Minnesota"	"27"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	12
+	"Minnesota"	"27"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	46
+	"Minnesota"	"27"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	43
+	"Minnesota"	"27"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	61
+	"Minnesota"	"27"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	65
+	"Minnesota"	"27"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	18
+	"Minnesota"	"27"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	13
+	"Minnesota"	"27"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	16
+	"Minnesota"	"27"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	24
+	"Mississippi"	"28"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	18
+	"Mississippi"	"28"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	23
+	"Mississippi"	"28"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	32
+	"Mississippi"	"28"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	28
+	"Mississippi"	"28"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	82
+	"Mississippi"	"28"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	70
+	"Mississippi"	"28"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	37
+	"Mississippi"	"28"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	33
+	"Mississippi"	"28"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	112
+	"Mississippi"	"28"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	110
+	"Mississippi"	"28"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	77
+	"Mississippi"	"28"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	75
+	"Mississippi"	"28"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	32
+	"Mississippi"	"28"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	36
+	"Mississippi"	"28"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	96
+	"Mississippi"	"28"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	93
+	"Mississippi"	"28"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	45
+	"Mississippi"	"28"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	42
+	"Mississippi"	"28"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	31
+	"Mississippi"	"28"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	23
+	"Mississippi"	"28"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	85
+	"Mississippi"	"28"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	81
+	"Mississippi"	"28"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	23
+	"Mississippi"	"28"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	16
+	"Mississippi"	"28"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	19
+	"Mississippi"	"28"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	13
+	"Mississippi"	"28"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	41
+	"Mississippi"	"28"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	37
+	"Mississippi"	"28"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	11
+	"Missouri"	"29"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	17
+	"Missouri"	"29"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	12
+	"Missouri"	"29"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	23
+	"Missouri"	"29"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	19
+	"Missouri"	"29"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	34
+	"Missouri"	"29"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	36
+	"Missouri"	"29"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	63
+	"Missouri"	"29"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	58
+	"Missouri"	"29"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	79
+	"Missouri"	"29"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	78
+	"Missouri"	"29"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	32
+	"Missouri"	"29"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	36
+	"Missouri"	"29"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	70
+	"Missouri"	"29"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	74
+	"Missouri"	"29"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	128
+	"Missouri"	"29"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	133
+	"Missouri"	"29"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	26
+	"Missouri"	"29"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	29
+	"Missouri"	"29"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	65
+	"Missouri"	"29"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	64
+	"Missouri"	"29"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	118
+	"Missouri"	"29"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	106
+	"Missouri"	"29"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	13
+	"Missouri"	"29"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	14
+	"Missouri"	"29"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	44
+	"Missouri"	"29"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	38
+	"Missouri"	"29"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	64
+	"Missouri"	"29"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	42
+	"Missouri"	"29"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	11
+	"Missouri"	"29"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	16
+	"Missouri"	"29"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	16
+	"Montana"	"30"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	12
+	"Montana"	"30"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	11
+	"Montana"	"30"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	14
+	"Montana"	"30"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	11
+	"Montana"	"30"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	14
+	"Montana"	"30"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	12
+	"Montana"	"30"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	15
+	"Montana"	"30"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	17
+	"Montana"	"30"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	11
+	"Nebraska"	"31"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	17
+	"Nebraska"	"31"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	17
+	"Nebraska"	"31"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	15
+	"Nebraska"	"31"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	11
+	"Nebraska"	"31"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	27
+	"Nebraska"	"31"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	31
+	"Nebraska"	"31"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	29
+	"Nebraska"	"31"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	25
+	"Nebraska"	"31"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	25
+	"Nebraska"	"31"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	30
+	"Nebraska"	"31"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	22
+	"Nebraska"	"31"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	27
+	"Nebraska"	"31"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	11
+	"Nebraska"	"31"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	11
+	"Nebraska"	"31"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	23
+	"Nebraska"	"31"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	24
+	"Nevada"	"32"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	11
+	"Nevada"	"32"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	19
+	"Nevada"	"32"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	10
+	"Nevada"	"32"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	13
+	"Nevada"	"32"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	18
+	"Nevada"	"32"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	27
+	"Nevada"	"32"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	26
+	"Nevada"	"32"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	50
+	"Nevada"	"32"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	54
+	"Nevada"	"32"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	15
+	"Nevada"	"32"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	18
+	"Nevada"	"32"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	49
+	"Nevada"	"32"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	44
+	"Nevada"	"32"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	69
+	"Nevada"	"32"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	73
+	"Nevada"	"32"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	17
+	"Nevada"	"32"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	17
+	"Nevada"	"32"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	39
+	"Nevada"	"32"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	30
+	"Nevada"	"32"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	68
+	"Nevada"	"32"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	77
+	"Nevada"	"32"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	12
+	"Nevada"	"32"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	29
+	"Nevada"	"32"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	28
+	"Nevada"	"32"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	41
+	"Nevada"	"32"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	45
+	"Nevada"	"32"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	13
+	"Nevada"	"32"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	10
+	"Nevada"	"32"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	17
+	"New Hampshire"	"33"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	10
+	"New Hampshire"	"33"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	13
+	"New Hampshire"	"33"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	15
+	"New Hampshire"	"33"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	16
+	"New Hampshire"	"33"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	15
+	"New Hampshire"	"33"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	14
+	"New Hampshire"	"33"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	13
+	"New Hampshire"	"33"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	17
+	"New Hampshire"	"33"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	12
+	"New Hampshire"	"33"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	31
+	"New Hampshire"	"33"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	10
+	"New Hampshire"	"33"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	16
+	"New Jersey"	"34"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	19
+	"New Jersey"	"34"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	12
+	"New Jersey"	"34"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	15
+	"New Jersey"	"34"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	17
+	"New Jersey"	"34"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	33
+	"New Jersey"	"34"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	17
+	"New Jersey"	"34"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	43
+	"New Jersey"	"34"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	29
+	"New Jersey"	"34"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	55
+	"New Jersey"	"34"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	32
+	"New Jersey"	"34"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	97
+	"New Jersey"	"34"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	76
+	"New Jersey"	"34"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	17
+	"New Jersey"	"34"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	15
+	"New Jersey"	"34"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	60
+	"New Jersey"	"34"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	59
+	"New Jersey"	"34"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	82
+	"New Jersey"	"34"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	93
+	"New Jersey"	"34"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	149
+	"New Jersey"	"34"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	123
+	"New Jersey"	"34"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	35
+	"New Jersey"	"34"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	27
+	"New Jersey"	"34"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	58
+	"New Jersey"	"34"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	66
+	"New Jersey"	"34"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	117
+	"New Jersey"	"34"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	133
+	"New Jersey"	"34"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	174
+	"New Jersey"	"34"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	202
+	"New Jersey"	"34"	"35-39 years"	"35-39"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	18
+	"New Jersey"	"34"	"35-39 years"	"35-39"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	25
+	"New Jersey"	"34"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	43
+	"New Jersey"	"34"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	30
+	"New Jersey"	"34"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	81
+	"New Jersey"	"34"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	108
+	"New Jersey"	"34"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	156
+	"New Jersey"	"34"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	145
+	"New Jersey"	"34"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	32
+	"New Jersey"	"34"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	29
+	"New Jersey"	"34"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	45
+	"New Jersey"	"34"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	42
+	"New Mexico"	"35"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	20
+	"New Mexico"	"35"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	14
+	"New Mexico"	"35"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	16
+	"New Mexico"	"35"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	19
+	"New Mexico"	"35"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	15
+	"New Mexico"	"35"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	13
+	"New Mexico"	"35"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	17
+	"New Mexico"	"35"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	18
+	"New Mexico"	"35"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	15
+	"New Mexico"	"35"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	14
+	"New Mexico"	"35"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	21
+	"New Mexico"	"35"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	20
+	"New Mexico"	"35"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	11
+	"New Mexico"	"35"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	10
+	"New Mexico"	"35"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	14
+	"New York"	"36"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	31
+	"New York"	"36"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	17
+	"New York"	"36"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	30
+	"New York"	"36"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	20
+	"New York"	"36"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	47
+	"New York"	"36"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	50
+	"New York"	"36"	"20-24 years"	"20-24"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	10
+	"New York"	"36"	"20-24 years"	"20-24"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	14
+	"New York"	"36"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	80
+	"New York"	"36"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	82
+	"New York"	"36"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	151
+	"New York"	"36"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	114
+	"New York"	"36"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	203
+	"New York"	"36"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	181
+	"New York"	"36"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	40
+	"New York"	"36"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	24
+	"New York"	"36"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	120
+	"New York"	"36"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	114
+	"New York"	"36"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	177
+	"New York"	"36"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	171
+	"New York"	"36"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	292
+	"New York"	"36"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	279
+	"New York"	"36"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	39
+	"New York"	"36"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	33
+	"New York"	"36"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	110
+	"New York"	"36"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	152
+	"New York"	"36"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	235
+	"New York"	"36"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	197
+	"New York"	"36"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	387
+	"New York"	"36"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	396
+	"New York"	"36"	"35-39 years"	"35-39"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	40
+	"New York"	"36"	"35-39 years"	"35-39"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	30
+	"New York"	"36"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	100
+	"New York"	"36"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	87
+	"New York"	"36"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	171
+	"New York"	"36"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	156
+	"New York"	"36"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	304
+	"New York"	"36"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	263
+	"New York"	"36"	"40-44 years"	"40-44"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	12
+	"New York"	"36"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2018"	"2018"	38
+	"New York"	"36"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2019"	"2019"	45
+	"New York"	"36"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	57
+	"New York"	"36"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	56
+	"New York"	"36"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	96
+	"New York"	"36"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	96
+	"New York"	"36"	"45-49 years"	"45-49"	"Not Reported"	"100"	"2021"	"2021"	13
+	"North Carolina"	"37"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	22
+	"North Carolina"	"37"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	31
+	"North Carolina"	"37"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	25
+	"North Carolina"	"37"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	22
+	"North Carolina"	"37"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	51
+	"North Carolina"	"37"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	40
+	"North Carolina"	"37"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	83
+	"North Carolina"	"37"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	111
+	"North Carolina"	"37"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	72
+	"North Carolina"	"37"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	80
+	"North Carolina"	"37"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	157
+	"North Carolina"	"37"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	144
+	"North Carolina"	"37"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	93
+	"North Carolina"	"37"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	104
+	"North Carolina"	"37"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	127
+	"North Carolina"	"37"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	101
+	"North Carolina"	"37"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	188
+	"North Carolina"	"37"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	172
+	"North Carolina"	"37"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	81
+	"North Carolina"	"37"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	67
+	"North Carolina"	"37"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	109
+	"North Carolina"	"37"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	86
+	"North Carolina"	"37"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	154
+	"North Carolina"	"37"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	160
+	"North Carolina"	"37"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	40
+	"North Carolina"	"37"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	36
+	"North Carolina"	"37"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	67
+	"North Carolina"	"37"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	73
+	"North Carolina"	"37"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	100
+	"North Carolina"	"37"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	107
+	"North Carolina"	"37"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2018"	"2018"	17
+	"North Carolina"	"37"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	27
+	"North Carolina"	"37"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	14
+	"North Carolina"	"37"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	25
+	"North Carolina"	"37"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	28
+	"North Dakota"	"38"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	10
+	"North Dakota"	"38"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	13
+	"North Dakota"	"38"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	10
+	"North Dakota"	"38"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	16
+	"North Dakota"	"38"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	13
+	"North Dakota"	"38"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	15
+	"North Dakota"	"38"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	11
+	"North Dakota"	"38"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	10
+	"North Dakota"	"38"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	17
+	"North Dakota"	"38"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	19
+	"North Dakota"	"38"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	17
+	"North Dakota"	"38"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	11
+	"North Dakota"	"38"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	12
+	"Ohio"	"39"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	21
+	"Ohio"	"39"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	24
+	"Ohio"	"39"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	31
+	"Ohio"	"39"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	30
+	"Ohio"	"39"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	48
+	"Ohio"	"39"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	49
+	"Ohio"	"39"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	65
+	"Ohio"	"39"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	54
+	"Ohio"	"39"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	108
+	"Ohio"	"39"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	103
+	"Ohio"	"39"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	150
+	"Ohio"	"39"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	144
+	"Ohio"	"39"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	88
+	"Ohio"	"39"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	73
+	"Ohio"	"39"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	189
+	"Ohio"	"39"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	165
+	"Ohio"	"39"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	185
+	"Ohio"	"39"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	215
+	"Ohio"	"39"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	11
+	"Ohio"	"39"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	61
+	"Ohio"	"39"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	49
+	"Ohio"	"39"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	156
+	"Ohio"	"39"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	155
+	"Ohio"	"39"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	193
+	"Ohio"	"39"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	198
+	"Ohio"	"39"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	39
+	"Ohio"	"39"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	40
+	"Ohio"	"39"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	74
+	"Ohio"	"39"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	90
+	"Ohio"	"39"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	134
+	"Ohio"	"39"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	111
+	"Ohio"	"39"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2019"	"2019"	11
+	"Ohio"	"39"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	18
+	"Ohio"	"39"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	27
+	"Ohio"	"39"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	29
+	"Ohio"	"39"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	38
+	"Oklahoma"	"40"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	19
+	"Oklahoma"	"40"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	19
+	"Oklahoma"	"40"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	15
+	"Oklahoma"	"40"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	18
+	"Oklahoma"	"40"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	10
+	"Oklahoma"	"40"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	14
+	"Oklahoma"	"40"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	41
+	"Oklahoma"	"40"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	44
+	"Oklahoma"	"40"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	82
+	"Oklahoma"	"40"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	66
+	"Oklahoma"	"40"	"25-29 years"	"25-29"	"American Indian or Alaska Native"	"1002-5"	"2018"	"2018"	11
+	"Oklahoma"	"40"	"25-29 years"	"25-29"	"American Indian or Alaska Native"	"1002-5"	"2019"	"2019"	17
+	"Oklahoma"	"40"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	12
+	"Oklahoma"	"40"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	66
+	"Oklahoma"	"40"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	47
+	"Oklahoma"	"40"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	87
+	"Oklahoma"	"40"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	82
+	"Oklahoma"	"40"	"30-34 years"	"30-34"	"American Indian or Alaska Native"	"1002-5"	"2019"	"2019"	12
+	"Oklahoma"	"40"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	17
+	"Oklahoma"	"40"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	45
+	"Oklahoma"	"40"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	40
+	"Oklahoma"	"40"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	64
+	"Oklahoma"	"40"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	68
+	"Oklahoma"	"40"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	26
+	"Oklahoma"	"40"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	24
+	"Oklahoma"	"40"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	46
+	"Oklahoma"	"40"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	28
+	"Oregon"	"41"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	12
+	"Oregon"	"41"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	11
+	"Oregon"	"41"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	36
+	"Oregon"	"41"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	26
+	"Oregon"	"41"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	36
+	"Oregon"	"41"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	27
+	"Oregon"	"41"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	36
+	"Oregon"	"41"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	50
+	"Oregon"	"41"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	55
+	"Oregon"	"41"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	45
+	"Oregon"	"41"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	43
+	"Oregon"	"41"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	54
+	"Oregon"	"41"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	63
+	"Oregon"	"41"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	51
+	"Oregon"	"41"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	32
+	"Oregon"	"41"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	19
+	"Oregon"	"41"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	32
+	"Oregon"	"41"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	39
+	"Oregon"	"41"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	11
+	"Oregon"	"41"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	14
+	"Pennsylvania"	"42"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	24
+	"Pennsylvania"	"42"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	18
+	"Pennsylvania"	"42"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	40
+	"Pennsylvania"	"42"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	28
+	"Pennsylvania"	"42"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	32
+	"Pennsylvania"	"42"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	43
+	"Pennsylvania"	"42"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	48
+	"Pennsylvania"	"42"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	53
+	"Pennsylvania"	"42"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	87
+	"Pennsylvania"	"42"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	97
+	"Pennsylvania"	"42"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	132
+	"Pennsylvania"	"42"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	121
+	"Pennsylvania"	"42"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	57
+	"Pennsylvania"	"42"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	61
+	"Pennsylvania"	"42"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	160
+	"Pennsylvania"	"42"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	142
+	"Pennsylvania"	"42"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	167
+	"Pennsylvania"	"42"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	194
+	"Pennsylvania"	"42"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	14
+	"Pennsylvania"	"42"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	12
+	"Pennsylvania"	"42"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	48
+	"Pennsylvania"	"42"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	37
+	"Pennsylvania"	"42"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	162
+	"Pennsylvania"	"42"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	170
+	"Pennsylvania"	"42"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	187
+	"Pennsylvania"	"42"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	221
+	"Pennsylvania"	"42"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	24
+	"Pennsylvania"	"42"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	24
+	"Pennsylvania"	"42"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	99
+	"Pennsylvania"	"42"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	114
+	"Pennsylvania"	"42"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	104
+	"Pennsylvania"	"42"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	147
+	"Pennsylvania"	"42"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2018"	"2018"	10
+	"Pennsylvania"	"42"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	25
+	"Pennsylvania"	"42"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	18
+	"Pennsylvania"	"42"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	42
+	"Pennsylvania"	"42"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	49
+	"Rhode Island"	"44"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	11
+	"Rhode Island"	"44"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	13
+	"Rhode Island"	"44"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	13
+	"Rhode Island"	"44"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	12
+	"Rhode Island"	"44"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	16
+	"Rhode Island"	"44"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	17
+	"Rhode Island"	"44"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	13
+	"Rhode Island"	"44"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	12
+	"Rhode Island"	"44"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	15
+	"Rhode Island"	"44"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	16
+	"Rhode Island"	"44"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	13
+	"South Carolina"	"45"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	16
+	"South Carolina"	"45"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	18
+	"South Carolina"	"45"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	16
+	"South Carolina"	"45"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	15
+	"South Carolina"	"45"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	19
+	"South Carolina"	"45"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	48
+	"South Carolina"	"45"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	47
+	"South Carolina"	"45"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	32
+	"South Carolina"	"45"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	43
+	"South Carolina"	"45"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	76
+	"South Carolina"	"45"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	68
+	"South Carolina"	"45"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	45
+	"South Carolina"	"45"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	50
+	"South Carolina"	"45"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	44
+	"South Carolina"	"45"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	49
+	"South Carolina"	"45"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	87
+	"South Carolina"	"45"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	94
+	"South Carolina"	"45"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	42
+	"South Carolina"	"45"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	41
+	"South Carolina"	"45"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	42
+	"South Carolina"	"45"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	34
+	"South Carolina"	"45"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	74
+	"South Carolina"	"45"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	71
+	"South Carolina"	"45"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	19
+	"South Carolina"	"45"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	12
+	"South Carolina"	"45"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	21
+	"South Carolina"	"45"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	18
+	"South Carolina"	"45"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	45
+	"South Carolina"	"45"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	51
+	"South Carolina"	"45"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	10
+	"South Carolina"	"45"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	19
+	"South Dakota"	"46"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	10
+	"South Dakota"	"46"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	13
+	"South Dakota"	"46"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	17
+	"South Dakota"	"46"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	21
+	"South Dakota"	"46"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	14
+	"South Dakota"	"46"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	22
+	"South Dakota"	"46"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	31
+	"South Dakota"	"46"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	12
+	"Tennessee"	"47"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	11
+	"Tennessee"	"47"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	13
+	"Tennessee"	"47"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	27
+	"Tennessee"	"47"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	18
+	"Tennessee"	"47"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	29
+	"Tennessee"	"47"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	44
+	"Tennessee"	"47"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	51
+	"Tennessee"	"47"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	59
+	"Tennessee"	"47"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	68
+	"Tennessee"	"47"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	53
+	"Tennessee"	"47"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	127
+	"Tennessee"	"47"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	124
+	"Tennessee"	"47"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	75
+	"Tennessee"	"47"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	55
+	"Tennessee"	"47"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	100
+	"Tennessee"	"47"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	90
+	"Tennessee"	"47"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	140
+	"Tennessee"	"47"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	148
+	"Tennessee"	"47"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	40
+	"Tennessee"	"47"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	34
+	"Tennessee"	"47"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	99
+	"Tennessee"	"47"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	81
+	"Tennessee"	"47"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	111
+	"Tennessee"	"47"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	124
+	"Tennessee"	"47"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	31
+	"Tennessee"	"47"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	31
+	"Tennessee"	"47"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	61
+	"Tennessee"	"47"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	40
+	"Tennessee"	"47"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	88
+	"Tennessee"	"47"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	73
+	"Tennessee"	"47"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	12
+	"Tennessee"	"47"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	20
+	"Tennessee"	"47"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	23
+	"Texas"	"48"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	20
+	"Texas"	"48"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	30
+	"Texas"	"48"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	100
+	"Texas"	"48"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	71
+	"Texas"	"48"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	93
+	"Texas"	"48"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	87
+	"Texas"	"48"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	85
+	"Texas"	"48"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	73
+	"Texas"	"48"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	288
+	"Texas"	"48"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	240
+	"Texas"	"48"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	281
+	"Texas"	"48"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	277
+	"Texas"	"48"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	16
+	"Texas"	"48"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	11
+	"Texas"	"48"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	107
+	"Texas"	"48"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	84
+	"Texas"	"48"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	321
+	"Texas"	"48"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	294
+	"Texas"	"48"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	432
+	"Texas"	"48"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	386
+	"Texas"	"48"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	34
+	"Texas"	"48"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	29
+	"Texas"	"48"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	103
+	"Texas"	"48"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	85
+	"Texas"	"48"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	297
+	"Texas"	"48"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	268
+	"Texas"	"48"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	379
+	"Texas"	"48"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	374
+	"Texas"	"48"	"35-39 years"	"35-39"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	21
+	"Texas"	"48"	"35-39 years"	"35-39"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	21
+	"Texas"	"48"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	58
+	"Texas"	"48"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	53
+	"Texas"	"48"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	191
+	"Texas"	"48"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	156
+	"Texas"	"48"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	244
+	"Texas"	"48"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	251
+	"Texas"	"48"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2018"	"2018"	21
+	"Texas"	"48"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2019"	"2019"	12
+	"Texas"	"48"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	59
+	"Texas"	"48"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	57
+	"Texas"	"48"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	57
+	"Texas"	"48"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	76
+	"Utah"	"49"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	10
+	"Utah"	"49"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	50
+	"Utah"	"49"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	49
+	"Utah"	"49"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	51
+	"Utah"	"49"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	56
+	"Utah"	"49"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	77
+	"Utah"	"49"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	74
+	"Utah"	"49"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	56
+	"Utah"	"49"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	101
+	"Utah"	"49"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	83
+	"Utah"	"49"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	54
+	"Utah"	"49"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	69
+	"Utah"	"49"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	61
+	"Utah"	"49"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	44
+	"Utah"	"49"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	32
+	"Utah"	"49"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	40
+	"Utah"	"49"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	56
+	"Utah"	"49"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	17
+	"Utah"	"49"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	10
+	"Utah"	"49"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	26
+	"Vermont"	"50"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	11
+	"Virginia"	"51"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2018"	"2018"	10
+	"Virginia"	"51"	"15-19 years"	"15-19"	"Black or African American"	"2054-5"	"2019"	"2019"	15
+	"Virginia"	"51"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	14
+	"Virginia"	"51"	"15-19 years"	"15-19"	"White"	"2106-3"	"2019"	"2019"	11
+	"Virginia"	"51"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	18
+	"Virginia"	"51"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	15
+	"Virginia"	"51"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	47
+	"Virginia"	"51"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	56
+	"Virginia"	"51"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	54
+	"Virginia"	"51"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	43
+	"Virginia"	"51"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	85
+	"Virginia"	"51"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	100
+	"Virginia"	"51"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	12
+	"Virginia"	"51"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	55
+	"Virginia"	"51"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	50
+	"Virginia"	"51"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	104
+	"Virginia"	"51"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	72
+	"Virginia"	"51"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	129
+	"Virginia"	"51"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	125
+	"Virginia"	"51"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	34
+	"Virginia"	"51"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2019"	"2019"	39
+	"Virginia"	"51"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	90
+	"Virginia"	"51"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	81
+	"Virginia"	"51"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	124
+	"Virginia"	"51"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	148
+	"Virginia"	"51"	"35-39 years"	"35-39"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	10
+	"Virginia"	"51"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2018"	"2018"	35
+	"Virginia"	"51"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	25
+	"Virginia"	"51"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	60
+	"Virginia"	"51"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	48
+	"Virginia"	"51"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	87
+	"Virginia"	"51"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	73
+	"Virginia"	"51"	"40-44 years"	"40-44"	"Black or African American"	"2054-5"	"2018"	"2018"	12
+	"Virginia"	"51"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	18
+	"Virginia"	"51"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	19
+	"Virginia"	"51"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	23
+	"Virginia"	"51"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	30
+	"Washington"	"53"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	15
+	"Washington"	"53"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2020"	"2020"	15
+	"Washington"	"53"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	16
+	"Washington"	"53"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2018"	"2018"	10
+	"Washington"	"53"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	55
+	"Washington"	"53"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	62
+	"Washington"	"53"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	68
+	"Washington"	"53"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	61
+	"Washington"	"53"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	18
+	"Washington"	"53"	"25-29 years"	"25-29"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	17
+	"Washington"	"53"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	16
+	"Washington"	"53"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	101
+	"Washington"	"53"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	100
+	"Washington"	"53"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	99
+	"Washington"	"53"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	122
+	"Washington"	"53"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	21
+	"Washington"	"53"	"30-34 years"	"30-34"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	27
+	"Washington"	"53"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	13
+	"Washington"	"53"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	108
+	"Washington"	"53"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	81
+	"Washington"	"53"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	135
+	"Washington"	"53"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	131
+	"Washington"	"53"	"35-39 years"	"35-39"	"Asian or Pacific Islander"	"A-PI"	"2018"	"2018"	17
+	"Washington"	"53"	"35-39 years"	"35-39"	"Asian or Pacific Islander"	"A-PI"	"2019"	"2019"	19
+	"Washington"	"53"	"35-39 years"	"35-39"	"Black or African American"	"2054-5"	"2019"	"2019"	12
+	"Washington"	"53"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	55
+	"Washington"	"53"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	72
+	"Washington"	"53"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	99
+	"Washington"	"53"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	92
+	"Washington"	"53"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	23
+	"Washington"	"53"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	14
+	"Washington"	"53"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	29
+	"Washington"	"53"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2021"	"2021"	26
+	"West Virginia"	"54"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	10
+	"West Virginia"	"54"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	20
+	"West Virginia"	"54"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	12
+	"West Virginia"	"54"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	12
+	"West Virginia"	"54"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	24
+	"West Virginia"	"54"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	36
+	"West Virginia"	"54"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	19
+	"West Virginia"	"54"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	25
+	"West Virginia"	"54"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	27
+	"West Virginia"	"54"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	17
+	"West Virginia"	"54"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	19
+	"West Virginia"	"54"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	23
+	"West Virginia"	"54"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	21
+	"West Virginia"	"54"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	11
+	"West Virginia"	"54"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	16
+	"West Virginia"	"54"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	12
+	"West Virginia"	"54"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	15
+	"Wisconsin"	"55"	"15-19 years"	"15-19"	"White"	"2106-3"	"2018"	"2018"	12
+	"Wisconsin"	"55"	"15-19 years"	"15-19"	"Not Reported"	"100"	"2021"	"2021"	21
+	"Wisconsin"	"55"	"20-24 years"	"20-24"	"Black or African American"	"2054-5"	"2019"	"2019"	19
+	"Wisconsin"	"55"	"20-24 years"	"20-24"	"White"	"2106-3"	"2018"	"2018"	53
+	"Wisconsin"	"55"	"20-24 years"	"20-24"	"White"	"2106-3"	"2019"	"2019"	34
+	"Wisconsin"	"55"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2020"	"2020"	59
+	"Wisconsin"	"55"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	51
+	"Wisconsin"	"55"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2018"	"2018"	25
+	"Wisconsin"	"55"	"25-29 years"	"25-29"	"Black or African American"	"2054-5"	"2019"	"2019"	23
+	"Wisconsin"	"55"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	56
+	"Wisconsin"	"55"	"25-29 years"	"25-29"	"White"	"2106-3"	"2019"	"2019"	57
+	"Wisconsin"	"55"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2020"	"2020"	81
+	"Wisconsin"	"55"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	92
+	"Wisconsin"	"55"	"30-34 years"	"30-34"	"Black or African American"	"2054-5"	"2018"	"2018"	15
+	"Wisconsin"	"55"	"30-34 years"	"30-34"	"White"	"2106-3"	"2018"	"2018"	79
+	"Wisconsin"	"55"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	91
+	"Wisconsin"	"55"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	100
+	"Wisconsin"	"55"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	102
+	"Wisconsin"	"55"	"35-39 years"	"35-39"	"White"	"2106-3"	"2018"	"2018"	38
+	"Wisconsin"	"55"	"35-39 years"	"35-39"	"White"	"2106-3"	"2019"	"2019"	53
+	"Wisconsin"	"55"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2020"	"2020"	47
+	"Wisconsin"	"55"	"35-39 years"	"35-39"	"Not Reported"	"100"	"2021"	"2021"	44
+	"Wisconsin"	"55"	"40-44 years"	"40-44"	"White"	"2106-3"	"2018"	"2018"	10
+	"Wisconsin"	"55"	"40-44 years"	"40-44"	"White"	"2106-3"	"2019"	"2019"	11
+	"Wisconsin"	"55"	"40-44 years"	"40-44"	"Not Reported"	"100"	"2020"	"2020"	20
+	"Wyoming"	"56"	"20-24 years"	"20-24"	"Not Reported"	"100"	"2021"	"2021"	17
+	"Wyoming"	"56"	"25-29 years"	"25-29"	"White"	"2106-3"	"2018"	"2018"	17
+	"Wyoming"	"56"	"25-29 years"	"25-29"	"Not Reported"	"100"	"2021"	"2021"	13
+	"Wyoming"	"56"	"30-34 years"	"30-34"	"White"	"2106-3"	"2019"	"2019"	10
+	"Wyoming"	"56"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2020"	"2020"	13
+	"Wyoming"	"56"	"30-34 years"	"30-34"	"Not Reported"	"100"	"2021"	"2021"	14
+"---"
+"Dataset: Fetal Deaths, 2014-2021 expanded"
+"Query Parameters:"
+"Year: 2018; 2019; 2020; 2021"
+"Group By: Standard Residence States; Age of Mother 9; Mother's Bridged Race; Year"
+"Show Totals: Disabled"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/fetal-deaths-expanded.html for more information."
+"---"
+"Query Date: Jun 19, 2023 6:59:08 AM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Fetal Deaths on CDC WONDER Online Database. Data are from the Fetal Death Records 2014-2021, as compiled from data"
+"provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed at"
+"http://wonder.cdc.gov/fetal-deaths-expanded-current.html on Jun 19, 2023 6:59:08 AM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"2. Rows with zero Fetal Deaths are hidden. Use Quick Options above to show zero rows."
+"3. Rows with suppressed Fetal Deaths are hidden. Use Quick Options above to show suppressed rows."
+"---"
+Caveats:
+"1. 'Suppressed' appears instead of fetal deaths and percent of total values when the death value represents 0-9 sub-national"
+"events. This is because the data do not meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/fetal-deaths-expanded.html#Assurance of Confidentiality."
+"2. For some fields the data are recoded to ""Not Reported"" for specific states and years. The records are recoded because fetal"
+"deaths to mothers residing in a reporting area continued to use the 1989 U.S. Standard Report of Fetal Death, or fetal deaths to"
+"mothers residing in a reporting area that used the 2003 U.S. Standard Report of Fetal Death had more than 50% of fetal deaths"
+"assigned to unknown or unspecified cause (P95) in the specified year, or the state simply did not report item for some years."
+"For more details see the user guide, which can be found at https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm, for the"
+"respective data year. To learn how to run query which shows exactly which states are not reporting for specific years see help"
+"document. More information: http://wonder.cdc.gov/wonder/help/fetal-deaths-expanded.html#About-Not-Reported-Data."
+"3. Mother's Bridged Race"" is no longer available beginning for 2020 data."
