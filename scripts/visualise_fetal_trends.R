@@ -92,7 +92,7 @@ df_fet_year2 %>%
   labs(y = "Deaths", 
        title = "Fetal Deaths by Year (2005-2021)",
        subtitle = "Count of Fetal Deaths Above Each Bar") 
-ggsave('figs/df_fet_year2.png')
+ggsave('figs/plt_fet_year2.png')
 
 df_fet_age2 %>%
   ggplot(aes(x=Age.of.Mother.9, y=Fetal.Deaths)) +
@@ -103,7 +103,7 @@ df_fet_age2 %>%
        x = "Age Groups",
        title = "Fetal Deaths by Age (2005-2021)",
        subtitle = "Count of Fetal Deaths Above Each Bar") 
-ggsave('figs/df_fet_age2.png')
+ggsave('figs/plt_fet_age2.png')
 
 df_fet_race2 %>%
   ggplot(aes(x=Mother.s.Bridged.Race, y=Deaths)) +
@@ -115,7 +115,7 @@ df_fet_race2 %>%
        title = "Fetal Deaths by Race (2005-2021)",
        subtitle = "Fetal Deaths Above Each Bar") +
   theme(axis.text.x = element_text(angle = 80, hjust=1)) 
-ggsave('figs/df_fet_race2.png')
+ggsave('figs/plt_fet_race2.png')
 
 df_fet_state2 %>%
   ggplot(aes(x=Standard.Residence.States, y=Fetal.Deaths)) +
@@ -126,4 +126,4 @@ df_fet_state2 %>%
        title = "Fetal Deaths by State (2005-2021)",
        subtitle = "Fetal Deaths Above Each Bar") +
   theme(axis.text.x = element_text(angle = 90, vjust=0.3, hjust=1)) 
-ggsave('figs/df_fet_state2.png')
+ggsave('figs/plt_fet_state2.png')
