@@ -1,0 +1,9 @@
+data/maternal*
+data/fetal*
+data/Old
+
+.DS_Store
+.RData
+.Rhistory
+
+scripts/scrape_data.R
