@@ -135,14 +135,15 @@ ggsave('figs/plt_fet_race.png')
 national_avg = (sum(df_fet_state3$Fetal.Deaths)*1000)/sum(df_fet_state3$Births)
 
 df_fet_state3 %>%
+  mutate(Standard.Residence.States = fct_reorder(Standard.Residence.States, 
+                                                 desc(Deaths.by.Births))) %>%
   ggplot(aes(x=Standard.Residence.States, y=Deaths.by.Births)) +
   geom_bar(stat="identity", fill="steelblue") +
-  geom_hline(yintercept = national_avg, color = "red") +
+  geom_hline(yintercept = national_avg, color = "red") + coord_flip() +
   theme_minimal() + 
   labs(y = "Rate per 1,000 Live Births", 
        x = "State",
        title = "Rates of Fetal Deaths by State (2005-2021)",
-       subtitle = "National Average Rate in Red (599.52)") +
-  theme(axis.text.x = element_text(angle = 90, vjust=0.3, hjust=1)) 
+       subtitle = "National Average Rate in Red (6.0)") 
 ggsave("figs/plt_fet_state.png")
 
