@@ -70,7 +70,7 @@ df_fet_race2[(df_fet_race2$Mother.s.Hispanic.Origin == 'Non-Hispanic') &
 
 df_fet_race2[(df_fet_race2$Mother.s.Hispanic.Origin == 'Unknown or Not Stated') &
              (df_fet_race2$Mother.s.Bridged.Race == 'Black or African American'), 
-             'Mother.s.Bridged.Race'] = 'Unknown Black'
+             'Mother.s.Bridged.Race'] = ''
 
 df_fet_race2[(df_fet_race2$Mother.s.Hispanic.Origin != 'Non-Hispanic') &
              (df_fet_race2$Mother.s.Hispanic.Origin != 'Unknown or Not Stated') &
@@ -84,7 +84,7 @@ df_fet_race2[(df_fet_race2$Mother.s.Hispanic.Origin == 'Non-Hispanic') &
 
 df_fet_race2[(df_fet_race2$Mother.s.Hispanic.Origin == 'Unknown or Not Stated') &
              (df_fet_race2$Mother.s.Bridged.Race == 'White'), 
-             'Mother.s.Bridged.Race'] = 'Unknown White'
+             'Mother.s.Bridged.Race'] = ''
 
 df_fet_race2[df_fet_race2$Mother.s.Bridged.Race == 'American Indian or Alaska Native',
              'Mother.s.Bridged.Race'] = "Native American/Alaskan"
@@ -126,8 +126,8 @@ df_fet_race3 %>%
   geom_text(aes(label=Fetal.Deaths), vjust=-0.3, color="black", size=3.5) +
   theme_minimal() + 
   labs(y = "Rate per 1,000 Live Births", 
-       x = "Race",
-       title = "Rates of Fetal Deaths by Race (2005-2021)",
+       x = "Racial/Ethnic Group",
+       title = "Rates of Fetal Deaths by Racial/Ethnic Group (2005-2021)",
        subtitle = "Count of Deaths Above Each Bar") +
   theme(axis.text.x = element_text(angle = 80, hjust=1)) 
 ggsave('figs/plt_fet_race.png')

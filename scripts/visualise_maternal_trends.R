@@ -128,8 +128,8 @@ df_mat_race3 %>%
   geom_text(aes(label=Deaths), vjust=-0.3, color="black", size=3.5) +
   theme_minimal() + 
   labs(y = "Rate per 100,000 Live Births", 
-       x = "Race",
-       title = "Rates of Maternal Deaths by Race (2018-2021)",
+       x = "Racial/Ethnic Group",
+       title = "Rates of Maternal Deaths by Racial/Ethnic Group (2018-2021)",
        subtitle = "Count of Deaths Above Each Bar") +
   theme(axis.text.x = element_text(angle = 80, hjust=1)) 
 ggsave("figs/plt_mat_race.png")
