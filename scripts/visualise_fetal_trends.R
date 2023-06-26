@@ -32,7 +32,7 @@ df_fet_year2 = subset(df_fet_year, select = -c(Notes)) %>%
   na.omit() 
 
 df_fet_year3 <- merge(df_fet_year2, df_nat_year, by='Year')
-df_fet_year3$Deaths.by.Births = (df_fet_year3$Fetal.Deaths*100000)/df_fet_year3$Births
+df_fet_year3$Deaths.by.Births = (df_fet_year3$Fetal.Deaths*1000)/df_fet_year3$Births
 
 ## Data cleaning - State
 df_fet_state2 = subset(df_fet_state, select = -c(Notes)) %>% 
@@ -41,7 +41,7 @@ df_fet_state2 = subset(df_fet_state, select = -c(Notes)) %>%
 df_fet_state3 <- merge(df_fet_state2, df_nat_state, 
                        by.x='Standard.Residence.States',
                        by.y='State')
-df_fet_state3$Deaths.by.Births = (df_fet_state3$Fetal.Deaths*100000)/df_fet_state3$Births
+df_fet_state3$Deaths.by.Births = (df_fet_state3$Fetal.Deaths*1000)/df_fet_state3$Births
 
 ## Data cleaning - Age
 df_fet_age2 = subset(df_fet_age, select = -c(Notes)) %>% 
@@ -49,7 +49,7 @@ df_fet_age2 = subset(df_fet_age, select = -c(Notes)) %>%
   filter(Age.of.Mother.9 != "") 
 
 df_fet_age3 <- merge(df_fet_age2, df_nat_age, by='Age.of.Mother.9.Code')
-df_fet_age3$Deaths.by.Births = (df_fet_age3$Fetal.Deaths*100000)/df_fet_age3$Births
+df_fet_age3$Deaths.by.Births = (df_fet_age3$Fetal.Deaths*1000)/df_fet_age3$Births
 
 ## Data cleaning - Race
 df_fet_race2 = subset(df_fet_race, 
@@ -70,7 +70,7 @@ df_fet_race2[(df_fet_race2$Mother.s.Hispanic.Origin == 'Non-Hispanic') &
 
 df_fet_race2[(df_fet_race2$Mother.s.Hispanic.Origin == 'Unknown or Not Stated') &
              (df_fet_race2$Mother.s.Bridged.Race == 'Black or African American'), 
-             'Mother.s.Bridged.Race'] = 'Unknown Black'
+             'Mother.s.Bridged.Race'] = ''
 
 df_fet_race2[(df_fet_race2$Mother.s.Hispanic.Origin != 'Non-Hispanic') &
              (df_fet_race2$Mother.s.Hispanic.Origin != 'Unknown or Not Stated') &
@@ -84,7 +84,7 @@ df_fet_race2[(df_fet_race2$Mother.s.Hispanic.Origin == 'Non-Hispanic') &
 
 df_fet_race2[(df_fet_race2$Mother.s.Hispanic.Origin == 'Unknown or Not Stated') &
              (df_fet_race2$Mother.s.Bridged.Race == 'White'), 
-             'Mother.s.Bridged.Race'] = 'Unknown White'
+             'Mother.s.Bridged.Race'] = ''
 
 df_fet_race2[df_fet_race2$Mother.s.Bridged.Race == 'American Indian or Alaska Native',
              'Mother.s.Bridged.Race'] = "Native American/Alaskan"
@@ -97,7 +97,7 @@ df_fet_race2 <- df_fet_race2 %>%
   summarise(Fetal.Deaths=sum(Fetal.Deaths))
 
 df_fet_race3 <- merge(df_fet_race2, df_nat_race, by='Mother.s.Bridged.Race')
-df_fet_race3$Deaths.by.Births = (df_fet_race3$Fetal.Deaths*100000)/df_fet_race3$Births
+df_fet_race3$Deaths.by.Births = (df_fet_race3$Fetal.Deaths*1000)/df_fet_race3$Births
 
 # visualisations ---------------------------------------------------------
 
@@ -105,7 +105,7 @@ df_fet_year3 %>%
   ggplot(aes(x=Year, y=Deaths.by.Births)) +
   geom_line(color="steelblue") +
   theme_minimal() + 
-  labs(y = "Rate per 100,000 Live Births", 
+  labs(y = "Rate per 1,000 Live Births", 
        title = "Rates of Fetal Deaths by Year (2005-2021)") 
 ggsave('figs/plt_fet_year.png')
 
@@ -114,7 +114,7 @@ df_fet_age3 %>%
   geom_bar(stat="identity", fill="steelblue") +
   geom_text(aes(label=Fetal.Deaths), vjust=-0.3, color="black", size=3.5) +
   theme_minimal() + 
-  labs(y = "Rate per 100,000 Live Births", 
+  labs(y = "Rate per 1,000 Live Births", 
        x = "Age Groups",
        title = "Rates of Fetal Deaths by Age (2005-2021)",
        subtitle = "Count of Deaths Above Each Bar") 
@@ -125,24 +125,25 @@ df_fet_race3 %>%
   geom_bar(stat="identity", fill="steelblue") +
   geom_text(aes(label=Fetal.Deaths), vjust=-0.3, color="black", size=3.5) +
   theme_minimal() + 
-  labs(y = "Rate per 100,000 Live Births", 
-       x = "Race",
-       title = "Rates of Fetal Deaths by Race (2005-2021)",
+  labs(y = "Rate per 1,000 Live Births", 
+       x = "Racial/Ethnic Group",
+       title = "Rates of Fetal Deaths by Racial/Ethnic Group (2005-2021)",
        subtitle = "Count of Deaths Above Each Bar") +
   theme(axis.text.x = element_text(angle = 80, hjust=1)) 
 ggsave('figs/plt_fet_race.png')
 
-national_avg = (sum(df_fet_state3$Fetal.Deaths)*100000)/sum(df_fet_state3$Births)
+national_avg = (sum(df_fet_state3$Fetal.Deaths)*1000)/sum(df_fet_state3$Births)
 
 df_fet_state3 %>%
+  mutate(Standard.Residence.States = fct_reorder(Standard.Residence.States, 
+                                                 desc(Deaths.by.Births))) %>%
   ggplot(aes(x=Standard.Residence.States, y=Deaths.by.Births)) +
   geom_bar(stat="identity", fill="steelblue") +
-  geom_hline(yintercept = national_avg, color = "red") +
+  geom_hline(yintercept = national_avg, color = "red") + coord_flip() +
   theme_minimal() + 
-  labs(y = "Rate per 100,000 Live Births", 
+  labs(y = "Rate per 1,000 Live Births", 
        x = "State",
        title = "Rates of Fetal Deaths by State (2005-2021)",
-       subtitle = "National Average Rate in Red (599.52)") +
-  theme(axis.text.x = element_text(angle = 90, vjust=0.3, hjust=1)) 
+       subtitle = "National Average Rate in Red (6.0)") 
 ggsave("figs/plt_fet_state.png")
 

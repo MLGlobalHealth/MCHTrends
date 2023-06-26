@@ -128,8 +128,8 @@ df_mat_race3 %>%
   geom_text(aes(label=Deaths), vjust=-0.3, color="black", size=3.5) +
   theme_minimal() + 
   labs(y = "Rate per 100,000 Live Births", 
-       x = "Race",
-       title = "Rates of Maternal Deaths by Race (2018-2021)",
+       x = "Racial/Ethnic Group",
+       title = "Rates of Maternal Deaths by Racial/Ethnic Group (2018-2021)",
        subtitle = "Count of Deaths Above Each Bar") +
   theme(axis.text.x = element_text(angle = 80, hjust=1)) 
 ggsave("figs/plt_mat_race.png")
@@ -137,14 +137,15 @@ ggsave("figs/plt_mat_race.png")
 national_avg = (sum(df_mat_state3$Deaths)*100000)/sum(df_mat_state3$Births)
 
 df_mat_state3 %>%
+  mutate(Residence.State = fct_reorder(Residence.State, 
+                                       desc(Deaths.by.Births))) %>%
   ggplot(aes(x=Residence.State, y=Deaths.by.Births)) +
-  geom_bar(stat="identity", fill="steelblue") +
+  geom_bar(stat="identity", fill="steelblue") + coord_flip() +
   geom_hline(yintercept = national_avg, color = "red") +
   theme_minimal() + 
   labs(y = "Rate per 100,000 Live Births", 
        x = "State",
        title = "Rates of Maternal Deaths by State (2018-2021)",
-       subtitle = "National Average Rate in Red (5.13)") +
-  theme(axis.text.x = element_text(angle = 90, vjust=0.3, hjust=1)) 
+       subtitle = "National Average Rate in Red (5.1)") 
 ggsave("figs/plt_mat_state.png")
 
