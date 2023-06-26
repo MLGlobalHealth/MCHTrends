@@ -22,110 +22,129 @@ df_mat_state <- read.csv('data/maternal_deaths_state.txt', sep = "\t")
 df_mat_age <- read.csv('data/maternal_deaths_age.txt', sep = "\t")
 df_mat_race <- read.csv('data/maternal_deaths_race.txt', sep = "\t")
 
+load(file="data/natality_yearly_clean.Rda")
+load(file="data/natality_age_clean.Rda")
+load(file="data/natality_race_clean.Rda")
+load(file="data/natality_state_clean.Rda")
+
 ## Data cleaning - Year
-df_mat_year2 = subset(df_mat_year, select = -c(Notes)) %>% 
-  na.omit() %>% 
-  filter(Year != "2023 (provisional and partial)") 
-
-df_mat_year2[df_mat_year2$Year == '2022 (provisional)', 'Year'] = '2022'
-
-## Data cleaning - State
-df_mat_state2 = subset(df_mat_state, select = -c(Notes, Crude.Rate)) %>% 
+df_mat_year2 = subset(df_mat_year, select = -c(Notes, Year.Code, 
+                                               Population, Crude.Rate)) %>% 
   na.omit()
 
-df_mat_state2$Calc.Rate = round(
-  (df_mat_state2$Deaths*100000) / (df_mat_state2$Population), digits=1)
+df_mat_year3 <- merge(df_mat_year2, df_nat_year, by='Year') 
+df_mat_year3$Deaths.by.Births = (df_mat_year3$Deaths*100000)/df_mat_year3$Births
+
+## Data cleaning - State
+df_mat_state2 = subset(df_mat_state, select = -c(Notes, Population, Crude.Rate)) %>% 
+  na.omit()
+
+df_mat_state3 <- merge(df_mat_state2, df_nat_state, 
+                       by.x='Residence.State', by.y='State')
+
+df_mat_state3$Deaths.by.Births = (df_mat_state3$Deaths*100000)/df_mat_state3$Births
 
 ## Data cleaning - Age
-df_mat_age2 = subset(df_mat_age, select = -c(Notes)) %>% 
+df_mat_age2 = subset(df_mat_age, select = -c(Notes, Population, Crude.Rate)) %>% 
   na.omit() %>% 
   filter(Five.Year.Age.Groups != "") 
 
+df_mat_age3 <- merge(df_mat_age2, df_nat_age, 
+                     by.x='Five.Year.Age.Groups.Code',
+                     by.y='Age.of.Mother.9.Code')
+
+df_mat_age3$Deaths.by.Births = (df_mat_age3$Deaths*100000)/df_mat_age3$Births
+
 ## Data cleaning - Race
 df_mat_race2 = subset(df_mat_race, 
-                      select = -c(Notes, Crude.Rate,
-                                  Single.Race.6.Code,
+                      select = -c(Notes, Crude.Rate, 
+                                  Single.Race.6.Code, Population,
                                   Hispanic.Origin.Code)) %>% 
-  na.omit() 
+  na.omit() %>%
+  filter((Single.Race.6 != '') & (Deaths != 'Suppressed'))
 
 df_mat_race2[(df_mat_race2$Hispanic.Origin == 'Hispanic or Latino') &
              (df_mat_race2$Single.Race.6 == 'Black or African American'), 
-             'Single.Race.6'] = 'Black Hispanic'
+             'Single.Race.6'] = 'Hispanic'
 
 df_mat_race2[(df_mat_race2$Hispanic.Origin == 'Not Hispanic or Latino') &
              (df_mat_race2$Single.Race.6 == 'Black or African American'), 
-             'Single.Race.6'] = 'Black Non-Hispanic'
+             'Single.Race.6'] = 'Non-Hispanic Black'
 
 df_mat_race2[(df_mat_race2$Hispanic.Origin == 'Hispanic or Latino') &
                (df_mat_race2$Single.Race.6 == 'White'), 
-             'Single.Race.6'] = 'White Hispanic'
+             'Single.Race.6'] = 'Hispanic'
 
 df_mat_race2[(df_mat_race2$Hispanic.Origin == 'Not Hispanic or Latino') &
                (df_mat_race2$Single.Race.6 == 'White'), 
-             'Single.Race.6'] = 'White Non-Hispanic'
+             'Single.Race.6'] = 'Non-Hispanic White'
 
 df_mat_race2[df_mat_race2$Single.Race.6 == 'American Indian or Alaska Native',
-             'Single.Race.6'] = "Native American/Alaskan"
+             'Single.Race.6'] = "Asian or Pacific Islander"
 
 df_mat_race2[df_mat_race2$Single.Race.6 == 'Native Hawaiian or Other Pacific Islander',
-             'Single.Race.6'] = "Native Hawaiian/Other PI"
+             'Single.Race.6'] = "Asian or Pacific Islander"
+
+df_mat_race2[df_mat_race2$Single.Race.6 == 'Asian',
+             'Single.Race.6'] = "Asian or Pacific Islander"
 
 df_mat_race2 <- df_mat_race2 %>% 
+  mutate_at('Deaths', as.numeric) %>%
   group_by(Single.Race.6) %>% 
-  summarise(Deaths=sum(Deaths), Population=sum(Population))
-  
-  
-df_mat_race2$Calc.Rate = round(
-  (df_mat_race2$Deaths*100000) / (df_mat_race2$Population), digits=1)
+  summarise(Deaths=sum(Deaths))
 
-df_mat_race2 <- df_mat_race2 %>% arrange(desc(Calc.Rate))
+df_mat_race3 <- merge(df_mat_race2, df_nat_race,
+                      by.x = 'Single.Race.6',
+                      by.y = 'Mother.s.Bridged.Race')
+
+df_mat_race3$Deaths.by.Births = (df_mat_race3$Deaths*100000)/df_mat_race3$Births
 
 # visualisations ---------------------------------------------------------
 
-df_mat_year2 %>%
-  ggplot(aes(x=Year, y=Crude.Rate)) +
+df_mat_year3 %>%
+  ggplot(aes(x=Year, y=Deaths.by.Births)) +
   geom_bar(stat="identity", fill="steelblue") +
   geom_text(aes(label=Deaths), vjust=-0.3, color="black", size=3.5) +
   theme_minimal() + 
-  labs(y = "Rate per 100,000", 
-       title = "Rates of Maternal Deaths by Year (2018-2022)",
-       subtitle = "Count of Maternal Deaths Above Each Bar") 
+  labs(y = "Rate per 100,000 Live Births", 
+       title = "Rates of Maternal Deaths by Year (2018-2021)",
+       subtitle = "Count of Deaths Above Each Bar") 
 ggsave("figs/plt_mat_year.png")
 
-df_mat_age2 %>%
-  ggplot(aes(x=Five.Year.Age.Groups.Code, y=Crude.Rate)) +
+df_mat_age3 %>%
+  ggplot(aes(x=Five.Year.Age.Groups.Code, y=Deaths.by.Births)) +
   geom_bar(stat="identity", fill="steelblue") +
   geom_text(aes(label=Deaths), vjust=-0.3, color="black", size=3.5) +
   theme_minimal() + 
-  labs(y = "Rate per 100,000", 
+  labs(y = "Rate per 100,000 Live Births", 
        x = "Age Groups",
-       title = "Rates of Maternal Deaths by Age (2018-2022)",
-       subtitle = "Count of Maternal Deaths Above Each Bar") 
+       title = "Rates of Maternal Deaths by Age (2018-2021)",
+       subtitle = "Count of Deaths Above Each Bar") 
 ggsave("figs/plt_mat_age.png")
 
-df_mat_race2 %>%
-  ggplot(aes(x=Single.Race.6, y=Calc.Rate)) +
+df_mat_race3 %>%
+  ggplot(aes(x=Single.Race.6, y=Deaths.by.Births)) +
   geom_bar(stat="identity", fill="steelblue") +
   geom_text(aes(label=Deaths), vjust=-0.3, color="black", size=3.5) +
   theme_minimal() + 
-  labs(y = "Rate per 100,000", 
+  labs(y = "Rate per 100,000 Live Births", 
        x = "Race",
-       title = "Rates of Maternal Deaths by Race (2018-2022)",
-       subtitle = "Count of Maternal Deaths Above Each Bar") +
+       title = "Rates of Maternal Deaths by Race (2018-2021)",
+       subtitle = "Count of Deaths Above Each Bar") +
   theme(axis.text.x = element_text(angle = 80, hjust=1)) 
 ggsave("figs/plt_mat_race.png")
 
-national_avg = sum(df_mat_state2$Deaths)*100000/sum(df_mat_state2$Population)
+national_avg = (sum(df_mat_state3$Deaths)*100000)/sum(df_mat_state3$Births)
 
-df_mat_state2 %>%
-  ggplot(aes(x=Residence.State, y=Calc.Rate)) +
+df_mat_state3 %>%
+  ggplot(aes(x=Residence.State, y=Deaths.by.Births)) +
   geom_bar(stat="identity", fill="steelblue") +
   geom_hline(yintercept = national_avg, color = "red") +
   theme_minimal() + 
-  labs(y = "Rate per 100,000", 
+  labs(y = "Rate per 100,000 Live Births", 
        x = "State",
-       title = "Rates of Maternal Deaths by State (2018-2022)",
-       subtitle = "National Rate in Red (1.5)") +
+       title = "Rates of Maternal Deaths by State (2018-2021)",
+       subtitle = "National Average Rate in Red (5.13)") +
   theme(axis.text.x = element_text(angle = 90, vjust=0.3, hjust=1)) 
 ggsave("figs/plt_mat_state.png")
 
