@@ -114,7 +114,7 @@ df_mat_year3 %>%
   labs(y = "Rate per 100,000 Live Births", 
        title = "Rates of Maternal Deaths by Year (2018-2022)",
        subtitle = "Count of Deaths Above Each Bar",
-       caption = "Note: 2022 counts are provisional. We use 2021 live births to compute the 2022 mortality rate as the 2022 live birth count\nis not available.") + 
+       caption = "Note: The 2022 count is provisional. We use 2021 live births to compute the 2022 mortality rate as the 2022 live birth count\nis not available.") + 
   theme(plot.caption=element_text(hjust = 0))
 ggsave("figs/plt_mat_year.png")
 
