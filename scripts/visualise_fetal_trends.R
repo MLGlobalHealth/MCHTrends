@@ -128,8 +128,10 @@ df_fet_race3 %>%
   labs(y = "Rate per 1,000 Live Births", 
        x = "Racial/Ethnic Group",
        title = "Rates of Fetal Deaths by Racial/Ethnic Group (2005-2021)",
-       subtitle = "Count of Deaths Above Each Bar") +
-  theme(axis.text.x = element_text(angle = 80, hjust=1)) 
+       subtitle = "Count of Deaths Above Each Bar",
+       caption = "Note: Black and White mothers of unknown Hispanic origin were excluded from the analysis.") +
+  theme(axis.text.x = element_text(angle = 80, hjust=1),
+        plot.caption=element_text(hjust = 0)) 
 ggsave('figs/plt_fet_race.png')
 
 national_avg = (sum(df_fet_state3$Fetal.Deaths)*1000)/sum(df_fet_state3$Births)

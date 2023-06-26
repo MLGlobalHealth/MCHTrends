@@ -30,9 +30,14 @@ load(file="data/natality_state_clean.Rda")
 ## Data cleaning - Year
 df_mat_year2 = subset(df_mat_year, select = -c(Notes, Year.Code, 
                                                Population, Crude.Rate)) %>% 
+  filter(df_mat_year$Year != "") %>%
   na.omit()
+  
 
-df_mat_year3 <- merge(df_mat_year2, df_nat_year, by='Year') 
+df_mat_year3 <- merge(df_mat_year2, df_nat_year, by='Year', all.x = TRUE)
+df_mat_year3[(df_mat_year3$Year == '2022 (provisional)'), 
+             'Births'] = df_mat_year3$Births[df_mat_year3$Year == '2021']
+  
 df_mat_year3$Deaths.by.Births = (df_mat_year3$Deaths*100000)/df_mat_year3$Births
 
 ## Data cleaning - State
@@ -107,8 +112,10 @@ df_mat_year3 %>%
   geom_text(aes(label=Deaths), vjust=-0.3, color="black", size=3.5) +
   theme_minimal() + 
   labs(y = "Rate per 100,000 Live Births", 
-       title = "Rates of Maternal Deaths by Year (2018-2021)",
-       subtitle = "Count of Deaths Above Each Bar") 
+       title = "Rates of Maternal Deaths by Year (2018-2022)",
+       subtitle = "Count of Deaths Above Each Bar",
+       caption = "Note: 2022 counts are provisional. We use 2021 live births to compute the 2022 mortality rate as the 2022 live birth count\nis not available.") + 
+  theme(plot.caption=element_text(hjust = 0))
 ggsave("figs/plt_mat_year.png")
 
 df_mat_age3 %>%

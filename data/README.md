@@ -13,7 +13,7 @@ Fetal deaths data can be accessed at the following links:
 - By state: https://wonder.cdc.gov/controller/saved/D133/D347F116
 
 Maternal deaths data can be accessed at the following links:
-- National by year: https://wonder.cdc.gov/controller/saved/D176/D347F147
+- National by year: https://wonder.cdc.gov/controller/saved/D176/D347F305
 - National by mother's age: https://wonder.cdc.gov/controller/saved/D176/D347F148
 - National by mother's race: https://wonder.cdc.gov/controller/saved/D176/D347F151
 - By state: https://wonder.cdc.gov/controller/saved/D176/D347F150
