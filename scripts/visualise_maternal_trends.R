@@ -248,9 +248,10 @@ ggplot(df_long_mat_state) +
   geom_density(aes(x=Deaths.by.Births, colour=Type, fill=Type), alpha=0.5) +
   theme_minimal() + 
   labs(y = "Density", 
-       x = "Rate per 100,000 Live Births",
+       x = "Rate",
        title = "Rates of Maternal and Pregnancy-Related Deaths Across States (2018-2021)",
-       caption = "Note: MMR stands for Maternal Mortality Rate, which includes deaths during pregnancy and up to 42 days after birth. PRMR stands for Pregnancy-
-          Related Mortality Rate, which includes deaths between 43-365 days after birth.") + 
+       caption = "Note: MMR stands for Maternal Mortality Rate, which includes deaths during pregnancy and up to 42 days after birth. PRMR stands for 
+          Pregnancy-Related Mortality Rate, which includes deaths between 43-365 days after birth. Rate is calculated per 1,000 live births 
+          for PRMR and 100,000 live births for MMR.") + 
   theme(plot.caption=element_text(hjust = 0))
 ggsave("figs/plt_mat_state.png")
