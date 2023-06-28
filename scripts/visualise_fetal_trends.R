@@ -24,8 +24,8 @@ df_fet_race <- read.csv('data/fetal_deaths_race_full.txt', sep = "\t")
 
 load(file="data/natality_yearly_clean.Rda")
 load(file="data/natality_age_clean.Rda")
-load(file="data/natality_race_clean.Rda")
 load(file="data/natality_state_clean.Rda")
+load(file="data/natality_race_year_clean.Rda")
 
 ## Data cleaning - Year
 df_fet_year2 = subset(df_fet_year, select = -c(Notes)) %>% 
@@ -96,7 +96,14 @@ df_fet_race2 <- df_fet_race2 %>%
   group_by(Mother.s.Bridged.Race) %>% 
   summarise(Fetal.Deaths=sum(Fetal.Deaths))
 
-df_fet_race3 <- merge(df_fet_race2, df_nat_race, by='Mother.s.Bridged.Race')
+df_nat_race <- df_nat_race_year %>% filter(Year < 2019) %>%
+  group_by(Mother.s.Race) %>%
+  summarise(Births=sum(Births))
+
+df_fet_race3 <- merge(df_fet_race2, df_nat_race, 
+                      by.x='Mother.s.Bridged.Race',
+                      by.y='Mother.s.Race')
+
 df_fet_race3$Deaths.by.Births = (df_fet_race3$Fetal.Deaths*1000)/df_fet_race3$Births
 
 # visualisations ---------------------------------------------------------
@@ -127,7 +134,7 @@ df_fet_race3 %>%
   theme_minimal() + 
   labs(y = "Rate per 1,000 Live Births", 
        x = "Racial/Ethnic Group",
-       title = "Rates of Fetal Deaths by Racial/Ethnic Group (2005-2021)",
+       title = "Rates of Fetal Deaths by Racial/Ethnic Group (2005-2018)",
        subtitle = "Count of Deaths Above Each Bar",
        caption = "Note: Black and White mothers of unknown Hispanic origin were excluded from the analysis.") +
   theme(axis.text.x = element_text(angle = 80, hjust=1),

@@ -88,11 +88,11 @@ mrg_mat_race_age0 <- merge(cln_df_mat_race_age, cln_df_pregrel_race_age,
 
 mrg_mat_race_year <- merge(mrg_mat_race_year0, df_nat_race_year, all.x=TRUE,
                            by.x = c('Year','Single.Race.6'),
-                           by.y = c('Year', 'Mother.s.Bridged.Race'))
+                           by.y = c('Year', 'Mother.s.Race'))
 
 mrg_mat_race_age <- merge(mrg_mat_race_age0, df_nat_race_age, all.x=TRUE,
                           by.x = c('Five.Year.Age.Groups.Code','Single.Race.6'),
-                          by.y = c('Age.of.Mother.9.Code', 'Mother.s.Bridged.Race'))
+                          by.y = c('Age.of.Mother.9.Code', 'Mother.s.Race'))
 
 mrg_mat_race_year$MMR.Deaths.by.Births = (
   mrg_mat_race_year$MMR.Deaths*100000)/mrg_mat_race_year$Births
@@ -146,10 +146,12 @@ cln_df_fet_race_year <- clean_fet_race(df_fet_race_year, Year)
 cln_df_fet_race_age <- clean_fet_race(df_fet_race_age, Age.of.Mother.9.Code)
 
 mrg_fet_race_year <- merge(cln_df_fet_race_year, df_nat_race_year, all.x=TRUE,
-                           by = c('Year', 'Mother.s.Bridged.Race'))
+                           by.x = c('Year', 'Mother.s.Bridged.Race'),
+                           by.y = c('Year', 'Mother.s.Race'))
 
 mrg_fet_race_age <- merge(cln_df_fet_race_age, df_nat_race_age, all.x=TRUE,
-                          by = c('Age.of.Mother.9.Code', 'Mother.s.Bridged.Race'))
+                          by.x = c('Age.of.Mother.9.Code', 'Mother.s.Bridged.Race'),
+                          by.y = c('Age.of.Mother.9.Code', 'Mother.s.Race'))
 
 mrg_fet_race_year$Deaths.by.Births = (
   mrg_fet_race_year$Deaths*1000)/mrg_fet_race_year$Births
@@ -171,6 +173,7 @@ reshape_long <- function(df, drop_list) {
 }
 
 long_mat_race_age <- reshape_long(mrg_mat_race_age)
+long_mat_race_year <- reshape_long(mrg_mat_race_year)
 
 # visualisations -----------------------------------------------------------
 
@@ -185,11 +188,60 @@ mrg_mat_race_age %>%
        x = "Age Groups",
        title = "Rates of Maternal Deaths (2018-2021)",
        subtitle = "Count of Deaths Above Each Bar",
-       caption = "Note: Analysis includes deaths during pregnancy and up to 42 days after birth. PRMR stands for Pregnancy-Related Mortality Rate, which includes deaths 
-         between 43-365 days after birth.") + 
+       caption = "Note: Analysis includes deaths during pregnancy and up to 42 days after birth.") + 
   theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1)) +
   guides(fill=guide_legend(title=""))
-ggsave('figs/plt_mat_race_age.png')
+ggsave('figs/plt_mat_mmr_race_age.png')
+
+mrg_mat_race_age %>% 
+  filter(Single.Race.6 %in% c('Non-Hispanic Black', 'Non-Hispanic White')) %>%
+  ggplot(aes(x=Five.Year.Age.Groups.Code, y=PRMR.Deaths.by.Births, fill=Single.Race.6)) +
+  geom_bar(stat="identity", position=position_dodge()) +
+  geom_text(aes(label=PRMR.Deaths, group=Single.Race.6), 
+            position = position_dodge(width = 0.9), vjust = -0.3) +
+  theme_minimal() + 
+  labs(y = "Rate per 100,000 Live Births", 
+       x = "Age Groups",
+       title = "Rates of Pregnancy-Related Deaths (2018-2021)",
+       subtitle = "Count of Deaths Above Each Bar",
+       caption = "Note: Analysis includes deaths between 43-365 days after birth.") + 
+  theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1)) +
+  guides(fill=guide_legend(title=""))
+ggsave('figs/plt_mat_prmr_race_age.png')
+
+mrg_mat_race_year %>% 
+  filter(Single.Race.6 %in% c('Non-Hispanic Black', 'Non-Hispanic White') &
+         Year != '2022 (provisional)') %>%
+  ggplot(aes(x=Year, y=MMR.Deaths.by.Births, fill=Single.Race.6)) +
+  geom_bar(stat="identity", position=position_dodge()) +
+  geom_text(aes(label=MMR.Deaths, group=Single.Race.6), 
+            position = position_dodge(width = 0.9), vjust = -0.3) +
+  theme_minimal() + 
+  labs(y = "Rate per 100,000 Live Births", 
+       x = "Age Groups",
+       title = "Rates of Maternal Deaths (2018-2021)",
+       subtitle = "Count of Deaths Above Each Bar",
+       caption = "Note: Analysis includes deaths during pregnancy and up to 42 days after birth.") + 
+  theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1)) +
+  guides(fill=guide_legend(title=""))
+ggsave('figs/plt_mat_mmr_race_year.png')
+
+mrg_mat_race_year %>% 
+  filter(Single.Race.6 %in% c('Non-Hispanic Black', 'Non-Hispanic White') &
+           Year != '2022 (provisional)') %>%
+  ggplot(aes(x=Year, y=PRMR.Deaths.by.Births, fill=Single.Race.6)) +
+  geom_bar(stat="identity", position=position_dodge()) +
+  geom_text(aes(label=PRMR.Deaths, group=Single.Race.6), 
+            position = position_dodge(width = 0.9), vjust = -0.3) +
+  theme_minimal() + 
+  labs(y = "Rate per 100,000 Live Births", 
+       x = "Age Groups",
+       title = "Rates of Pregnancy-Related Deaths (2018-2021)",
+       subtitle = "Count of Deaths Above Each Bar",
+       caption = "Note: Analysis includes deaths between 43-365 days after birth.") + 
+  theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1)) +
+  guides(fill=guide_legend(title=""))
+ggsave('figs/plt_mat_prmr_race_year.png')
 
 mrg_fet_race_age %>% 
   filter(Mother.s.Bridged.Race %in% c('Non-Hispanic Black', 'Non-Hispanic White')) %>%
@@ -200,7 +252,7 @@ mrg_fet_race_age %>%
   theme_minimal() + 
   labs(y = "Rate per 1,000 Live Births", 
        x = "Age Groups",
-       title = "Rates of Fetal Deaths (2005-2021)",
+       title = "Rates of Fetal Deaths (2005-2018)",
        subtitle = "Count of Deaths Above Each Bar") + 
   theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1)) +
   guides(fill=guide_legend(title="")) 

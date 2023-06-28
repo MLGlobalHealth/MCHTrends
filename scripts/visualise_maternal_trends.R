@@ -136,7 +136,7 @@ df_mat_pr_race <- merge(df_mat_race2, df_pregrel_race2,
 
 df_mat_race3 <- merge(df_mat_pr_race, df_nat_race,
                       by.x = 'Single.Race.6',
-                      by.y = 'Mother.s.Bridged.Race')
+                      by.y = 'Mother.s.Race')
 
 df_mat_race3$MMR.Deaths.by.Births = (df_mat_race3$MMR.Deaths*100000)/df_mat_race3$Births
 df_mat_race3$PRMR.Deaths.by.Births = (df_mat_race3$PRMR.Deaths*100000)/df_mat_race3$Births
