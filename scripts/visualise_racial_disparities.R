@@ -191,7 +191,7 @@ mrg_mat_race_age %>%
        caption = "Note: Analysis includes deaths during pregnancy and up to 42 days after birth.") + 
   theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1)) +
   guides(fill=guide_legend(title=""))
-ggsave('figs/plt_mat_mmr_race_age.png')
+ggsave('figs/bw_disparities/plt_mat_mmr_race_age.png')
 
 mrg_mat_race_age %>% 
   filter(Single.Race.6 %in% c('Non-Hispanic Black', 'Non-Hispanic White')) %>%
@@ -207,7 +207,7 @@ mrg_mat_race_age %>%
        caption = "Note: Analysis includes deaths between 43-365 days after birth.") + 
   theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1)) +
   guides(fill=guide_legend(title=""))
-ggsave('figs/plt_mat_prmr_race_age.png')
+ggsave('figs/bw_disparities/plt_mat_prmr_race_age.png')
 
 mrg_mat_race_year %>% 
   filter(Single.Race.6 %in% c('Non-Hispanic Black', 'Non-Hispanic White') &
@@ -224,7 +224,7 @@ mrg_mat_race_year %>%
        caption = "Note: Analysis includes deaths during pregnancy and up to 42 days after birth.") + 
   theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1)) +
   guides(fill=guide_legend(title=""))
-ggsave('figs/plt_mat_mmr_race_year.png')
+ggsave('figs/bw_disparities/plt_mat_mmr_race_year.png')
 
 mrg_mat_race_year %>% 
   filter(Single.Race.6 %in% c('Non-Hispanic Black', 'Non-Hispanic White') &
@@ -241,7 +241,7 @@ mrg_mat_race_year %>%
        caption = "Note: Analysis includes deaths between 43-365 days after birth.") + 
   theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1)) +
   guides(fill=guide_legend(title=""))
-ggsave('figs/plt_mat_prmr_race_year.png')
+ggsave('figs/bw_disparities/plt_mat_prmr_race_year.png')
 
 mrg_fet_race_age %>% 
   filter(Mother.s.Bridged.Race %in% c('Non-Hispanic Black', 'Non-Hispanic White')) %>%
@@ -256,7 +256,7 @@ mrg_fet_race_age %>%
        subtitle = "Count of Deaths Above Each Bar") + 
   theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1)) +
   guides(fill=guide_legend(title="")) 
-ggsave('figs/plt_fet_race_age.png')
+ggsave('figs/bw_disparities/plt_fet_race_age.png')
 
 mrg_fet_race_year %>% 
   filter(Mother.s.Bridged.Race %in% c('Non-Hispanic Black', 'Non-Hispanic White')) %>%
@@ -270,5 +270,5 @@ mrg_fet_race_year %>%
   theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1)) +
   guides(colour=guide_legend(title="")) + scale_fill_brewer(palette = "Dark2") +
   ylim(0,15)
-ggsave('figs/plt_fet_race_year.png')
+ggsave('figs/bw_disparities/plt_fet_race_year.png')
 

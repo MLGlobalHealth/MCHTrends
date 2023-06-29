@@ -130,7 +130,7 @@ df_long_mat_month %>%
        caption = "Note: Analysis includes deaths during pregnancy and up to 42 days after birth.") + 
   theme(plot.caption=element_text(hjust = 0), 
         axis.text.x = element_text(angle = 60, hjust=1)) + guides(fill=guide_legend(title="")) 
-ggsave("figs/plt_mat_month.png")
+ggsave("figs/seasonal_trends/plt_mat_month.png")
 
 df_long_pregrel_month %>%
   ggplot(aes(x=Month.Code, y=Deaths.by.Births, fill=Type)) +
@@ -144,7 +144,7 @@ df_long_pregrel_month %>%
        caption = "Note: Analysis includes deaths 43-365 days after birth.") + 
   theme(plot.caption=element_text(hjust = 0), 
         axis.text.x = element_text(angle = 60, hjust=1)) + guides(fill=guide_legend(title="")) 
-ggsave("figs/plt_pregrel_month.png")
+ggsave("figs/seasonal_trends/plt_pregrel_month.png")
 
 df_long_fet_month %>%
   ggplot(aes(x=Month, y=Deaths.by.Births, fill=Type)) +
@@ -157,6 +157,6 @@ df_long_fet_month %>%
        subtitle = "Count of Deaths Above Each Bar") +
   theme(plot.caption=element_text(hjust = 0), 
         axis.text.x = element_text(angle = 60, hjust=1)) + guides(fill=guide_legend(title="")) 
-ggsave("figs/plt_fet_month.png")
+ggsave("figs/seasonal_trends/plt_fet_month.png")
 
 
