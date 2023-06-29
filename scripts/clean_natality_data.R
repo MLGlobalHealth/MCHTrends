@@ -57,6 +57,19 @@ df_nat_race_year1b <- clean_df('natality_race_yearly_07_15')
 df_nat_race_year1 <- rbind(df_nat_race_year1a, df_nat_race_year1b)
 df_nat_race_year2 <- clean_df('natality_race_yearly_16_21')
 
+clean_df2 <- function(fname, varname) {
+  df <- read.csv(str_interp('data/${fname}.txt'), sep = "\t")
+  subset(df, select = -c(Notes, Month.Code)) %>%
+    filter(Month != '') %>%
+    na.omit() %>%
+    rename({{varname}} := Births)
+}
+
+df_nat_month1 <- clean_df2('natality_monthly_18_19', Births.Pre)
+df_nat_month2 <- clean_df2('natality_monthly_20_21', Births.Post)
+df_nat_month <- merge(df_nat_month1, df_nat_month2, by='Month')
+save(df_nat_month, file="data/natality_month_clean.Rda")
+
 clean_bridged_race <- function(df, ...) {
   df_nat_race <- df %>% 
     filter(Mother.s.Hispanic.Origin != "") %>%

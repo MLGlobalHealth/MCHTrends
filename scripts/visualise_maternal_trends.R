@@ -1,7 +1,7 @@
 # load packages -----------------------------------------------------------
 
 ## Package names
-packages <- c("tidyverse","ggplot2","dplyr","shiny","data.table")
+packages <- c("tidyverse","ggplot2","dplyr","shiny","data.table","ggrepel")
 
 ## Install packages not yet installed
 installed_packages <- packages %in% rownames(installed.packages())
@@ -173,8 +173,8 @@ df_long_mat_year %>%
        subtitle = "Count of Deaths Above Each Bar",
        caption = "Note: The 2022 count is provisional. We use 2021 live births to compute the 2022 mortality rate as the 2022 live birth count is not available. MMR 
           stands for Maternal Mortality Rate, which includes deaths during pregnancy and up to 42 days after birth. PRMR stands for Pregnancy-
-          Related Mortality Rate, which includes deaths between 43-365 days after birth.") + 
-  theme(plot.caption=element_text(hjust = 0))
+          Related Mortality Rate, which includes deaths 43-365 days after birth.") + 
+  theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) 
 ggsave("figs/plt_mat_year.png")
 
 df_long_mat_age %>%
@@ -188,8 +188,8 @@ df_long_mat_age %>%
        title = "Rates of Maternal and Pregnancy-Related Deaths by Age (2018-2021)",
        subtitle = "Count of Deaths Above Each Bar",
        caption = "Note: MMR stands for Maternal Mortality Rate, which includes deaths during pregnancy and up to 42 days after birth. PRMR stands for Pregnancy-
-          Related Mortality Rate, which includes deaths between 43-365 days after birth.") + 
-  theme(plot.caption=element_text(hjust = 0))
+          Related Mortality Rate, which includes deaths 43-365 days after birth.") + 
+  theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) 
 ggsave("figs/plt_mat_age.png")
 
 df_long_mat_race %>%
@@ -203,8 +203,9 @@ df_long_mat_race %>%
        title = "Rates of Maternal and Pregnancy-Related Deaths by Racial/Ethnic Group (2018-2021)",
        subtitle = "Count of Deaths Above Each Bar",
        caption = "Note: MMR stands for Maternal Mortality Rate, which includes deaths during pregnancy and up to 42 days after birth. PRMR stands for Pregnancy-
-          Related Mortality Rate, which includes deaths between 43-365 days after birth.") + 
-  theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1))
+          Related Mortality Rate, which includes deaths 43-365 days after birth.") + 
+  theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1)) +
+  guides(fill=guide_legend(title="")) 
 ggsave("figs/plt_mat_race.png")
 
 mmr_national_avg = (sum(df_mat_state3$MMR.Deaths)*100000)/sum(df_mat_state3$Births)
@@ -221,7 +222,7 @@ df_mat_state3 %>%
        title = "Rates of Maternal Deaths by State (2018-2021)",
        subtitle = "National Average Rate in Red (5.1)",
        caption = "Note: MMR stands for Maternal Mortality Rate, which includes deaths during pregnancy and up to 42 days after birth. PRMR stands for Pregnancy-
-          Related Mortality Rate, which includes deaths between 43-365 days after birth.") + 
+          Related Mortality Rate, which includes deaths 43-365 days after birth.") + 
   theme(plot.caption=element_text(hjust = 0))
 ggsave("figs/plt_mat_mmr_state.png")
 
@@ -240,18 +241,27 @@ df_mat_state3 %>%
        title = "Rates of Pregnancy-Related Deaths by State (2018-2021)",
        subtitle = "National Average Rate in Red (2.1)",
        caption = "Note: MMR stands for Maternal Mortality Rate, which includes deaths during pregnancy and up to 42 days after birth. PRMR stands for Pregnancy-
-          Related Mortality Rate, which includes deaths between 43-365 days after birth.") + 
+          Related Mortality Rate, which includes deaths 43-365 days after birth.") + 
   theme(plot.caption=element_text(hjust = 0))
 ggsave("figs/plt_mat_prmr_state.png")
+
+df_mmr <- df_long_mat_state %>% filter(Type == 'MMR') %>%
+  mutate(bins = as.factor( as.numeric( cut(Deaths.by.Births, 40))))
+         
+label_mmr <- df_long_mat_state %>% 
+  filter((Type = 'MMR') & (Deaths.by.Births > 8)) %>% 
+  left_join(plot_df, by = 'bins') %>% 
+group_by(values = values.x, obs_labels = obs_labels.x) %>% count
 
 ggplot(df_long_mat_state) + 
   geom_histogram(aes(x=Deaths.by.Births, colour=Type, fill=Type), 
                  alpha=0.5, binwidth = 0.2) +
   theme_minimal() + 
+  geom_label(data = label_df, aes(label = obs_labels, y = n)) +
   labs(y = "Density", 
        x = "Rate per 100,000 Live Births",
        title = "Rates of Maternal and Pregnancy-Related Deaths Across States (2018-2021)",
        caption = "Note: MMR stands for Maternal Mortality Rate, which includes deaths during pregnancy and up to 42 days after birth. PRMR stands for Pregnancy-Related
-          Mortality Rate, which includes deaths between 43-365 days after birth.") + 
-  theme(plot.caption=element_text(hjust = 0))
+          Mortality Rate, which includes deaths 43-365 days after birth.") + 
+  theme(plot.caption=element_text(hjust = 0)) 
 ggsave("figs/plt_mat_state.png")

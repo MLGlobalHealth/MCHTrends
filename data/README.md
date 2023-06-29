@@ -63,3 +63,12 @@ By age:
 https://wonder.cdc.gov/controller/saved/D66/D347F608
 - Natality by age and racial/ethnic group (2016-2021): https://wonder.cdc.gov/controller/saved/D66/D347F600
 
+We also examined monthly data from pre-COVID (2018-2019) and during COVID (2020-2021) periods to analyse any changes in monthly trends: 
+- Maternal deaths by month (2018-2019): https://wonder.cdc.gov/controller/saved/D176/D347F661
+- Fetal deaths by month (2018-2019): https://wonder.cdc.gov/controller/saved/D133/D347F667
+- Pregnancy-related deaths by month (2018-2019): https://wonder.cdc.gov/controller/saved/D176/D347F670
+- Natality by month by month (2018-2019): https://wonder.cdc.gov/controller/saved/D66/D347F729
+- Maternal deaths by month (2020-2021): https://wonder.cdc.gov/controller/saved/D176/D347F663
+- Fetal deaths by month (2020-2021): https://wonder.cdc.gov/controller/saved/D133/D347F669
+- Pregnancy-related deaths by month (2020-2021): https://wonder.cdc.gov/controller/saved/D176/D347F671
+- Natality by month (2020-2021): https://wonder.cdc.gov/controller/saved/D66/D347F730
