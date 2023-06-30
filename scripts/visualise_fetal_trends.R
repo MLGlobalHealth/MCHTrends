@@ -105,7 +105,7 @@ df_fet_race3 <- merge(df_fet_race2, df_nat_race,
                       by.y='Mother.s.Race')
 
 df_fet_race3$Deaths.by.Births = (df_fet_race3$Fetal.Deaths*1000)/df_fet_race3$Births
-
+  
 # visualisations ---------------------------------------------------------
 
 df_fet_year3 %>%
