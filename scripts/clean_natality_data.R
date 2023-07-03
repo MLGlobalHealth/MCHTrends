@@ -57,6 +57,11 @@ df_nat_race_year1b <- clean_df('natality_race_yearly_07_15')
 df_nat_race_year1 <- rbind(df_nat_race_year1a, df_nat_race_year1b)
 df_nat_race_year2 <- clean_df('natality_race_yearly_16_21')
 
+df_nat_momage <- clean_df('natality_momage_yearly') %>%
+  filter(Age.of.Mother.9 != '')
+
+save(df_nat_momage, file="data/natality_momage_year_clean.Rda")
+
 clean_df2 <- function(fname, varname) {
   df <- read.csv(str_interp('data/${fname}.txt'), sep = "\t")
   subset(df, select = -c(Notes, Month.Code)) %>%

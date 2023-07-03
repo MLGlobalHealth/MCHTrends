@@ -265,8 +265,7 @@ mrg_fet_race_year %>%
   theme_minimal() + 
   labs(y = "Rate per 1,000 Live Births", 
        x = "Year",
-       title = "Rates of Fetal Deaths (2005-2018)",
-       subtitle = "Count of Deaths Above Each Bar") + 
+       title = "Rates of Fetal Deaths (2005-2018)") + 
   theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1)) +
   guides(colour=guide_legend(title="")) + scale_fill_brewer(palette = "Dark2") +
   ylim(0,15)

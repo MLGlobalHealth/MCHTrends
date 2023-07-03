@@ -18,7 +18,6 @@ setwd('/Users/rpark/Desktop/Research/2. Fetal Maternal Mortality/FetalMaternalMo
 
 ## Import datafiles 
 df_fet_year <- read.csv('data/fetal_deaths_yearly_full.txt', sep = "\t")
-df_fet_state <- read.csv('data/fetal_deaths_state_full.txt', sep = "\t")
 df_fet_age <- read.csv('data/fetal_deaths_age_full.txt', sep = "\t")
 df_fet_race <- read.csv('data/fetal_deaths_race_full.txt', sep = "\t")
 
@@ -35,6 +34,10 @@ df_fet_year3 <- merge(df_fet_year2, df_nat_year, by='Year')
 df_fet_year3$Deaths.by.Births = (df_fet_year3$Fetal.Deaths*1000)/df_fet_year3$Births
 
 ## Data cleaning - State
+clean_state <- function(fname) {
+  
+}
+df_fet_state <- read.csv('data/fetal_deaths_state_full.txt', sep = "\t")
 df_fet_state2 = subset(df_fet_state, select = -c(Notes)) %>% 
   na.omit()
 
@@ -156,3 +159,25 @@ df_fet_state3 %>%
        subtitle = "National Average Rate in Red (6.0)") 
 ggsave("figs/plt_fet_state.png")
 
+# Infant mortality
+# 
+# df_inf_year <- read.csv('data/infant_deaths_yearly.txt', sep = "\t") %>%
+#   subset(select=-(Notes)) %>% na.omit()
+# 
+# df_inf_year_preterm <- read.csv('data/infant_deaths_yearly_preterm.txt', sep = "\t") %>%
+#   subset(select=-(Notes)) %>% na.omit()
+# 
+# df_inf_year %>%
+#   ggplot(aes(x=Year.of.Death, y=Death.Rate)) +
+#   geom_line(color="steelblue") +
+#   theme_minimal() + 
+#   labs(y = "Rate per 1,000 Live Births", 
+#        title = "Rates of Infant Deaths by Year (2007-2020)") 
+# 
+# 
+# df_inf_year_preterm %>%
+#   ggplot(aes(x=Year.of.Death, y=Death.Rate)) +
+#   geom_line(color="steelblue") +
+#   theme_minimal() + 
+#   labs(y = "Rate per 1,000 Live Births", 
+#        title = "Rates of Preterm Infant Deaths by Year (2007-2020)") 

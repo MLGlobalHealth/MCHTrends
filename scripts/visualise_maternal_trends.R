@@ -1,7 +1,8 @@
 # load packages -----------------------------------------------------------
 
 ## Package names
-packages <- c("tidyverse","ggplot2","dplyr","shiny","data.table","ggrepel")
+packages <- c("tidyverse","ggplot2","dplyr","shiny",
+              "data.table","ggrepel","directlabels")
 
 ## Install packages not yet installed
 installed_packages <- packages %in% rownames(installed.packages())
@@ -265,3 +266,21 @@ ggplot(df_long_mat_state) +
           Mortality Rate, which includes deaths 43-365 days after birth.") + 
   theme(plot.caption=element_text(hjust = 0)) 
 ggsave("figs/plt_mat_state.png")
+
+load("data/natality_momage_year_clean.Rda")
+df_nat_momage[!(df_nat_momage$Year %in% c('2007', '2020')),
+             'Births'] = ''
+df_nat_momage %>% 
+  filter(Fertility.Rate != 'Not Available') %>%
+  mutate_at('Fertility.Rate', as.numeric) %>%
+  ggplot(aes(x=Year, y=Fertility.Rate, group=Age.of.Mother.9, colour=Age.of.Mother.9)) +
+  geom_line() + 
+  theme_minimal() + 
+  labs(y = "Fertility Rate", 
+       x = "Year",
+       title = "Fertility Rates by Age Group (2007-2020)") +
+  guides(colour=guide_legend(title="")) +
+  geom_dl(aes(label = Births), method = list(cex = .6, vjust = 1.5)) + 
+  coord_cartesian(clip = 'off')
+ggsave("figs/plt_momage_year.png")
+
