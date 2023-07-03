@@ -1,6 +1,8 @@
 data/maternal*
 data/fetal*
 data/natality*
+data/pregrel*
+data/infant*
 data/Old
 
 .DS_Store
