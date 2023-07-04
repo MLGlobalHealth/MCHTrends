@@ -60,7 +60,7 @@ clean_mat_race <- function(df, group, varname) {
       'Single.Race.6'] = 'Non-Hispanic White'
   
   df2[df2$Single.Race.6 == 'American Indian or Alaska Native',
-      'Single.Race.6'] = "Asian or Pacific Islander"
+      'Single.Race.6'] = "American Indian/Alaska Native"
   
   df2[df2$Single.Race.6 == 'Native Hawaiian or Other Pacific Islander',
       'Single.Race.6'] = "Asian or Pacific Islander"
@@ -109,12 +109,6 @@ clean_fet_race <- function(df, ...) {
   df_fet_race2 = subset(df, select = -c(Mother.s.Bridged.Race.Code, 
                                         Mother.s.Bridged.Race.Hispanic.Origin.Code)) %>% 
     na.omit() 
-
-  df_fet_race2[(df_fet_race2$Mother.s.Bridged.Race.Hispanic.Origin != 'Origin unknown or not stated') &
-                 (df_fet_race2$Mother.s.Bridged.Race.Hispanic.Origin != 'Not Available') &
-                 (df_fet_race2$Mother.s.Bridged.Race.Hispanic.Origin != 'Non-Hispanic Black') &
-                 (df_fet_race2$Mother.s.Bridged.Race == 'Black or African American'), 
-               'Mother.s.Bridged.Race'] = 'Hispanic'
   
   df_fet_race2[(df_fet_race2$Mother.s.Bridged.Race.Hispanic.Origin == 'Non-Hispanic Black') &
                  (df_fet_race2$Mother.s.Bridged.Race == 'Black or African American'), 
@@ -136,6 +130,13 @@ clean_fet_race <- function(df, ...) {
   
   df_fet_race2[df_fet_race2$Mother.s.Bridged.Race == 'Native Hawaiian or Other Pacific Islander',
                'Mother.s.Bridged.Race'] = "Asian or Pacific Islander"
+  
+  df_fet_race2[(df_fet_race2$Mother.s.Bridged.Race.Hispanic.Origin != 'Origin unknown or not stated') &
+                 (df_fet_race2$Mother.s.Bridged.Race.Hispanic.Origin != 'Not Available') &
+                 (df_fet_race2$Mother.s.Bridged.Race.Hispanic.Origin != 'Non-Hispanic Black') &
+                 ((df_fet_race2$Mother.s.Bridged.Race == 'Black or African American') |
+                  (df_fet_race2$Mother.s.Bridged.Race == 'White')), 
+               'Mother.s.Bridged.Race'] = 'Hispanic'
   
   df_fet_race2 <- df_fet_race2 %>% 
     group_by(Mother.s.Bridged.Race, ...) %>% 
@@ -244,7 +245,8 @@ mrg_mat_race_year %>%
 ggsave('figs/bw_disparities/plt_mat_prmr_race_year.png')
 
 mrg_fet_race_age %>% 
-  filter(Mother.s.Bridged.Race %in% c('Non-Hispanic Black', 'Non-Hispanic White')) %>%
+  filter(Mother.s.Bridged.Race %in% 
+           c('Non-Hispanic Black', 'Non-Hispanic White')) %>%
   ggplot(aes(x=Age.of.Mother.9.Code, y=Deaths.by.Births, fill=Mother.s.Bridged.Race)) +
   geom_bar(stat="identity", position=position_dodge()) +
   geom_text(aes(label=Deaths, group=Mother.s.Bridged.Race), 
@@ -259,7 +261,10 @@ mrg_fet_race_age %>%
 ggsave('figs/bw_disparities/plt_fet_race_age.png')
 
 mrg_fet_race_year %>% 
-  filter(Mother.s.Bridged.Race %in% c('Non-Hispanic Black', 'Non-Hispanic White')) %>%
+  filter(Mother.s.Bridged.Race %in% 
+           c('Non-Hispanic Black', 'Non-Hispanic White',
+             'Hispanic', 'Asian or Pacific Islander',
+             'Native American/Alaskan')) %>%
   ggplot(aes(x=Year, y=Deaths.by.Births, group=Mother.s.Bridged.Race, colour=Mother.s.Bridged.Race)) +
   geom_line() + 
   theme_minimal() + 
