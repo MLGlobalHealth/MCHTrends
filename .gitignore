@@ -3,6 +3,7 @@ data/fetal*
 data/natality*
 data/pregrel*
 data/infant*
+data/us*
 data/Old
 
 .DS_Store

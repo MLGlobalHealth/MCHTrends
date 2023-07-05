@@ -77,3 +77,10 @@ We also examined monthly data from pre-COVID (2018-2019) and during COVID (2020-
 - Fetal deaths by month (2020-2021): https://wonder.cdc.gov/controller/saved/D133/D347F669
 - Pregnancy-related deaths by month (2020-2021): https://wonder.cdc.gov/controller/saved/D176/D347F671
 - Natality by month (2020-2021): https://wonder.cdc.gov/controller/saved/D66/D347F730
+
+The following extractions are used to examine age-adjusted disparities by state:
+- Fetal deaths by age & state (2007-2021): https://wonder.cdc.gov/controller/saved/D133/D348F108
+- Natality by age & state & year (2007-2021): https://wonder.cdc.gov/controller/saved/D66/D348F106
+- Maternal deaths by age & state (2018-2021): https://wonder.cdc.gov/controller/saved/D176/D348F109
+- Pregnancy-related deaths by age & state (2018-2021): https://wonder.cdc.gov/controller/saved/D176/D348F110
+
