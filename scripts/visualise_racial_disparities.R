@@ -205,7 +205,7 @@ mrg_mat_race_age %>%
        x = "Age Groups",
        title = "Rates of Pregnancy-Related Deaths (2018-2021)",
        subtitle = "Count of Deaths Above Each Bar",
-       caption = "Note: Analysis includes deaths between 43-365 days after birth.") + 
+       caption = "Note: Analysis includes deaths between 43-365 days after birth. Deaths per group <10 are suppressed.") + 
   theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1)) +
   guides(fill=guide_legend(title=""))
 ggsave('figs/bw_disparities/plt_mat_prmr_race_age.png')

@@ -89,7 +89,7 @@ spdf_fortified$bin <- cut(spdf_fortified$Age.Adj.Rates,
                           labels=c("3-4", "4-5", "5-6", "6-7", "7-8", 
                                    "8-9", "9-10", "10+"), 
                           include.lowest = TRUE)
-my_palette <- rev(magma(8))[c(0,-10)]
+my_palette <- rev(magma(10))[c(-1,-12)]
 
 centers <- cbind.data.frame(data.frame(gCentroid(spdf, byid=TRUE), id=spdf@data$iso3166_2))
 
@@ -113,4 +113,4 @@ ggplot() +
     legend.background = element_rect(fill = "#f5f5f2", color = NA),
     plot.title = element_text(size= 22, hjust=0.5, color = "#4e4d47", margin = margin(b = -0.1, t = 0.4, l = 2, unit = "cm")),
   )
-ggsave()
+ggsave("figs/hexmap_fet_state.png")
