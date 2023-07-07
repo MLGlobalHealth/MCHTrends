@@ -26,19 +26,19 @@ clean_df <- function(fname) {
 }
 
 df_fet <- clean_df('fetal_deaths_age_state')
-# df_mat <- clean_df('maternal_deaths_age_state')
-# df_pregrel <- clean_df('pregrel_deaths_age_state')
+df_mat <- clean_df('maternal_deaths_age_state')
+df_pregrel <- clean_df('pregrel_deaths_age_state')
 
 load("data/natality_age_state_year_clean.Rda")
 
 df_nat_state_07_21 <- df_nat_age_state_year %>%
   group_by(Age.of.Mother.9.Code, State) %>%
   summarise(Births=sum(Births))
-# 
-# df_nat_state_18_21 <- df_nat_age_state_year %>%
-#   filter(Year > 2017) %>%
-#   group_by(Age.of.Mother.9.Code, State) %>%
-#   summarise(Births=sum(Births))
+
+df_nat_state_18_21 <- df_nat_age_state_year %>%
+  filter(Year > 2017) %>%
+  group_by(Age.of.Mother.9.Code, State) %>%
+  summarise(Births=sum(Births))
 
 df_nat_07_21 <- df_nat_age_state_year %>%
   filter(Year > 2006) %>%
@@ -54,15 +54,15 @@ mrg_fet <- merge(df_fet, df_nat_state_07_21,
 
 mrg_fet$Deaths.by.Births = mrg_fet$Fetal.Deaths/mrg_fet$Births
 
-# mrg_mat <- merge(df_mat, df_nat_state_18_21,
-#                  by.x=c('Five.Year.Age.Groups.Code', 'Residence.State'),
-#                  by.y=c('Age.of.Mother.9.Code', 'State')) %>%
-#   subset(select = -c(Population, Crude.Rate))
-# 
-# mrg_pregrel <- merge(df_pregrel, df_nat_state_18_21,
-#                  by.x=c('Five.Year.Age.Groups.Code', 'Residence.State'),
-#                  by.y=c('Age.of.Mother.9.Code', 'State')) %>%
-#   subset(select = -c(Population, Crude.Rate))
+mrg_mat <- merge(df_mat, df_nat_state_18_21,
+                 by.x=c('Five.Year.Age.Groups.Code', 'Residence.State'),
+                 by.y=c('Age.of.Mother.9.Code', 'State')) %>%
+  subset(select = -c(Population, Crude.Rate))
+
+mrg_pregrel <- merge(df_pregrel, df_nat_state_18_21,
+                 by.x=c('Five.Year.Age.Groups.Code', 'Residence.State'),
+                 by.y=c('Age.of.Mother.9.Code', 'State')) %>%
+  subset(select = -c(Population, Crude.Rate))
 
 mrg_fet2 <- merge(mrg_fet, df_nat_07_21, by=('Age.of.Mother.9.Code'))
 mrg_fet2$Age.Adj.Births = mrg_fet2$Deaths.by.Births*mrg_fet2$National.Births
@@ -71,6 +71,57 @@ sum_fet <- mrg_fet2 %>% group_by(Standard.Residence.States) %>%
   summarise(Age.Adj.Births=sum(Age.Adj.Births))
 
 sum_fet$Age.Adj.Rates = (sum_fet$Age.Adj.Births*1000)/sum(df_nat_07_21$National.Births)
+
+# plot 30-34 groups ---------------------------------------------------------
+
+subset_30_34 <- function(df, age_var) {
+  df <- df %>% filter(age_var == '30-34 years')
+}
+
+mrg_fet_30_34 <- subset_30_34(mrg_fet, mrg_fet$Age.of.Mother.9)
+mrg_mat_30_34 <- subset_30_34(mrg_mat, mrg_mat$Five.Year.Age.Groups)
+pregrel_mat_30_34 <- subset_30_34(mrg_pregrel, mrg_pregrel$Five.Year.Age.Groups)
+
+# maternal and pregrel deaths do not have enough obs
+
+# all female mortality -------------------------------------------------------
+
+df_all <- read.csv('data/all_deaths_year_race.txt', sep = "\t") %>%
+  subset(select = -c(Notes)) %>%
+  na.omit() %>%
+  filter(Hispanic.Origin != '')
+
+df_all[(df_all$Hispanic.Origin == 'Not Hispanic or Latino') &
+         (df_all$Race == 'White'), 
+       'Race'] = 'Non-Hispanic White'
+
+df_all[(df_all$Hispanic.Origin == 'Not Hispanic or Latino') &
+         (df_all$Race == 'Black or African American'), 
+       'Race'] = 'Non-Hispanic Black'
+
+df_all[(df_all$Hispanic.Origin == 'Hispanic or Latino'),
+       'Race'] = 'Hispanic'
+
+df_all[df_all$Race == 'American Indian or Alaska Native',
+       'Race'] = "American Indian/Alaska Native"
+
+df_all2 <- df_all %>% 
+  filter(Race %in% c('Non-Hispanic Black', 'Non-Hispanic White'))
+
+# plot all mortality ---------------------------------------------------------
+
+df_all2 %>%
+  mutate_at('Age.Adjusted.Rate', as.numeric) %>%
+  ggplot(aes(x=Year, y=Age.Adjusted.Rate, group=Race, colour=Race)) +
+  geom_line() + 
+  theme_minimal() + 
+  labs(y = "Rate per 100,000 Population", 
+       x = "Year",
+       title = "Age-Adjusted Rates of All-Cause Female Mortality (1999-2020)") + 
+  theme(plot.caption=element_text(hjust = 0), axis.text.x = element_text(angle = 80, hjust=1)) +
+  guides(colour=guide_legend(title="")) + scale_fill_brewer(palette = "Dark2") +
+  ylim(0,180)
+ggsave("figs/bw_disparities/plt_all_fem_age_adj.png")
 
 # clean geofiles ---------------------------------------------------------
 

@@ -4,6 +4,7 @@ data/natality*
 data/pregrel*
 data/infant*
 data/us*
+data/all*
 data/Old
 
 .DS_Store
