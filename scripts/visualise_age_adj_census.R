@@ -25,49 +25,49 @@ clean_df <- function(fname) {
     na.omit() 
 }
 
-df_fet <- clean_df('fetal_deaths_age_state')
-df_mat <- clean_df('maternal_deaths_age_state')
-df_pregrel <- clean_df('pregrel_deaths_age_state')
+df_fet <- clean_df('fetal_deaths_age_census')
+df_mat <- clean_df('maternal_deaths_age_census')
+df_pregrel <- clean_df('pregrel_deaths_age_census')
 
-load("data/natality_age_state_year_clean.Rda")
+load("data/natality_age_census_year_clean.Rda")
 
-df_nat_state_07_21 <- df_nat_age_state_year %>%
-  group_by(Age.of.Mother.9.Code, State) %>%
+df_nat_census_07_21 <- df_nat_age_census_year %>%
+  group_by(Age.of.Mother.9.Code, Census.Region) %>%
   summarise(Births=sum(Births))
 
-df_nat_state_18_21 <- df_nat_age_state_year %>%
+df_nat_census_18_21 <- df_nat_age_census_year %>%
   filter(Year > 2017) %>%
-  group_by(Age.of.Mother.9.Code, State) %>%
+  group_by(Age.of.Mother.9.Code, Census.Region) %>%
   summarise(Births=sum(Births))
 
-df_nat_07_21 <- df_nat_age_state_year %>%
+df_nat_07_21 <- df_nat_age_census_year %>%
   filter(Year > 2006) %>%
   group_by(Age.of.Mother.9.Code) %>%
   summarise(National.Births=sum(Births))
 
 # df_nat_07_21$Ratio = df_nat_07_21$National.Births/df_nat_07_21[which(df_nat_07_21$Age.of.Mother.9.Code == "30-34"),]$National.Births
 
-mrg_fet <- merge(df_fet, df_nat_state_07_21,
-                 by.x=c('Age.of.Mother.9.Code', 'Standard.Residence.States'),
-                 by.y=c('Age.of.Mother.9.Code', 'State'),
+mrg_fet <- merge(df_fet, df_nat_census_07_21,
+                 by.x=c('Age.of.Mother.9.Code', 'Standard.Residence.Census.Region'),
+                 by.y=c('Age.of.Mother.9.Code', 'Census.Region'),
                  all.x=TRUE)
 
 mrg_fet$Deaths.by.Births = mrg_fet$Fetal.Deaths/mrg_fet$Births
 
-mrg_mat <- merge(df_mat, df_nat_state_18_21,
-                 by.x=c('Five.Year.Age.Groups.Code', 'Residence.State'),
-                 by.y=c('Age.of.Mother.9.Code', 'State')) %>%
+mrg_mat <- merge(df_mat, df_nat_census_18_21,
+                 by.x=c('Five.Year.Age.Groups.Code', 'Residence.Census.Region'),
+                 by.y=c('Age.of.Mother.9.Code', 'Census.Region')) %>%
   subset(select = -c(Population, Crude.Rate))
 
-mrg_pregrel <- merge(df_pregrel, df_nat_state_18_21,
-                 by.x=c('Five.Year.Age.Groups.Code', 'Residence.State'),
-                 by.y=c('Age.of.Mother.9.Code', 'State')) %>%
+mrg_pregrel <- merge(df_pregrel, df_nat_census_18_21,
+                 by.x=c('Five.Year.Age.Groups.Code', 'Residence.Census.Region'),
+                 by.y=c('Age.of.Mother.9.Code', 'Census.Region')) %>%
   subset(select = -c(Population, Crude.Rate))
 
 mrg_fet2 <- merge(mrg_fet, df_nat_07_21, by=('Age.of.Mother.9.Code'))
 mrg_fet2$Age.Adj.Births = mrg_fet2$Deaths.by.Births*mrg_fet2$National.Births
 
-sum_fet <- mrg_fet2 %>% group_by(Standard.Residence.States) %>%
+sum_fet <- mrg_fet2 %>% group_by(Standard.Residence.Census.Region) %>%
   summarise(Age.Adj.Births=sum(Age.Adj.Births))
 
 sum_fet$Age.Adj.Rates = (sum_fet$Age.Adj.Births*1000)/sum(df_nat_07_21$National.Births)
@@ -165,3 +165,43 @@ ggplot() +
     plot.title = element_text(size= 22, hjust=0.5, color = "#4e4d47", margin = margin(b = -0.1, t = 0.4, l = 2, unit = "cm")),
   )
 ggsave("figs/hexmap_fet_state.png")
+
+# Non-age-standardised rank for 2007-2021
+mrg_fet_nas <- mrg_fet %>%
+  group_by(Standard.Residence.States) %>%
+  summarise(Fetal.Deaths=sum(Fetal.Deaths), Births=sum(Births)) 
+
+mrg_fet_nas$Deaths.by.Births = (mrg_fet_nas$Fetal.Deaths*1000)/mrg_fet_nas$Births
+
+mrg_fet_nas %>% 
+  mutate(Standard.Residence.States = fct_reorder(Standard.Residence.States, 
+                                                 desc(Deaths.by.Births))) %>%
+  ggplot(aes(x=Standard.Residence.States, y=Deaths.by.Births)) +
+  geom_bar(stat="identity", fill="steelblue") +
+  #geom_hline(yintercept = national_avg, color = "red") + 
+  coord_flip() +
+  theme_minimal() + 
+  labs(y = "Rate per 1,000 Live Births", 
+       x = "State",
+       title = "Age-Adjusted Rates of Fetal Deaths by State (2007-2021)",
+       #subtitle = "National Average Rate in Red (6.0)"
+  )
+ggsave("figs/plt_fet_state_nas_07_21.png")
+
+# Age-standardised rank
+
+sum_fet %>%
+  mutate(Standard.Residence.States = fct_reorder(Standard.Residence.States, 
+                                                 desc(Age.Adj.Rates))) %>%
+  ggplot(aes(x=Standard.Residence.States, y=Age.Adj.Rates)) +
+  geom_bar(stat="identity", fill="steelblue") +
+  #geom_hline(yintercept = national_avg, color = "red") + 
+  coord_flip() +
+  theme_minimal() + 
+  labs(y = "Rate per 1,000 Live Births", 
+       x = "State",
+       title = "Age-Adjusted Rates of Fetal Deaths by State (2007-2021)",
+       #subtitle = "National Average Rate in Red (6.0)"
+       )
+ggsave("figs/plt_fet_state_age_adj_07_21.png")
+

@@ -84,3 +84,12 @@ The following extractions are used to examine age-adjusted disparities by state:
 - Maternal deaths by age & state (2018-2021): https://wonder.cdc.gov/controller/saved/D176/D348F109
 - Pregnancy-related deaths by age & state (2018-2021): https://wonder.cdc.gov/controller/saved/D176/D348F110
 
+The following extractions are used to examine age-adjusted disparities by census region:
+- Fetal deaths by age & census region (2007-2021): https://wonder.cdc.gov/controller/saved/D133/D348F954
+- Natality by age & census region & year (2007-2021): https://wonder.cdc.gov/controller/saved/D66/D348F956
+- Maternal deaths by age & census region (2018-2021): https://wonder.cdc.gov/controller/saved/D176/D348F959
+- Pregnancy-related deaths by age & census region (2018-2021): https://wonder.cdc.gov/controller/saved/D176/D348F960
+
+The following extractions are used to compare age-adjusted estimations 2014-2017 vs 2018-2021:
+- Maternal deaths by age (2014-2017): https://wonder.cdc.gov/controller/saved/D77/D349F185
+- Natality by age and year: https://wonder.cdc.gov/controller/saved/D66/D349F186
