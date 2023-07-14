@@ -176,6 +176,14 @@ reshape_long <- function(df, drop_list) {
 long_mat_race_age <- reshape_long(mrg_mat_race_age)
 long_mat_race_year <- reshape_long(mrg_mat_race_year)
 
+mrg_fet_race_year2 <- mrg_fet_race_year %>% 
+  filter(Mother.s.Bridged.Race %in% 
+           c('Non-Hispanic Black', 'Non-Hispanic White',
+             'Hispanic', 'Asian or Pacific Islander',
+             'Native American/Alaskan'))
+
+write.csv(mrg_fet_race_year2, 'data/cleaned_fetal_deaths_year_race.csv')
+
 # visualisations -----------------------------------------------------------
 
 mrg_mat_race_age %>% 
