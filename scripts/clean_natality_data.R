@@ -62,6 +62,15 @@ df_nat_momage <- clean_df('natality_momage_yearly') %>%
 
 save(df_nat_momage, file="data/natality_momage_year_clean.Rda")
 
+df_nat_age_state_year <- clean_df('natality_age_state_year')
+save(df_nat_age_state_year, file="data/natality_age_state_year_clean.Rda")
+
+df_nat_age_census_year <- clean_df('natality_age_census_year')
+save(df_nat_age_census_year, file="data/natality_age_census_year_clean.Rda")
+
+df_nat_age_year <- clean_df('natality_age_year')
+save(df_nat_age_year, file="data/natality_age_year_clean.Rda")
+
 clean_df2 <- function(fname, varname) {
   df <- read.csv(str_interp('data/${fname}.txt'), sep = "\t")
   subset(df, select = -c(Notes, Month.Code)) %>%
