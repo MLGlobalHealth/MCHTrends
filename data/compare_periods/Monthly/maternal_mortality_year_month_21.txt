@@ -1,0 +1,66 @@
+"Notes"	"Year"	"Year Code"	"Month"	"Month Code"	Deaths	Population	Crude Rate
+	"2021 "	"2021"	"Jan., 2021 "	"2021/01"	80	Not Applicable	Not Applicable
+	"2021 "	"2021"	"Feb., 2021 "	"2021/02"	54	Not Applicable	Not Applicable
+	"2021 "	"2021"	"Mar., 2021 "	"2021/03"	72	Not Applicable	Not Applicable
+	"2021 "	"2021"	"Apr., 2021 "	"2021/04"	80	Not Applicable	Not Applicable
+	"2021 "	"2021"	"May, 2021 "	"2021/05"	88	Not Applicable	Not Applicable
+	"2021 "	"2021"	"Jun., 2021 "	"2021/06"	62	Not Applicable	Not Applicable
+	"2021 "	"2021"	"Jul., 2021 "	"2021/07"	85	Not Applicable	Not Applicable
+	"2021 "	"2021"	"Aug., 2021 "	"2021/08"	159	Not Applicable	Not Applicable
+	"2021 "	"2021"	"Sep., 2021 "	"2021/09"	181	Not Applicable	Not Applicable
+	"2021 "	"2021"	"Oct., 2021 "	"2021/10"	119	Not Applicable	Not Applicable
+	"2021 "	"2021"	"Nov., 2021 "	"2021/11"	92	Not Applicable	Not Applicable
+	"2021 "	"2021"	"Dec., 2021 "	"2021/12"	118	Not Applicable	Not Applicable
+"Total"	"2021 "	"2021"			1190	Not Applicable	Not Applicable
+"Total"					1190	Not Applicable	Not Applicable
+"---"
+"Dataset: Multiple Cause of Death, 2018-2021, Single Race"
+"Query Parameters:"
+"Title: maternal_mortality_year_month_21"
+"Five-Year Age Groups: 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years"
+"Gender: Female"
+"UCD - ICD-10 Codes: A34 (Obstetrical tetanus); O00-O07 (Pregnancy with abortive outcome); O10-O16 (Oedema, proteinuria and"
+"hypertensive disorders in pregnancy, childbirth and the puerperium); O20-O29 (Other maternal disorders predominantly related to"
+"pregnancy); O30-O48 (Maternal care related to the fetus and amniotic cavity and possible delivery problems); O60-O75"
+"(Complications of labour and delivery); O85-O92 (Complications predominantly related to the puerperium); O95 (Obstetric death of"
+"unspecified cause); O98.0 (Tuberculosis complicating pregnancy, childbirth and the puerperium); O98.1 (Syphilis complicating"
+"pregnancy, childbirth and the puerperium); O98.2 (Gonorrhoea complicating pregnancy, childbirth and the puerperium); O98.3"
+"(Other infections with a predominantly sexual mode of transmission complicating pregnancy, childbirth and the puerperium); O98.4"
+"(Viral hepatitis complicating pregnancy, childbirth and the puerperium); O98.5 (Other viral diseases complicating pregnancy,"
+"childbirth and the puerperium); O98.6 (Protozoal diseases complicating pregnancy, childbirth and the puerperium); O98.7 (Human"
+"immunodeficiency [HIV] disease complicating pregnancy, childbirth and the puerperium); O98.8 (Other maternal infectious and"
+"parasitic diseases complicating pregnancy, childbirth and the puerperium); O98.9 (Unspecified maternal infectious or parasitic"
+"disease complicating pregnancy, childbirth and the puerperium); O99.0 (Anaemia complicating pregnancy, childbirth and the"
+"puerperium); O99.1 (Other diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism"
+"complicating pregnancy, childbirth and the puerperium); O99.2 (Endocrine, nutritional and metabolic diseases complicating"
+"pregnancy, childbirth and the puerperium); O99.3 (Mental disorders and diseases of the nervous system complicating pregnancy,"
+"childbirth and the puerperium); O99.4 (Diseases of the circulatory system complicating pregnancy, childbirth and the"
+"puerperium); O99.5 (Diseases of the respiratory system complicating pregnancy, childbirth and the puerperium); O99.6 (Diseases"
+"of the digestive system complicating pregnancy, childbirth and the puerperium); O99.7 (Diseases of the skin and subcutaneous"
+"tissue complicating pregnancy, childbirth and the puerperium); O99.8 (Other specified diseases and conditions complicating"
+"pregnancy, childbirth and the puerperium)"
+"Year/Month: 2021"
+"Group By: Year; Month"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-expanded.html for more information."
+"---"
+"Query Date: Jul 16, 2023 2:20:00 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Mortality 2018-2021 on CDC WONDER Online Database, released in 2023. Data are from the Multiple Cause of Death Files,"
+"2018-2021, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative"
+"Program. Accessed at http://wonder.cdc.gov/mcd-icd10-expanded.html on Jul 16, 2023 2:20:00 PM"
+"---"
+Caveats:
+"1. Population and rates are labeled 'Not Applicable' when Autopsy, Place of Death, Weekday or Month are grouped by or limited,"
+"due to lack of a valid population. More information: http://wonder.cdc.gov/wonder/help/mcd-expanded.html#NotApplicableRates."
+"2. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,"
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-expanded.html#Not Stated."
+"3. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-expanded.html#ICD-10 Changes."

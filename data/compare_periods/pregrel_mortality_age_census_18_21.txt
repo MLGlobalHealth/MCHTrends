@@ -1,0 +1,74 @@
+"Notes"	"Census Region"	"Census Region Code"	"Five-Year Age Groups"	"Five-Year Age Groups Code"	Deaths	Population	Crude Rate
+	"Census Region 1: Northeast"	"CENS-R1"	"20-24 years"	"20-24"	24	14474556	0.2
+	"Census Region 1: Northeast"	"CENS-R1"	"25-29 years"	"25-29"	50	15497645	0.3
+	"Census Region 1: Northeast"	"CENS-R1"	"30-34 years"	"30-34"	55	15372915	0.4
+	"Census Region 1: Northeast"	"CENS-R1"	"35-39 years"	"35-39"	69	14462407	0.5
+	"Census Region 1: Northeast"	"CENS-R1"	"40-44 years"	"40-44"	43	13417453	0.3
+	"Census Region 2: Midwest"	"CENS-R2"	"20-24 years"	"20-24"	39	18327605	0.2
+	"Census Region 2: Midwest"	"CENS-R2"	"25-29 years"	"25-29"	62	18544092	0.3
+	"Census Region 2: Midwest"	"CENS-R2"	"30-34 years"	"30-34"	67	17780759	0.4
+	"Census Region 2: Midwest"	"CENS-R2"	"35-39 years"	"35-39"	85	17623208	0.5
+	"Census Region 2: Midwest"	"CENS-R2"	"40-44 years"	"40-44"	35	16364083	0.2
+	"Census Region 3: South"	"CENS-R3"	"15-19 years"	"15-19"	15	32631314	Unreliable
+	"Census Region 3: South"	"CENS-R3"	"20-24 years"	"20-24"	102	33005450	0.3
+	"Census Region 3: South"	"CENS-R3"	"25-29 years"	"25-29"	159	35106807	0.5
+	"Census Region 3: South"	"CENS-R3"	"30-34 years"	"30-34"	187	34250261	0.5
+	"Census Region 3: South"	"CENS-R3"	"35-39 years"	"35-39"	166	33346229	0.5
+	"Census Region 3: South"	"CENS-R3"	"40-44 years"	"40-44"	78	31310861	0.2
+	"Census Region 4: West"	"CENS-R4"	"20-24 years"	"20-24"	32	20817660	0.2
+	"Census Region 4: West"	"CENS-R4"	"25-29 years"	"25-29"	58	23545948	0.2
+	"Census Region 4: West"	"CENS-R4"	"30-34 years"	"30-34"	92	23104419	0.4
+	"Census Region 4: West"	"CENS-R4"	"35-39 years"	"35-39"	70	21996886	0.3
+	"Census Region 4: West"	"CENS-R4"	"40-44 years"	"40-44"	32	19955951	0.2
+"---"
+"Dataset: Multiple Cause of Death, 2018-2021, Single Race"
+"Query Parameters:"
+"Title: pregrel_mortality_age_census_18_21"
+"Five-Year Age Groups: 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years"
+"UCD - ICD-10 Codes: O96 (Death from any obstetric cause occurring more than 42 days but less than one year after delivery);"
+"O96.0 (Death from direct obstetric cause occurring more than 42 days but less than one year after delivery); O96.1 (Death from"
+"indirect obstetric cause occurring more than 42 days but less than one year after delivery); O96.9 (Death from unspecified"
+"obstetric cause occurring more than 42 days but less than one year after delivery); O97 (Death from sequelae of direct obstetric"
+"causes); O97.0 (Death from sequelae of direct obstetric cause); O97.1 (Death from sequelae of indirect obstetric cause); O97.9"
+"(Death from sequelae of obstetric cause, unspecified)"
+"Group By: Census Region; Five-Year Age Groups"
+"Show Totals: Disabled"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-expanded.html for more information."
+"---"
+"Query Date: Jul 16, 2023 1:47:28 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Mortality 2018-2021 on CDC WONDER Online Database, released in 2023. Data are from the Multiple Cause of Death Files,"
+"2018-2021, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative"
+"Program. Accessed at http://wonder.cdc.gov/mcd-icd10-expanded.html on Jul 16, 2023 1:47:28 PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"2. Rows with suppressed Deaths are hidden. Use Quick Options above to show suppressed rows."
+"---"
+Caveats:
+"1. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-expanded.html#Assurance of Confidentiality."
+"2. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-expanded.html#Unreliable."
+"3. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,"
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-expanded.html#Not Stated."
+"4. The population figures for year 2021 are single-race estimates of the July 1 resident population, from the Vintage 2021"
+"postcensal series released by the Census Bureau on June 30, 2022. The population figures for year 2020 are single-race estimates"
+"of the July 1 resident population, from the Vintage 2020 postcensal series released by the Census Bureau on July 27, 2021. The"
+"population figures for year 2019 are single-race estimates of the July 1 resident population, from the Vintage 2019 postcensal"
+"series released by the Census Bureau on June 25, 2020. The population figures for year 2018 are single-race estimates of the"
+"July 1 resident population, from the Vintage 2018 postcensal series released by the Census Bureau on June 20, 2019."
+"5. Beginning with the 2018 data, changes have been implemented that affect the counts for ICD-10 cause of death codes O00-O99"
+"compared to previous practice. In addition, data for the cause of death codes O00-O99 for 2003 through 2017 reflect differences"
+"in information available to individual states and probable errors. Caution should be used in interpreting these data. More"
+"information can be found at: https://www.cdc.gov/nchs/maternal-mortality/."
+"6. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-expanded.html#ICD-10 Changes."

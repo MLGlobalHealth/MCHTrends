@@ -1,0 +1,114 @@
+"Notes"	"Census Region"	"Census Region Code"	"Year"	"Year Code"	"Age of Mother"	"Age of Mother Code"	Births
+	"Census Region 1: Northeast"	"CENS-R1"	"2000"	"2000"	"15-19 years"	"15-19"	55671
+	"Census Region 1: Northeast"	"CENS-R1"	"2000"	"2000"	"20-24 years"	"20-24"	131034
+	"Census Region 1: Northeast"	"CENS-R1"	"2000"	"2000"	"25-29 years"	"25-29"	177816
+	"Census Region 1: Northeast"	"CENS-R1"	"2000"	"2000"	"30-34 years"	"30-34"	199415
+	"Census Region 1: Northeast"	"CENS-R1"	"2000"	"2000"	"35-39 years"	"35-39"	105200
+	"Census Region 1: Northeast"	"CENS-R1"	"2000"	"2000"	"40-44 years"	"40-44"	21265
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2000"	"2000"			690401
+	"Census Region 1: Northeast"	"CENS-R1"	"2001"	"2001"	"15-19 years"	"15-19"	53226
+	"Census Region 1: Northeast"	"CENS-R1"	"2001"	"2001"	"20-24 years"	"20-24"	131904
+	"Census Region 1: Northeast"	"CENS-R1"	"2001"	"2001"	"25-29 years"	"25-29"	170422
+	"Census Region 1: Northeast"	"CENS-R1"	"2001"	"2001"	"30-34 years"	"30-34"	199257
+	"Census Region 1: Northeast"	"CENS-R1"	"2001"	"2001"	"35-39 years"	"35-39"	105730
+	"Census Region 1: Northeast"	"CENS-R1"	"2001"	"2001"	"40-44 years"	"40-44"	21873
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2001"	"2001"			682412
+	"Census Region 1: Northeast"	"CENS-R1"	"2002"	"2002"	"15-19 years"	"15-19"	50001
+	"Census Region 1: Northeast"	"CENS-R1"	"2002"	"2002"	"20-24 years"	"20-24"	130115
+	"Census Region 1: Northeast"	"CENS-R1"	"2002"	"2002"	"25-29 years"	"25-29"	169216
+	"Census Region 1: Northeast"	"CENS-R1"	"2002"	"2002"	"30-34 years"	"30-34"	198097
+	"Census Region 1: Northeast"	"CENS-R1"	"2002"	"2002"	"35-39 years"	"35-39"	106654
+	"Census Region 1: Northeast"	"CENS-R1"	"2002"	"2002"	"40-44 years"	"40-44"	22657
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2002"	"2002"			676740
+"Total"	"Census Region 1: Northeast"	"CENS-R1"					2049553
+	"Census Region 2: Midwest"	"CENS-R2"	"2000"	"2000"	"15-19 years"	"15-19"	99293
+	"Census Region 2: Midwest"	"CENS-R2"	"2000"	"2000"	"20-24 years"	"20-24"	225505
+	"Census Region 2: Midwest"	"CENS-R2"	"2000"	"2000"	"25-29 years"	"25-29"	251964
+	"Census Region 2: Midwest"	"CENS-R2"	"2000"	"2000"	"30-34 years"	"30-34"	208810
+	"Census Region 2: Midwest"	"CENS-R2"	"2000"	"2000"	"35-39 years"	"35-39"	93083
+	"Census Region 2: Midwest"	"CENS-R2"	"2000"	"2000"	"40-44 years"	"40-44"	17332
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2000"	"2000"			895987
+	"Census Region 2: Midwest"	"CENS-R2"	"2001"	"2001"	"15-19 years"	"15-19"	93950
+	"Census Region 2: Midwest"	"CENS-R2"	"2001"	"2001"	"20-24 years"	"20-24"	223789
+	"Census Region 2: Midwest"	"CENS-R2"	"2001"	"2001"	"25-29 years"	"25-29"	244782
+	"Census Region 2: Midwest"	"CENS-R2"	"2001"	"2001"	"30-34 years"	"30-34"	211772
+	"Census Region 2: Midwest"	"CENS-R2"	"2001"	"2001"	"35-39 years"	"35-39"	92909
+	"Census Region 2: Midwest"	"CENS-R2"	"2001"	"2001"	"40-44 years"	"40-44"	17523
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2001"	"2001"			884725
+	"Census Region 2: Midwest"	"CENS-R2"	"2002"	"2002"	"15-19 years"	"15-19"	88018
+	"Census Region 2: Midwest"	"CENS-R2"	"2002"	"2002"	"20-24 years"	"20-24"	222806
+	"Census Region 2: Midwest"	"CENS-R2"	"2002"	"2002"	"25-29 years"	"25-29"	243281
+	"Census Region 2: Midwest"	"CENS-R2"	"2002"	"2002"	"30-34 years"	"30-34"	210900
+	"Census Region 2: Midwest"	"CENS-R2"	"2002"	"2002"	"35-39 years"	"35-39"	91661
+	"Census Region 2: Midwest"	"CENS-R2"	"2002"	"2002"	"40-44 years"	"40-44"	18089
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2002"	"2002"			874755
+"Total"	"Census Region 2: Midwest"	"CENS-R2"					2655467
+	"Census Region 3: South"	"CENS-R3"	"2000"	"2000"	"15-19 years"	"15-19"	205705
+	"Census Region 3: South"	"CENS-R3"	"2000"	"2000"	"20-24 years"	"20-24"	416085
+	"Census Region 3: South"	"CENS-R3"	"2000"	"2000"	"25-29 years"	"25-29"	394831
+	"Census Region 3: South"	"CENS-R3"	"2000"	"2000"	"30-34 years"	"30-34"	299575
+	"Census Region 3: South"	"CENS-R3"	"2000"	"2000"	"35-39 years"	"35-39"	139941
+	"Census Region 3: South"	"CENS-R3"	"2000"	"2000"	"40-44 years"	"40-44"	26285
+"Total"	"Census Region 3: South"	"CENS-R3"	"2000"	"2000"			1482422
+	"Census Region 3: South"	"CENS-R3"	"2001"	"2001"	"15-19 years"	"15-19"	195541
+	"Census Region 3: South"	"CENS-R3"	"2001"	"2001"	"20-24 years"	"20-24"	418259
+	"Census Region 3: South"	"CENS-R3"	"2001"	"2001"	"25-29 years"	"25-29"	384393
+	"Census Region 3: South"	"CENS-R3"	"2001"	"2001"	"30-34 years"	"30-34"	307373
+	"Census Region 3: South"	"CENS-R3"	"2001"	"2001"	"35-39 years"	"35-39"	139384
+	"Census Region 3: South"	"CENS-R3"	"2001"	"2001"	"40-44 years"	"40-44"	27589
+"Total"	"Census Region 3: South"	"CENS-R3"	"2001"	"2001"			1472539
+	"Census Region 3: South"	"CENS-R3"	"2002"	"2002"	"15-19 years"	"15-19"	188699
+	"Census Region 3: South"	"CENS-R3"	"2002"	"2002"	"20-24 years"	"20-24"	419962
+	"Census Region 3: South"	"CENS-R3"	"2002"	"2002"	"25-29 years"	"25-29"	385034
+	"Census Region 3: South"	"CENS-R3"	"2002"	"2002"	"30-34 years"	"30-34"	312954
+	"Census Region 3: South"	"CENS-R3"	"2002"	"2002"	"35-39 years"	"35-39"	140199
+	"Census Region 3: South"	"CENS-R3"	"2002"	"2002"	"40-44 years"	"40-44"	28385
+"Total"	"Census Region 3: South"	"CENS-R3"	"2002"	"2002"			1475233
+"Total"	"Census Region 3: South"	"CENS-R3"					4430194
+	"Census Region 4: West"	"CENS-R4"	"2000"	"2000"	"15-19 years"	"15-19"	108321
+	"Census Region 4: West"	"CENS-R4"	"2000"	"2000"	"20-24 years"	"20-24"	245182
+	"Census Region 4: West"	"CENS-R4"	"2000"	"2000"	"25-29 years"	"25-29"	262936
+	"Census Region 4: West"	"CENS-R4"	"2000"	"2000"	"30-34 years"	"30-34"	221478
+	"Census Region 4: West"	"CENS-R4"	"2000"	"2000"	"35-39 years"	"35-39"	113833
+	"Census Region 4: West"	"CENS-R4"	"2000"	"2000"	"40-44 years"	"40-44"	25131
+"Total"	"Census Region 4: West"	"CENS-R4"	"2000"	"2000"			976881
+	"Census Region 4: West"	"CENS-R4"	"2001"	"2001"	"15-19 years"	"15-19"	103227
+	"Census Region 4: West"	"CENS-R4"	"2001"	"2001"	"20-24 years"	"20-24"	247675
+	"Census Region 4: West"	"CENS-R4"	"2001"	"2001"	"25-29 years"	"25-29"	258668
+	"Census Region 4: West"	"CENS-R4"	"2001"	"2001"	"30-34 years"	"30-34"	224295
+	"Census Region 4: West"	"CENS-R4"	"2001"	"2001"	"35-39 years"	"35-39"	113700
+	"Census Region 4: West"	"CENS-R4"	"2001"	"2001"	"40-44 years"	"40-44"	25828
+"Total"	"Census Region 4: West"	"CENS-R4"	"2001"	"2001"			973393
+	"Census Region 4: West"	"CENS-R4"	"2002"	"2002"	"15-19 years"	"15-19"	98775
+	"Census Region 4: West"	"CENS-R4"	"2002"	"2002"	"20-24 years"	"20-24"	249223
+	"Census Region 4: West"	"CENS-R4"	"2002"	"2002"	"25-29 years"	"25-29"	262860
+	"Census Region 4: West"	"CENS-R4"	"2002"	"2002"	"30-34 years"	"30-34"	229268
+	"Census Region 4: West"	"CENS-R4"	"2002"	"2002"	"35-39 years"	"35-39"	115413
+	"Census Region 4: West"	"CENS-R4"	"2002"	"2002"	"40-44 years"	"40-44"	26657
+"Total"	"Census Region 4: West"	"CENS-R4"	"2002"	"2002"			982196
+"Total"	"Census Region 4: West"	"CENS-R4"					2932470
+"Total"							12067684
+"---"
+"Dataset: Natality, 1995-2002"
+"Query Parameters:"
+"Title: natality_age_year_census_00_02"
+"Age of Mother: 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years"
+"Year: 2000; 2001; 2002"
+"Group By: Census Region; Year; Age of Mother"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/Natality.html for more information."
+"---"
+"Query Date: Jul 16, 2023 1:02:51 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Natality on CDC WONDER Online Database. Data are from the Natality Records 1995-2002, as compiled from data provided by"
+"the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed at"
+"http://wonder.cdc.gov/natality-v2002.html on Jul 16, 2023 1:02:51 PM"
+"---"
+Caveats:
+"1. Each birth record represents one liveborn infant."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/Natality.html#Assurance of Confidentiality."

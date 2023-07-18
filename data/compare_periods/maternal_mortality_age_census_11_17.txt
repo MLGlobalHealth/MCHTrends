@@ -1,0 +1,101 @@
+"Notes"	"Census Region"	"Census Region Code"	"Five-Year Age Groups"	"Five-Year Age Groups Code"	Deaths	Population	Crude Rate
+	"Census Region 1: Northeast"	"CENS-R1"	"15-19 years"	"15-19"	21	12663557	0.2
+	"Census Region 1: Northeast"	"CENS-R1"	"20-24 years"	"20-24"	82	13360382	0.6
+	"Census Region 1: Northeast"	"CENS-R1"	"25-29 years"	"25-29"	151	13342497	1.1
+	"Census Region 1: Northeast"	"CENS-R1"	"30-34 years"	"30-34"	194	12807468	1.5
+	"Census Region 1: Northeast"	"CENS-R1"	"35-39 years"	"35-39"	155	12098600	1.3
+	"Census Region 1: Northeast"	"CENS-R1"	"40-44 years"	"40-44"	99	12755817	0.8
+"Total"	"Census Region 1: Northeast"	"CENS-R1"			702	77028321	0.9
+	"Census Region 2: Midwest"	"CENS-R2"	"15-19 years"	"15-19"	48	15635505	0.3
+	"Census Region 2: Midwest"	"CENS-R2"	"20-24 years"	"20-24"	174	16330885	1.1
+	"Census Region 2: Midwest"	"CENS-R2"	"25-29 years"	"25-29"	244	15382583	1.6
+	"Census Region 2: Midwest"	"CENS-R2"	"30-34 years"	"30-34"	213	15244730	1.4
+	"Census Region 2: Midwest"	"CENS-R2"	"35-39 years"	"35-39"	181	14396263	1.3
+	"Census Region 2: Midwest"	"CENS-R2"	"40-44 years"	"40-44"	125	14666683	0.9
+"Total"	"Census Region 2: Midwest"	"CENS-R2"			985	91656649	1.1
+	"Census Region 3: South"	"CENS-R3"	"15-19 years"	"15-19"	95	27068671	0.4
+	"Census Region 3: South"	"CENS-R3"	"20-24 years"	"20-24"	338	28842328	1.2
+	"Census Region 3: South"	"CENS-R3"	"25-29 years"	"25-29"	533	28796434	1.9
+	"Census Region 3: South"	"CENS-R3"	"30-34 years"	"30-34"	549	28129109	2.0
+	"Census Region 3: South"	"CENS-R3"	"35-39 years"	"35-39"	518	26985431	1.9
+	"Census Region 3: South"	"CENS-R3"	"40-44 years"	"40-44"	321	27584541	1.2
+"Total"	"Census Region 3: South"	"CENS-R3"			2354	167406514	1.4
+	"Census Region 4: West"	"CENS-R4"	"15-19 years"	"15-19"	28	17121961	0.2
+	"Census Region 4: West"	"CENS-R4"	"20-24 years"	"20-24"	84	18361419	0.5
+	"Census Region 4: West"	"CENS-R4"	"25-29 years"	"25-29"	136	18776868	0.7
+	"Census Region 4: West"	"CENS-R4"	"30-34 years"	"30-34"	148	18253441	0.8
+	"Census Region 4: West"	"CENS-R4"	"35-39 years"	"35-39"	151	17141241	0.9
+	"Census Region 4: West"	"CENS-R4"	"40-44 years"	"40-44"	85	16989923	0.5
+"Total"	"Census Region 4: West"	"CENS-R4"			632	106644853	0.6
+"Total"					4673	442736337	1.1
+"---"
+"Dataset: Multiple Cause of Death, 1999-2020"
+"Query Parameters:"
+"Title: maternal_mortality_age_census_11_17"
+"Five-Year Age Groups: 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years"
+"Gender: Female"
+"UCD - ICD-10 Codes: A34 (Obstetrical tetanus); O00-O07 (Pregnancy with abortive outcome); O10-O16 (Oedema, proteinuria and"
+"hypertensive disorders in pregnancy, childbirth and the puerperium); O20-O29 (Other maternal disorders predominantly related to"
+"pregnancy); O30-O48 (Maternal care related to the fetus and amniotic cavity and possible delivery problems); O60-O75"
+"(Complications of labour and delivery); O85-O92 (Complications predominantly related to the puerperium); O95 (Obstetric death of"
+"unspecified cause); O98.0 (Tuberculosis complicating pregnancy, childbirth and the puerperium); O98.1 (Syphilis complicating"
+"pregnancy, childbirth and the puerperium); O98.2 (Gonorrhoea complicating pregnancy, childbirth and the puerperium); O98.3"
+"(Other infections with a predominantly sexual mode of transmission complicating pregnancy, childbirth and the puerperium); O98.4"
+"(Viral hepatitis complicating pregnancy, childbirth and the puerperium); O98.5 (Other viral diseases complicating pregnancy,"
+"childbirth and the puerperium); O98.6 (Protozoal diseases complicating pregnancy, childbirth and the puerperium); O98.7 (Human"
+"immunodeficiency [HIV] disease complicating pregnancy, childbirth and the puerperium); O98.8 (Other maternal infectious and"
+"parasitic diseases complicating pregnancy, childbirth and the puerperium); O98.9 (Unspecified maternal infectious or parasitic"
+"disease complicating pregnancy, childbirth and the puerperium); O99.0 (Anaemia complicating pregnancy, childbirth and the"
+"puerperium); O99.1 (Other diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism"
+"complicating pregnancy, childbirth and the puerperium); O99.2 (Endocrine, nutritional and metabolic diseases complicating"
+"pregnancy, childbirth and the puerperium); O99.3 (Mental disorders and diseases of the nervous system complicating pregnancy,"
+"childbirth and the puerperium); O99.4 (Diseases of the circulatory system complicating pregnancy, childbirth and the"
+"puerperium); O99.5 (Diseases of the respiratory system complicating pregnancy, childbirth and the puerperium); O99.6 (Diseases"
+"of the digestive system complicating pregnancy, childbirth and the puerperium); O99.7 (Diseases of the skin and subcutaneous"
+"tissue complicating pregnancy, childbirth and the puerperium); O99.8 (Other specified diseases and conditions complicating"
+"pregnancy, childbirth and the puerperium)"
+"Year/Month: 2011; 2012; 2013; 2014; 2015; 2016; 2017"
+"Group By: Census Region; Five-Year Age Groups"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd.html for more information."
+"---"
+"Query Date: Jul 16, 2023 12:00:03 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Mortality 1999-2020 on CDC WONDER Online Database, released in 2021. Data are from the Multiple Cause of Death Files,"
+"1999-2020, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative"
+"Program. Accessed at http://wonder.cdc.gov/mcd-icd10.html on Jul 16, 2023 12:00:03 PM"
+"---"
+Caveats:
+"1. As of April 3, 2017, the underlying cause of death has been revised for 125 deaths in 2014. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd.html#2014-Revision."
+"2. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,"
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd.html#Not Stated."
+"3. The population figures for year 2020 are bridged-race estimates of the July 1 resident population, from the Vintage 2020"
+"postcensal series released by NCHS on September 22, 2021. The population figures for year 2019 are bridged-race estimates of the"
+"July 1 resident population, from the Vintage 2019 postcensal series released by NCHS on July 9, 2020. The population figures for"
+"year 2018 are bridged-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series released by NCHS"
+"on June 25, 2019. The population figures for year 2017 are bridged-race estimates of the July 1 resident population, from the"
+"Vintage 2017 postcensal series released by NCHS on June 27, 2018. The population figures for year 2016 are bridged-race"
+"estimates of the July 1 resident population, from the Vintage 2016 postcensal series released by NCHS on June 26, 2017. The"
+"population figures for year 2015 are bridged-race estimates of the July 1 resident population, from the Vintage 2015 postcensal"
+"series released by NCHS on June 28, 2016. The population figures for year 2014 are bridged-race estimates of the July 1 resident"
+"population, from the Vintage 2014 postcensal series released by NCHS on June 30, 2015. The population figures for year 2013 are"
+"bridged-race estimates of the July 1 resident population, from the Vintage 2013 postcensal series released by NCHS on June 26,"
+"2014. The population figures for year 2012 are bridged-race estimates of the July 1 resident population, from the Vintage 2012"
+"postcensal series released by NCHS on June 13, 2013. Population figures for 2011 are bridged-race estimates of the July 1"
+"resident population, from the county-level postcensal Vintage 2011 series released by NCHS on July 18, 2012. Population figures"
+"for 2010 are April 1 Census counts. The population figures for years 2001 - 2009, are bridged-race estimates of the July 1"
+"resident population, from the revised intercensal county-level 2000 - 2009 series released by NCHS on October 26, 2012."
+"Population figures for 2000 are April 1 Census counts. Population figures for 1999 are from the 1990-1999 intercensal series of"
+"July 1 estimates. Population figures for Infant Age Groups are the number of live births. <br/><b>Note:</b> Rates and population"
+"figures for years 2001 - 2009 differ slightly from previously published reports, due to use of the population estimates which"
+"were available at the time of release."
+"4. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd.html#ICD-10 Changes."

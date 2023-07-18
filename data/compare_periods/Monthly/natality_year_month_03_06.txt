@@ -1,0 +1,77 @@
+"Notes"	"Year"	"Year Code"	"Month"	"Month Code"	Births
+	"2003"	"2003"	"January"	"1"	328715
+	"2003"	"2003"	"February"	"2"	306275
+	"2003"	"2003"	"March"	"3"	335854
+	"2003"	"2003"	"April"	"4"	329095
+	"2003"	"2003"	"May"	"5"	345747
+	"2003"	"2003"	"June"	"6"	336431
+	"2003"	"2003"	"July"	"7"	363107
+	"2003"	"2003"	"August"	"8"	359063
+	"2003"	"2003"	"September"	"9"	358603
+	"2003"	"2003"	"October"	"10"	352986
+	"2003"	"2003"	"November"	"11"	319054
+	"2003"	"2003"	"December"	"12"	342514
+"Total"	"2003"	"2003"			4077444
+	"2004"	"2004"	"January"	"1"	331793
+	"2004"	"2004"	"February"	"2"	314836
+	"2004"	"2004"	"March"	"3"	345226
+	"2004"	"2004"	"April"	"4"	332249
+	"2004"	"2004"	"May"	"5"	336573
+	"2004"	"2004"	"June"	"6"	343840
+	"2004"	"2004"	"July"	"7"	358360
+	"2004"	"2004"	"August"	"8"	354313
+	"2004"	"2004"	"September"	"9"	355057
+	"2004"	"2004"	"October"	"10"	347335
+	"2004"	"2004"	"November"	"11"	334658
+	"2004"	"2004"	"December"	"12"	344909
+"Total"	"2004"	"2004"			4099149
+	"2005"	"2005"	"January"	"1"	330326
+	"2005"	"2005"	"February"	"2"	308612
+	"2005"	"2005"	"March"	"3"	348184
+	"2005"	"2005"	"April"	"4"	331322
+	"2005"	"2005"	"May"	"5"	345188
+	"2005"	"2005"	"June"	"6"	349841
+	"2005"	"2005"	"July"	"7"	355929
+	"2005"	"2005"	"August"	"8"	368185
+	"2005"	"2005"	"September"	"9"	362310
+	"2005"	"2005"	"October"	"10"	343573
+	"2005"	"2005"	"November"	"11"	334545
+	"2005"	"2005"	"December"	"12"	347076
+"Total"	"2005"	"2005"			4125091
+	"2006"	"2006"	"January"	"1"	339191
+	"2006"	"2006"	"February"	"2"	318172
+	"2006"	"2006"	"March"	"3"	355661
+	"2006"	"2006"	"April"	"4"	328764
+	"2006"	"2006"	"May"	"5"	354312
+	"2006"	"2006"	"June"	"6"	357151
+	"2006"	"2006"	"July"	"7"	366771
+	"2006"	"2006"	"August"	"8"	386631
+	"2006"	"2006"	"September"	"9"	373621
+	"2006"	"2006"	"October"	"10"	366209
+	"2006"	"2006"	"November"	"11"	350735
+	"2006"	"2006"	"December"	"12"	354967
+"Total"	"2006"	"2006"			4252185
+"Total"					16553869
+"---"
+"Dataset: Natality, 2003-2006"
+"Query Parameters:"
+"Title: natality_age_year_census_03_06"
+"Age of Mother 9: 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years"
+"Group By: Year; Month"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 1,000"
+"Population Option: No populations shown because rates were not selected."
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/Natality.html for more information."
+"---"
+"Query Date: Jul 16, 2023 2:24:00 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Natality on CDC WONDER Online Database. Data are from the Natality Records 2003-2006, as compiled from data provided by"
+"the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed at"
+"http://wonder.cdc.gov/natality-v2006.html on Jul 16, 2023 2:24:00 PM"
+"---"
+Caveats:
+"1. Each birth record represents one liveborn infant."

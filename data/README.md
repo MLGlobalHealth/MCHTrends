@@ -93,3 +93,32 @@ The following extractions are used to examine age-adjusted disparities by census
 The following extractions are used to compare age-adjusted estimations 2014-2017 vs 2018-2021:
 - Maternal deaths by age (2014-2017): https://wonder.cdc.gov/controller/saved/D77/D349F185
 - Natality by age and year: https://wonder.cdc.gov/controller/saved/D66/D349F186
+
+The following extractions are used to compare age-adjusted estimations in census regions 2000-2010 vs 2011-2021:
+- All MMR (2000-2010): https://wonder.cdc.gov/controller/saved/D77/D349F455
+- PRMR (2000-2010): https://wonder.cdc.gov/controller/saved/D77/D349F456
+- Other causes (2000-2010): https://wonder.cdc.gov/controller/saved/D77/D349F457
+- MMR no other (2000-2010): https://wonder.cdc.gov/controller/saved/D77/D349F459
+
+- All MMR (2011-2017): https://wonder.cdc.gov/controller/saved/D77/D349F461
+- PRMR (2011-2017): https://wonder.cdc.gov/controller/saved/D77/D349F462
+- Other causes (2011-2017): https://wonder.cdc.gov/controller/saved/D77/D349F467
+- MMR no other (2011-2017): https://wonder.cdc.gov/controller/saved/D77/D349F469
+
+- All MMR (2018-2021): https://wonder.cdc.gov/controller/saved/D157/D349F482
+- PRMR (2018-2021): https://wonder.cdc.gov/controller/saved/D157/D349F481
+- Other causes (2018-2021): https://wonder.cdc.gov/controller/saved/D157/D349F483
+- MMR no other (2018-2021): https://wonder.cdc.gov/controller/saved/D157/D349F484
+
+- Natality (2000-2002): https://wonder.cdc.gov/controller/saved/D10/D349F472
+- Natality (2003-2006): https://wonder.cdc.gov/controller/saved/D27/D349F471
+- Natality (2007-2021): https://wonder.cdc.gov/controller/saved/D66/D349F470
+
+We also examined general monthly trends from 2000-2021:
+- Maternal mortality (2000-2020): https://wonder.cdc.gov/controller/saved/D77/D349F489
+- MMR no other (2000-2020): https://wonder.cdc.gov/controller/saved/D77/D349F492
+- Maternal mortality (2021): https://wonder.cdc.gov/controller/saved/D157/D349F494
+- MMR no other (2021): https://wonder.cdc.gov/controller/saved/D157/D349F496
+
+- Natality (2003-2006): https://wonder.cdc.gov/controller/saved/D27/D349F498
+- Natality (2007-2021): https://wonder.cdc.gov/controller/saved/D66/D349F499
