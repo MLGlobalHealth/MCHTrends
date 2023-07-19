@@ -6,7 +6,8 @@ data/infant*
 data/us*
 data/all*
 data/Old
-data/compare-periods
+data/other*
+data/compare_periods
 data/.DS_Store
 
 .DS_Store
