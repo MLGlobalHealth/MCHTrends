@@ -109,6 +109,13 @@ df_fet_race3 <- merge(df_fet_race2, df_nat_race,
 
 df_fet_race3$Deaths.by.Births = (df_fet_race3$Fetal.Deaths*1000)/df_fet_race3$Births
   
+df_fet_no <- read.csv(str_interp('data/fetal_deaths_yearly_no_other.txt'), sep = "\t") %>%
+  subset(select = -c(Notes, Year.Code)) %>%
+  na.omit() 
+
+df_fet_no_mrg <- merge(df_fet_no, df_nat_year, on=Year)
+df_fet_no_mrg$Deaths.by.Births = df_fet_no_mrg$Fetal.Deaths/df_fet_no_mrg$Births*1000
+
 # visualisations ---------------------------------------------------------
 
 df_fet_year3 %>%
@@ -118,6 +125,16 @@ df_fet_year3 %>%
   labs(y = "Rate per 1,000 Live Births", 
        title = "Rates of Fetal Deaths by Year (2005-2021)") 
 ggsave('figs/plt_fet_year.png')
+
+df_fet_no_mrg %>%
+  ggplot(aes(x=Year, y=Deaths.by.Births)) +
+  geom_line(color="steelblue") +
+  theme_minimal() + 
+  labs(y = "Rate per 1,000 Live Births", 
+       x = "Year",
+       title = "Rates of Fetal Deaths by Year, Excluding Other or Unknown Ethnic/Racial Groups (2005-2021)") +
+  theme(axis.text.x = element_text(angle = 60, hjust=1)) 
+ggsave('figs/plt_fet_year_no_other_race.png')
 
 df_fet_age3 %>%
   ggplot(aes(x=Age.of.Mother.9.Code, y=Deaths.by.Births)) +
