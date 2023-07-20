@@ -1,7 +1,7 @@
 # load packages -----------------------------------------------------------
 
 ## Package names
-packages <- c("tidyverse","ggplot2","dplyr","shiny",
+packages <- c("tidyverse","ggplot2","dplyr","shiny", "zoo",
               "data.table","ggrepel","directlabels")
 
 ## Install packages not yet installed
@@ -68,7 +68,7 @@ clean_df2 <- function(fname) {
     filter(Month != '')
     
   df$Month.Code = month.name[as.numeric(str_sub(df$Month.Code, start = -2))]
-  
+
   df <- df %>% group_by(Year, Month.Code) %>%
     summarise(Deaths := sum(Deaths)) %>%
     na.omit()
@@ -102,6 +102,12 @@ df_mmno_month <- merge(df_mmno_month, df_nat_month, on=c('Year', 'Month'))
 df_mm_month$Deaths.by.Births = df_mm_month$Deaths/df_mm_month$Births*100000
 df_mmno_month$Deaths.by.Births = df_mmno_month$Deaths/df_mmno_month$Births*100000
 
+df_mm_month$Type = 'Maternal Mortality'
+df_mmno_month$Type = 'Maternal Mortality (Excl. Other)'
+df_mm_month_all <- rbind(df_mm_month, df_mmno_month)
+
+df_mm_month_all$Year.Month <- as.yearmon(paste(df_mm_month_all$Month, df_mm_month_all$Year))
+
 df_mm_month %>%
   mutate(Month.Code = factor(Month.Code, levels = month.name)) %>%
   ggplot(aes(x=Month.Code, y=Deaths.by.Births, group=Year, colour=Year)) +
@@ -123,6 +129,15 @@ df_mmno_month %>%
        title = "Rates of Maternal and Pregnancy-Related Deaths by Month (2003-2021)") +
   theme(axis.text.x = element_text(angle = 60, hjust=1))
 ggsave('figs/plt_mat_spec_month_line.png')
+
+df_mm_month_all %>%
+  ggplot(aes(x=Year.Month, y=Deaths.by.Births, group=Type, colour=Type)) +
+  geom_line() +
+  theme_minimal() + 
+  labs(y = "Rate per 100,000 Live Births", 
+       title = "Rates of Maternal Deaths by Month (2003-2021)") +
+  theme(axis.text.x = element_text(angle = 60, hjust=1))
+ggsave('figs/plt_mat_month_cont_line.png') 
 
 # WEEKLY ---------------------------------------------------------
 
