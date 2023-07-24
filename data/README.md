@@ -117,10 +117,15 @@ The following extractions are used to compare age-adjusted estimations in census
 - Other causes (2011-2017): https://wonder.cdc.gov/controller/saved/D77/D349F467
 - MMR no other (2011-2017): https://wonder.cdc.gov/controller/saved/D77/D349F469
 
-- All MMR (2018-2021): https://wonder.cdc.gov/controller/saved/D157/D349F482
-- PRMR (2018-2021): https://wonder.cdc.gov/controller/saved/D157/D349F481
-- Other causes (2018-2021): https://wonder.cdc.gov/controller/saved/D157/D349F483
-- MMR no other (2018-2021): https://wonder.cdc.gov/controller/saved/D157/D349F484
+- All MMR (2018-2019): https://wonder.cdc.gov/controller/saved/D157/D350F337
+- PRMR (2018-2019): https://wonder.cdc.gov/controller/saved/D157/D350F338
+- Other causes (2018-2019): https://wonder.cdc.gov/controller/saved/D157/D350F341
+- MMR no other (2018-2019): https://wonder.cdc.gov/controller/saved/D157/D350F343
+
+- All MMR (2020-2021): https://wonder.cdc.gov/controller/saved/D157/D350F340
+- PRMR (2020-2021): https://wonder.cdc.gov/controller/saved/D157/D350F339
+- Other causes (2020-2021): https://wonder.cdc.gov/controller/saved/D157/D350F342
+- MMR no other (2020-2021): https://wonder.cdc.gov/controller/saved/D157/D350F346
 
 - Natality (2000-2002): https://wonder.cdc.gov/controller/saved/D10/D349F472
 - Natality (2003-2006): https://wonder.cdc.gov/controller/saved/D27/D349F471

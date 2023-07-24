@@ -27,19 +27,23 @@ clean_df <- function(fname) {
 
 df_mm1 <- clean_df('maternal_mortality_age_census_00_10')
 df_mm2a <- clean_df('maternal_mortality_age_census_11_17')
-df_mm2b <- clean_df('maternal_mortality_age_census_18_21')
+df_mm2b <- clean_df('maternal_mortality_age_census_18_19')
+df_mm_covid <- clean_df('maternal_mortality_age_census_20_21')
 
 df_mmno1 <- clean_df('maternal_mortality_spec_age_census_00_10')
 df_mmno2a <- clean_df('maternal_mortality_spec_age_census_11_17')
-df_mmno2b <- clean_df('maternal_mortality_spec_age_census_18_21')
+df_mmno2b <- clean_df('maternal_mortality_spec_age_census_18_19')
+df_mmno_covid <- clean_df('maternal_mortality_spec_age_census_20_21')
 
 df_mmot1 <- clean_df('other_mat_mortality_age_census_00_10')
 df_mmot2a <- clean_df('other_mat_mortality_age_census_11_17')
-df_mmot2b <- clean_df('other_mat_mortality_age_census_18_21')
+df_mmot2b <- clean_df('other_mat_mortality_age_census_18_19')
+df_mmot_covid <- clean_df('other_mat_mortality_age_census_20_21')
 
 df_pr1 <- clean_df('pregrel_mortality_age_census_00_10')
 df_pr2a <- clean_df('pregrel_mortality_age_census_11_17')
-df_pr2b <- clean_df('pregrel_mortality_age_census_18_21')
+df_pr2b <- clean_df('pregrel_mortality_age_census_18_19')
+df_pr_covid <- clean_df('pregrel_mortality_age_census_20_21')
 
 concat_df <- function(df2a, df2b) {
   df <- rbind(df2a, df2b) %>%
@@ -78,12 +82,16 @@ df_nat_00_10 <- df_nat %>%
   group_by(Census.Region, Census.Region.Code, 
            Five.Year.Age.Groups, Five.Year.Age.Groups.Code) %>%
   summarise(Births=sum(Births))
-df_nat_11_21 <- df_nat %>% 
-  filter(Year > 2010) %>%
+df_nat_11_19 <- df_nat %>% 
+  filter((Year > 2010) & (Year < 2020)) %>%
   group_by(Census.Region, Census.Region.Code, 
            Five.Year.Age.Groups, Five.Year.Age.Groups.Code) %>%
   summarise(Births=sum(Births))
-
+df_nat_covid <- df_nat %>% 
+  filter(Year > 2019) %>%
+  group_by(Census.Region, Census.Region.Code, 
+           Five.Year.Age.Groups, Five.Year.Age.Groups.Code) %>%
+  summarise(Births=sum(Births))
 
 mrg_births <- function(df_mort, df_nat) {
   df_mort <- merge(df_mort, df_nat, 
@@ -92,16 +100,20 @@ mrg_births <- function(df_mort, df_nat) {
 }
 
 df_mm1 <- mrg_births(df_mm1, df_nat_00_10)
-df_mm2 <- mrg_births(df_mm2, df_nat_11_21)
+df_mm2 <- mrg_births(df_mm2, df_nat_11_19)
+df_mm_covid <- mrg_births(df_mm_covid, df_nat_covid)
 
 df_mmno1 <- mrg_births(df_mmno1, df_nat_00_10)
-df_mmno2 <- mrg_births(df_mmno2, df_nat_11_21)
+df_mmno2 <- mrg_births(df_mmno2, df_nat_11_19)
+df_mmno_covid <- mrg_births(df_mmno_covid, df_nat_covid)
 
 df_mmot1 <- mrg_births(df_mmot1, df_nat_00_10)
-df_mmot2 <- mrg_births(df_mmot2, df_nat_11_21)
+df_mmot2 <- mrg_births(df_mmot2, df_nat_11_19)
+df_mmot_covid <- mrg_births(df_mmot_covid, df_nat_covid)
 
 df_pr1 <- mrg_births(df_pr1, df_nat_00_10)
-df_pr2 <- mrg_births(df_pr2, df_nat_11_21)
+df_pr2 <- mrg_births(df_pr2, df_nat_11_19)
+df_pr_covid <- mrg_births(df_pr_covid, df_nat_covid)
 
 create_crude <- function(df, rate, label) {
   df_new <- df %>% group_by(Census.Region) %>% 
@@ -112,23 +124,38 @@ create_crude <- function(df, rate, label) {
 }
 
 df_crude_mm1 <- create_crude(df_mm1, Rate.00.10, 'Maternal Mortality')
-df_crude_mm2 <- create_crude(df_mm2, Rate.11.21, 'Maternal Mortality')
+df_crude_mm2 <- create_crude(df_mm2, Rate.11.19, 'Maternal Mortality')
 df_crude_mm <- merge(df_crude_mm1, df_crude_mm2, by=c('Census.Region', 'Type'))
 
+df_crude_mm_covid <- create_crude(df_mm_covid, Rate.Covid, 'Maternal Mortality')
+df_crude_mm_covid_chg <- merge(df_crude_mm2, df_crude_mm_covid, by=c('Census.Region', 'Type'))
+
 df_crude_mmno1 <- create_crude(df_mmno1, Rate.00.10, 'Maternal Mortality (Excl. Other)')
-df_crude_mmno2 <- create_crude(df_mmno2, Rate.11.21, 'Maternal Mortality (Excl. Other)')
+df_crude_mmno2 <- create_crude(df_mmno2, Rate.11.19, 'Maternal Mortality (Excl. Other)')
 df_crude_mmno <- merge(df_crude_mmno1, df_crude_mmno2, by=c('Census.Region', 'Type'))
 
+df_crude_mmno_covid <- create_crude(df_mmno_covid, Rate.Covid, 'Maternal Mortality (Excl. Other)')
+df_crude_mmno_covid_chg <- merge(df_crude_mmno2, df_crude_mmno_covid, by=c('Census.Region', 'Type'))
+
 df_crude_mmot1 <- create_crude(df_mmot1, Rate.00.10, 'Other Maternal Mortality')
-df_crude_mmot2 <- create_crude(df_mmot2, Rate.11.21, 'Other Maternal Mortality')
+df_crude_mmot2 <- create_crude(df_mmot2, Rate.11.19, 'Other Maternal Mortality')
 df_crude_mmot <- merge(df_crude_mmot1, df_crude_mmot2, by=c('Census.Region', 'Type'))
 
+df_crude_mmot_covid <- create_crude(df_mmot_covid, Rate.Covid, 'Other Maternal Mortality')
+df_crude_mmot_covid_chg <- merge(df_crude_mmot2, df_crude_mmot_covid, by=c('Census.Region', 'Type'))
+
 df_crude_pr1 <- create_crude(df_pr1, Rate.00.10, 'Pregnancy-Related Mortality')
-df_crude_pr2 <- create_crude(df_pr2, Rate.11.21, 'Pregnancy-Related Mortality')
+df_crude_pr2 <- create_crude(df_pr2, Rate.11.19, 'Pregnancy-Related Mortality')
 df_crude_pr <- merge(df_crude_pr1, df_crude_pr2, by=c('Census.Region', 'Type'))
 
+df_crude_pr_covid <- create_crude(df_pr_covid, Rate.Covid, 'Pregnancy-Related Mortality')
+df_crude_pr_covid_chg <- merge(df_crude_pr2, df_crude_pr_covid, by=c('Census.Region', 'Type'))
+
 df_crude <- rbind(df_crude_mm, df_crude_mmno, df_crude_mmot, df_crude_pr)
-df_crude$Pct.Change = (df_crude$Rate.11.21-df_crude$Rate.00.10)/df_crude$Rate.00.10*100
+df_crude$Pct.Change = (df_crude$Rate.11.19-df_crude$Rate.00.10)/df_crude$Rate.00.10*100
+
+df_crude_covid <- rbind(df_crude_mm_covid_chg, df_crude_mmno_covid_chg, df_crude_mmot_covid_chg, df_crude_pr_covid_chg)
+df_crude_covid$Pct.Change = (df_crude_covid$Rate.Covid-df_crude_covid$Rate.11.19)/df_crude_covid$Rate.11.19*100
 
 # Age standardise
 
@@ -136,9 +163,13 @@ df_ref1 <- df_nat_00_10 %>% group_by(Five.Year.Age.Groups) %>%
   summarise(Ref.Births=sum(Births))
 df_ref_base1 = sum(df_ref1$Ref.Births) 
 
-df_ref2 <- df_nat_11_21 %>% group_by(Five.Year.Age.Groups) %>%
+df_ref2 <- df_nat_11_19 %>% group_by(Five.Year.Age.Groups) %>%
   summarise(Ref.Births=sum(Births))
 df_ref_base2 = sum(df_ref2$Ref.Births) 
+
+df_ref_covid <- df_nat_covid %>% group_by(Five.Year.Age.Groups) %>%
+  summarise(Ref.Births=sum(Births))
+df_ref_base_covid = sum(df_ref_covid$Ref.Births) 
 
 create_age_adj <- function(df, df_ref, ref_base, age_rate, label) {
   df1 <- merge(df, df_ref, by=c('Five.Year.Age.Groups')) %>%
@@ -153,29 +184,56 @@ create_age_adj <- function(df, df_ref, ref_base, age_rate, label) {
 df_age_adj_mm1 <- create_age_adj(df_mm1, df_ref1, df_ref_base1, 
                                  Age.Adj.Rate.00.10, 'Maternal Mortality') 
 df_age_adj_mm2 <- create_age_adj(df_mm2, df_ref2, df_ref_base2, 
-                                 Age.Adj.Rate.11.21, 'Maternal Mortality') 
+                                 Age.Adj.Rate.11.19, 'Maternal Mortality') 
 df_age_adj_mm <- merge(df_age_adj_mm1, df_age_adj_mm2, by=c('Census.Region', 'Type'))
+
+
+df_age_adj_mm_covid <- create_age_adj(df_mm_covid, df_ref_covid, df_ref_base_covid, 
+                                      Age.Adj.Rate.Covid, 'Maternal Mortality') 
+df_age_adj_mm_covid_chg <- merge(df_age_adj_mm2, df_age_adj_mm_covid, by=c('Census.Region', 'Type'))
+
 
 df_age_adj_mmno1 <- create_age_adj(df_mmno1, df_ref1, df_ref_base1, 
                                    Age.Adj.Rate.00.10, 'Maternal Mortality (Excl. Other)') 
 df_age_adj_mmno2 <- create_age_adj(df_mmno2, df_ref2, df_ref_base2, 
-                                   Age.Adj.Rate.11.21, 'Maternal Mortality (Excl. Other)') 
+                                   Age.Adj.Rate.11.19, 'Maternal Mortality (Excl. Other)') 
 df_age_adj_mmno <- merge(df_age_adj_mmno1, df_age_adj_mmno2, by=c('Census.Region', 'Type'))
+
+
+df_age_adj_mmno_covid <- create_age_adj(df_mmno_covid, df_ref_covid, df_ref_base_covid, 
+                                      Age.Adj.Rate.Covid, 'Maternal Mortality (Excl. Other)') 
+df_age_adj_mmno_covid_chg <- merge(df_age_adj_mmno2, df_age_adj_mmno_covid, by=c('Census.Region', 'Type'))
+
 
 df_age_adj_mmot1 <- create_age_adj(df_mmot1, df_ref1, df_ref_base1, 
                                    Age.Adj.Rate.00.10, 'Other Maternal Mortality') 
 df_age_adj_mmot2 <- create_age_adj(df_mmot2, df_ref2, df_ref_base2, 
-                                   Age.Adj.Rate.11.21, 'Other Maternal Mortality') 
+                                   Age.Adj.Rate.11.19, 'Other Maternal Mortality') 
 df_age_adj_mmot <- merge(df_age_adj_mmot1, df_age_adj_mmot2, by=c('Census.Region', 'Type'))
+
+
+df_age_adj_mmot_covid <- create_age_adj(df_mmot_covid, df_ref_covid, df_ref_base_covid, 
+                                        Age.Adj.Rate.Covid, 'Other Maternal Mortality') 
+df_age_adj_mmot_covid_chg <- merge(df_age_adj_mmot2, df_age_adj_mmot_covid, by=c('Census.Region', 'Type'))
+
 
 df_age_adj_pr1 <- create_age_adj(df_pr1, df_ref1, df_ref_base1, 
                                  Age.Adj.Rate.00.10, 'Pregnancy-Related Mortality') 
 df_age_adj_pr2 <- create_age_adj(df_pr2, df_ref2, df_ref_base2, 
-                                 Age.Adj.Rate.11.21, 'Pregnancy-Related Mortality')
+                                 Age.Adj.Rate.11.19, 'Pregnancy-Related Mortality')
 df_age_adj_pr <- merge(df_age_adj_pr1, df_age_adj_pr2, by=c('Census.Region', 'Type'))
 
+
+df_age_adj_pr_covid <- create_age_adj(df_pr_covid, df_ref_covid, df_ref_base_covid, 
+                                        Age.Adj.Rate.Covid, 'Pregnancy-Related Mortality') 
+df_age_adj_pr_covid_chg <- merge(df_age_adj_pr2, df_age_adj_pr_covid, by=c('Census.Region', 'Type'))
+
+
 df_age_adj <- rbind(df_age_adj_mm, df_age_adj_mmno, df_age_adj_mmot, df_age_adj_pr)
-df_age_adj$Pct.Change = (df_age_adj$Age.Adj.Rate.11.21-df_age_adj$Age.Adj.Rate.00.10)/df_age_adj$Age.Adj.Rate.00.10*100
+df_age_adj$Pct.Change = (df_age_adj$Age.Adj.Rate.11.19-df_age_adj$Age.Adj.Rate.00.10)/df_age_adj$Age.Adj.Rate.00.10*100
+
+df_age_adj_covid <- rbind(df_age_adj_mm_covid_chg, df_age_adj_mmno_covid_chg, df_age_adj_mmot_covid_chg, df_age_adj_pr_covid_chg)
+df_age_adj_covid$Pct.Change = (df_age_adj_covid$Age.Adj.Rate.Covid-df_age_adj_covid$Age.Adj.Rate.11.19)/df_age_adj_covid$Age.Adj.Rate.11.19*100
 
 library(stringr)
 
@@ -186,10 +244,24 @@ df_crude %>%
   theme_minimal() + 
   labs(y = "% Change in Rates per 100,000 Live Births", 
        x = "Census Region",
-       title = "Percent Change in Rates of Maternal and Pregnancy-Related Deaths (2000-2021)") + 
+       title = "Percent Change in Rates of Maternal and Pregnancy-Related Deaths",
+       subtitle = "2000-2010 vs. 2011-2019") + 
   theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) +
   theme(axis.text.x = element_text(angle = 80))
 ggsave("figs/plt_census_pct_change_crude.png")
+
+df_crude_covid %>%
+  mutate(Region = word(Census.Region,-1)) %>%
+  ggplot(aes(x=Region, y=Pct.Change, fill=Type)) +
+  geom_bar(stat="identity", position=position_dodge()) +
+  theme_minimal() + 
+  labs(y = "% Change in Rates per 100,000 Live Births", 
+       x = "Census Region",
+       title = "Percent Change in Rates of Maternal and Pregnancy-Related Deaths",
+       subtitle = "2011-2019 vs. 2020-2021") + 
+  theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) +
+  theme(axis.text.x = element_text(angle = 80, vjust=.75))
+ggsave("figs/plt_census_pct_change_crude_covid.png")
 
 df_age_adj %>%
   mutate(Region = word(Census.Region,-1)) %>%
@@ -198,7 +270,21 @@ df_age_adj %>%
   theme_minimal() + 
   labs(y = "% Change in Rates per 100,000 Live Births", 
        x = "Census Region",
-       title = "Percent Change in Age-Adjusted Rates of Maternal and Pregnancy-Related Deaths (2000-2021)") + 
+       title = "Percent Change in Age-Adjusted Rates of Maternal and Pregnancy-Related Deaths",
+       subtitle = "2000-2010 vs. 2011-2019") + 
   theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) +
   theme(axis.text.x = element_text(angle = 80))
 ggsave("figs/plt_census_pct_change_age_adj.png")
+
+df_age_adj_covid %>%
+  mutate(Region = word(Census.Region,-1)) %>%
+  ggplot(aes(x=Region, y=Pct.Change, fill=Type)) +
+  geom_bar(stat="identity", position=position_dodge()) +
+  theme_minimal() + 
+  labs(y = "% Change in Rates per 100,000 Live Births", 
+       x = "Census Region",
+       title = "Percent Change in Age-Adjusted Rates of Maternal and Pregnancy-Related Deaths",
+       subtitle = "2011-2019 vs. 2020-2021") + 
+  theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) +
+  theme(axis.text.x = element_text(angle = 80, vjust=.75))
+ggsave("figs/plt_census_pct_change_age_adj_covid.png")
