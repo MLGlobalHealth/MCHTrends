@@ -19,6 +19,8 @@ setwd('/Users/rpark/Desktop/Research/2. Fetal Maternal Mortality/FetalMaternalMo
 
 ## Import datafiles 
 df_mat_year <- read.csv('data/maternal_deaths_yearly.txt', sep = "\t")
+df_other_mat_year <- read.csv('data/other_mat_mortality_yearly.txt', sep = "\t")
+df_mat_spec_year <- read.csv('data/maternal_mortality_spec_yearly.txt', sep = "\t")
 df_mat_state <- read.csv('data/maternal_deaths_state.txt', sep = "\t")
 df_mat_age <- read.csv('data/maternal_deaths_age.txt', sep = "\t")
 df_mat_race <- read.csv('data/maternal_deaths_race.txt', sep = "\t")
@@ -42,10 +44,15 @@ clean_year <- function(df, varname) {
         rename({{varname}} := Deaths)
 }
 df_mat_year2 <- clean_year(df_mat_year, MMR.Deaths)
+df_other_mat_year2 <- clean_year(df_other_mat_year, OMMR.Deaths)
+df_mat_spec_year2 <- clean_year(df_mat_spec_year, SMMR.Deaths)
+
 df_pregrel_year2 <- clean_year(df_pregrel_year, PRMR.Deaths)
 df_mat_pr_year <- merge(df_mat_year2, df_pregrel_year2, by='Year')
+df_mat_pr_year2 <- merge(df_mat_pr_year, df_other_mat_year2, by='Year')
+df_mat_pr_year3 <- merge(df_mat_pr_year2, df_mat_spec_year2, by='Year')
 
-df_mat_year3 <- merge(df_mat_pr_year, df_nat_year, by='Year', all.x = TRUE)
+df_mat_year3 <- merge(df_mat_pr_year3, df_nat_year, by='Year', all.x = TRUE)
 df_mat_year3[(df_mat_year3$Year == '2022 (provisional)'), 
              'Births'] = df_mat_year3$Births[df_mat_year3$Year == '2021']
 df_mat_year3[(df_mat_year3$Year == '2022 (provisional)'), 
@@ -53,6 +60,8 @@ df_mat_year3[(df_mat_year3$Year == '2022 (provisional)'),
   
 df_mat_year3$MMR.Deaths.by.Births = (df_mat_year3$MMR.Deaths*100000)/df_mat_year3$Births
 df_mat_year3$PRMR.Deaths.by.Births = (df_mat_year3$PRMR.Deaths*100000)/df_mat_year3$Births
+df_mat_year3$OMMR.Deaths.by.Births = (df_mat_year3$OMMR.Deaths*100000)/df_mat_year3$Births
+df_mat_year3$SMMR.Deaths.by.Births = (df_mat_year3$SMMR.Deaths*100000)/df_mat_year3$Births
 
 ## Data cleaning - State
 clean_state <- function(df, varname) {
@@ -156,10 +165,25 @@ reshape_long <- function(df, drop_list) {
     subset(select = -c(Births, sbj))
 }
 
-df_long_mat_year <- reshape_long(df_mat_year3)
 df_long_mat_state <- reshape_long(df_mat_state3)
 df_long_mat_age <- reshape_long(df_mat_age3)
 df_long_mat_race <- reshape_long(df_mat_race3)
+
+reshape_long2 <- function(df, drop_list) {
+  df_long <- reshape(
+    df, direction='long', 
+    varying=c('MMR.Deaths', 'MMR.Deaths.by.Births', 
+              'PRMR.Deaths', 'PRMR.Deaths.by.Births',
+              'OMMR.Deaths', 'OMMR.Deaths.by.Births',
+              'SMMR.Deaths', 'SMMR.Deaths.by.Births'), 
+    timevar='Type',
+    times=c('Maternal Mortality', 'Pregnancy-Related Mortality', 'Other Maternal Mortality', 'Maternal Mortality (Excl. Other)'),
+    v.names=c('Deaths', 'Deaths.by.Births'),
+    idvar='sbj') %>%
+    subset(select = -c(Births, sbj)) 
+}
+
+df_long_mat_year <- reshape_long2(df_mat_year3)
 
 # visualisations ---------------------------------------------------------
 
@@ -172,9 +196,7 @@ df_long_mat_year %>%
   labs(y = "Rate per 100,000 Live Births", 
        title = "Rates of Maternal and Pregnancy-Related Deaths by Year (2018-2022)",
        subtitle = "Count of Deaths Above Each Bar",
-       caption = "Note: The 2022 count is provisional. We use 2021 live births to compute the 2022 mortality rate as the 2022 live birth count is not available. MMR 
-          stands for Maternal Mortality Rate, which includes deaths during pregnancy and up to 42 days after birth. PRMR stands for Pregnancy-
-          Related Mortality Rate, which includes deaths 43-365 days after birth.") + 
+       caption = "Note: The 2022 count is provisional. We use 2021 live births to compute the 2022 mortality rate as the 2022 live birth count is not available.") + 
   theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) 
 ggsave("figs/plt_mat_year.png")
 
