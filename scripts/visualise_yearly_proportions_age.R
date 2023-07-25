@@ -23,11 +23,12 @@ clean_df <- function(fname) {
   subset(df, select = -c(Notes, Population, Crude.Rate,
                          Year.Code, Five.Year.Age.Groups.Code)) %>%
     na.omit() %>%
-    filter(Five.Year.Age.Groups != '')
+    filter((Five.Year.Age.Groups != '') & (Deaths != 'Suppressed')) %>%
+    mutate_at('Deaths', as.numeric)
 }
 
-df_mm1 <- clean_df('maternal_deaths_year_age_00_17')
-df_mm2 <- clean_df('maternal_deaths_year_age_18_21')
+df_mm1 <- clean_df('maternal_mortality_spec_year_age_00_17')
+df_mm2 <- clean_df('maternal_mortality_spec_year_age_18_21')
 df_mm <- rbind(df_mm1, df_mm2)
 
 df_tot1 <- clean_df('all_fem_deaths_year_age_00_17')
@@ -42,6 +43,7 @@ df_mm_mrg %>%
   geom_line() +
   theme_minimal() + 
   labs(y = "Percent", 
-       title = "Percentage of Maternal Deaths of Total Deaths (2000-2021)") +
-  theme(axis.text.x = element_text(angle = 60, hjust=1)) + guides(fill=guide_legend(title=""))
-ggsave('figs/plt_mat_tot_deaths_year_age.png') 
+       title = "Percentage of Maternal Deaths (Excl. Other) of Total Deaths (2000-2021)") +
+  theme(axis.text.x = element_text(angle = 60, hjust=1)) + guides(fill=guide_legend(title="")) +
+  scale_color_discrete(name="")
+ggsave('figs/plt_mat_spec_tot_deaths_year_age.png') 

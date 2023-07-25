@@ -6,15 +6,6 @@ Maternal deaths data are extracted from the Provisional Mortality Statistics tab
 
 The death counts are aggregated by year, age, racial/ethnic group and state (separately).
 
-Fetal deaths data can be accessed at the following links:
-- National by year: https://wonder.cdc.gov/controller/saved/D133/D347F113
-- National by mother's age: https://wonder.cdc.gov/controller/saved/D133/D347F112
-- National by mother's racial/ethnic group: https://wonder.cdc.gov/controller/saved/D133/D347F115
-- By state (full time period): https://wonder.cdc.gov/controller/saved/D133/D347F116
-- By state (2005-2010): https://wonder.cdc.gov/controller/saved/D133/D347F747
-- By state (2011-2015): https://wonder.cdc.gov/controller/saved/D133/D347F749 
-- By state (2016-2021): https://wonder.cdc.gov/controller/saved/D133/D347F750
-
 Maternal deaths data can be accessed at the following links:
 - National by year (2003-2017):
 https://wonder.cdc.gov/controller/saved/D77/D349F779 
