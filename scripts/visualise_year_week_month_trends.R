@@ -28,22 +28,22 @@ clean_df <- function(fname) {
 df_mm1 <- clean_df('maternal_mortality_yearly_03_17')
 df_mm2 <- clean_df('maternal_deaths_yearly')
 df_mm <- rbind(df_mm1, df_mm2)
-df_mm$Type = 'Maternal Mortality'
+df_mm$Type = 'Maternal'
 
 df_mmno1 <- clean_df('maternal_mortality_spec_yearly_03_17')
 df_mmno2 <- clean_df('maternal_mortality_spec_yearly')
 df_mmno <- rbind(df_mmno1, df_mmno2)
-df_mmno$Type = 'Maternal Mortality (Excl. Other)'
+df_mmno$Type = 'Cause-Specific Maternal'
 
 df_mmot1 <- clean_df('other_mat_mortality_yearly_03_17')
 df_mmot2 <- clean_df('other_mat_mortality_yearly')
 df_mmot <- rbind(df_mmot1, df_mmot2)
-df_mmot$Type = 'Other Maternal Mortality'
+df_mmot$Type = 'Unspecified Maternal'
 
 df_pr1 <- clean_df('pregrel_mortality_yearly_03_17')
 df_pr2 <- clean_df('pregrel_deaths_yearly')
 df_pr <- rbind(df_pr1, df_pr2)
-df_pr$Type = 'Pregnancy-Related Mortality'
+df_pr$Type = 'Late Maternal'
 
 df_all_year <- rbind(df_mm, df_mmno, df_mmot, df_pr)
 load("data/natality_yearly_clean.Rda")
@@ -55,7 +55,7 @@ df_all_year %>%
   geom_line() +
   theme_minimal() + 
   labs(y = "Rate per 100,000 Live Births", 
-       title = "Rates of Maternal and Pregnancy-Related Deaths by Year (2005-2021)")
+       title = "Rates of Maternal Deaths by Year (2005-2021)")
 ggsave('figs/plt_mat_year_line.png')
 
 # MONTHLY ---------------------------------------------------------
@@ -102,8 +102,8 @@ df_mmno_month <- merge(df_mmno_month, df_nat_month, on=c('Year', 'Month'))
 df_mm_month$Deaths.by.Births = df_mm_month$Deaths/df_mm_month$Births*100000
 df_mmno_month$Deaths.by.Births = df_mmno_month$Deaths/df_mmno_month$Births*100000
 
-df_mm_month$Type = 'Maternal Mortality'
-df_mmno_month$Type = 'Maternal Mortality (Excl. Other)'
+df_mm_month$Type = 'Maternal'
+df_mmno_month$Type = 'Cause-Specific Maternal'
 df_mm_month_all <- rbind(df_mm_month, df_mmno_month)
 
 df_mm_month_all$Year.Month <- as.yearmon(paste(df_mm_month_all$Month, df_mm_month_all$Year))
@@ -115,7 +115,7 @@ df_mm_month %>%
   theme_minimal() + 
   labs(y = "Rate per 100,000 Live Births", 
        x = "Month",
-       title = "Rates of Maternal and Pregnancy-Related Deaths by Month (2003-2021)") +
+       title = "Rates of Maternal Deaths by Month (2003-2021)") +
   theme(axis.text.x = element_text(angle = 60, hjust=1))
 ggsave('figs/plt_mat_month_line.png')
 
@@ -126,7 +126,7 @@ df_mmno_month %>%
   theme_minimal() + 
   labs(y = "Rate per 100,000 Live Births", 
        x = "Month",
-       title = "Rates of Maternal and Pregnancy-Related Deaths by Month (2003-2021)") +
+       title = "Rates of Maternal Deaths by Month (2003-2021)") +
   theme(axis.text.x = element_text(angle = 60, hjust=1))
 ggsave('figs/plt_mat_spec_month_line.png')
 

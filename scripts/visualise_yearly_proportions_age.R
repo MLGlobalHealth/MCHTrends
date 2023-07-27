@@ -43,7 +43,7 @@ df_mm_mrg %>%
   geom_line() +
   theme_minimal() + 
   labs(y = "Percent", 
-       title = "Percentage of Maternal Deaths (Excl. Other) of Total Deaths (2000-2021)") +
+       title = "Percentage of Cause-Specific Maternal Deaths of Total Deaths (2000-2021)") +
   theme(axis.text.x = element_text(angle = 60, hjust=1)) + guides(fill=guide_legend(title="")) +
   scale_color_discrete(name="")
 ggsave('figs/plt_mat_spec_tot_deaths_year_age.png') 

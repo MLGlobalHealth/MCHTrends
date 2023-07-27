@@ -26,7 +26,7 @@ df_crude %>%
   theme_minimal() + 
   labs(y = "% Change in Rates per 100,000 Live Births", 
        x = "Racial/Ethnic Group",
-       title = "Percent Change in Rates of Maternal and Pregnancy-Related Deaths",
+       title = "Percent Change in Rates of Maternal Deaths",
        subtitle = "2000-2010 vs. 2011-2019") + 
   theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) 
   #theme(axis.text.x = element_text(angle = 60, vjust=0.6)) 
@@ -38,7 +38,7 @@ df_crude %>%
   theme_minimal() + 
   labs(y = "% Change in Rates per 100,000 Live Births", 
        x = "Racial/Ethnic Group",
-       title = "Percent Change in Rates of Maternal and Pregnancy-Related Deaths",
+       title = "Percent Change in Rates of Maternal Deaths",
        subtitle = "2011-2019 vs. 2020-2021") + 
   theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) 
   #theme(axis.text.x = element_text(angle = 80, vjust=.75))
