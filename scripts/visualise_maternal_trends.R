@@ -30,10 +30,13 @@ df_pregrel_state <- read.csv('data/pregrel_deaths_state.txt', sep = "\t")
 df_pregrel_age <- read.csv('data/pregrel_deaths_age.txt', sep = "\t")
 df_pregrel_race <- read.csv('data/pregrel_deaths_race.txt', sep = "\t")
 
+df_mat_spec_state <- read.csv('data/maternal_mortality_spec_state_20_21.txt', sep = "\t")
+
 load(file="data/natality_yearly_clean.Rda")
 load(file="data/natality_age_clean.Rda")
 load(file="data/natality_race_clean.Rda")
 load(file="data/natality_state_clean.Rda")
+load(file="data/natality_state_20_21_clean.Rda")
 
 ## Data cleaning - Year
 clean_year <- function(df, varname) {
@@ -71,14 +74,18 @@ clean_state <- function(df, varname) {
 }
 df_mat_state2 <- clean_state(df_mat_state, MMR.Deaths)
 df_pregrel_state2 <- clean_state(df_pregrel_state, PRMR.Deaths)
+df_mat_spec_state2 <- clean_state(df_mat_spec_state, SMMR.Deaths)
 df_mat_pr_state <- merge(df_mat_state2, df_pregrel_state2, 
                          by='Residence.State', all.x=TRUE)
 
 df_mat_state3 <- merge(df_mat_pr_state, df_nat_state, 
                        by.x='Residence.State', by.y='State')
+df_mat_spec_state3 <- merge(df_mat_spec_state2, df_nat_state_20_21,
+                            by='State')
 
 df_mat_state3$MMR.Deaths.by.Births = (df_mat_state3$MMR.Deaths*100000)/df_mat_state3$Births
 df_mat_state3$PRMR.Deaths.by.Births = (df_mat_state3$PRMR.Deaths*100000)/df_mat_state3$Births
+df_mat_spec_state3$SMMR.Deaths.by.Births = (df_mat_spec_state3$SMMR.Deaths*100000)/df_mat_spec_state3$Births
 
 ## Data cleaning - Age
 clean_age <- function(df, varname) {
@@ -267,6 +274,23 @@ df_mat_state3 %>%
           Related Mortality Rate, which includes deaths 43-365 days after birth.") + 
   theme(plot.caption=element_text(hjust = 0))
 ggsave("figs/plt_mat_prmr_state.png")
+
+smmr_national_avg = (sum(df_mat_spec_state3$SMMR.Deaths, na.rm=TRUE)*100000)/sum(df_mat_spec_state3$Births)
+
+df_mat_spec_state3 %>%
+  na.omit() %>%
+  mutate(State = fct_reorder(State, 
+                             desc(SMMR.Deaths.by.Births))) %>%
+  ggplot(aes(x=State, y=SMMR.Deaths.by.Births)) +
+  geom_bar(stat="identity", fill="steelblue", na.rm = TRUE) + coord_flip() +
+  geom_hline(yintercept = smmr_national_avg, color = "red") +
+  theme_minimal() + 
+  labs(y = "Rate per 100,000 Live Births", 
+       x = "State",
+       title = "Rates of Maternal Deaths (Excl. Other) by State (2020-2021)",
+       subtitle = "National Average Rate in Red (15.5)") + 
+  theme(plot.caption=element_text(hjust = 0))
+ggsave("figs/plt_mat_spec_state.png")
 
 df_mmr <- df_long_mat_state %>% filter(Type == 'MMR') %>%
   mutate(bins = as.factor( as.numeric( cut(Deaths.by.Births, 40))))

@@ -103,6 +103,9 @@ df_nat_race_11_19 <- clean_df('natality_race_11_19') %>%
 df_nat_race_20_21 <- clean_df('natality_race_20_21') %>% 
   filter(Mother.s.Hispanic.Origin != '')
 
+df_nat_state_20_21 <- clean_df3('natality_state_20_21')
+save(df_nat_state_20_21, file="data/natality_state_20_21_clean.Rda")
+
 clean_bridged_race <- function(df, ...) {
   df_nat_race <- df %>% 
     filter(Mother.s.Hispanic.Origin != "") %>%
