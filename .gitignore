@@ -9,6 +9,7 @@ data/Old
 data/other*
 data/compare_periods
 data/.DS_Store
+data/new_other_category*
 
 .DS_Store
 .RData
