@@ -6,15 +6,6 @@ Maternal deaths data are extracted from the Provisional Mortality Statistics tab
 
 The death counts are aggregated by year, age, racial/ethnic group and state (separately).
 
-Fetal deaths data can be accessed at the following links:
-- National by year: https://wonder.cdc.gov/controller/saved/D133/D347F113
-- National by mother's age: https://wonder.cdc.gov/controller/saved/D133/D347F112
-- National by mother's racial/ethnic group: https://wonder.cdc.gov/controller/saved/D133/D347F115
-- By state (full time period): https://wonder.cdc.gov/controller/saved/D133/D347F116
-- By state (2005-2010): https://wonder.cdc.gov/controller/saved/D133/D347F747
-- By state (2011-2015): https://wonder.cdc.gov/controller/saved/D133/D347F749 
-- By state (2016-2021): https://wonder.cdc.gov/controller/saved/D133/D347F750
-
 Maternal deaths data can be accessed at the following links:
 - National by year (2003-2017):
 https://wonder.cdc.gov/controller/saved/D77/D349F779 
@@ -117,10 +108,15 @@ The following extractions are used to compare age-adjusted estimations in census
 - Other causes (2011-2017): https://wonder.cdc.gov/controller/saved/D77/D349F467
 - MMR no other (2011-2017): https://wonder.cdc.gov/controller/saved/D77/D349F469
 
-- All MMR (2018-2021): https://wonder.cdc.gov/controller/saved/D157/D349F482
-- PRMR (2018-2021): https://wonder.cdc.gov/controller/saved/D157/D349F481
-- Other causes (2018-2021): https://wonder.cdc.gov/controller/saved/D157/D349F483
-- MMR no other (2018-2021): https://wonder.cdc.gov/controller/saved/D157/D349F484
+- All MMR (2018-2019): https://wonder.cdc.gov/controller/saved/D157/D350F337
+- PRMR (2018-2019): https://wonder.cdc.gov/controller/saved/D157/D350F338
+- Other causes (2018-2019): https://wonder.cdc.gov/controller/saved/D157/D350F341
+- MMR no other (2018-2019): https://wonder.cdc.gov/controller/saved/D157/D350F343
+
+- All MMR (2020-2021): https://wonder.cdc.gov/controller/saved/D157/D350F340
+- PRMR (2020-2021): https://wonder.cdc.gov/controller/saved/D157/D350F339
+- Other causes (2020-2021): https://wonder.cdc.gov/controller/saved/D157/D350F342
+- MMR no other (2020-2021): https://wonder.cdc.gov/controller/saved/D157/D350F346
 
 - Natality (2000-2002): https://wonder.cdc.gov/controller/saved/D10/D349F472
 - Natality (2003-2006): https://wonder.cdc.gov/controller/saved/D27/D349F471
