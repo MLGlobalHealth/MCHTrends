@@ -13,7 +13,7 @@ if (any(installed_packages == FALSE)) {
 ## Packages loading
 invisible(lapply(packages, library, character.only = TRUE))
 
-setwd('/Users/rpark/Desktop/Research/2. Fetal Maternal Mortality/FetalMaternalMortality')
+setwd('/Users/rpark/Desktop/Research/Rotations/2. Fetal Maternal Mortality/FetalMaternalMortality')
 
 # YEARLY ---------------------------------------------------------
 
@@ -30,13 +30,13 @@ df_mm2 <- clean_df('maternal_deaths_yearly')
 df_mm <- rbind(df_mm1, df_mm2)
 df_mm$Type = 'Maternal Mortality'
 
-df_mmno1 <- clean_df('maternal_mortality_spec_yearly_03_17')
-df_mmno2 <- clean_df('maternal_mortality_spec_yearly')
+df_mmno1 <- clean_df('new_other_category/maternal_mortality_spec_yearly_03_17')
+df_mmno2 <- clean_df('new_other_category/maternal_mortality_spec_yearly')
 df_mmno <- rbind(df_mmno1, df_mmno2)
 df_mmno$Type = 'Maternal Mortality (Excl. Other)'
 
-df_mmot1 <- clean_df('other_mat_mortality_yearly_03_17')
-df_mmot2 <- clean_df('other_mat_mortality_yearly')
+df_mmot1 <- clean_df('new_other_category/other_mat_mortality_yearly_03_17')
+df_mmot2 <- clean_df('new_other_category/other_mat_mortality_yearly')
 df_mmot <- rbind(df_mmot1, df_mmot2)
 df_mmot$Type = 'Other Maternal Mortality'
 
@@ -56,7 +56,7 @@ df_all_year %>%
   theme_minimal() + 
   labs(y = "Rate per 100,000 Live Births", 
        title = "Rates of Maternal and Pregnancy-Related Deaths by Year (2005-2021)")
-ggsave('figs/plt_mat_year_line.png')
+ggsave('figs/plt_mat_new_other_year_line.png')
 
 # MONTHLY ---------------------------------------------------------
 
@@ -78,8 +78,8 @@ df_mm_month1 <- clean_df2('maternal_mortality_year_month')
 df_mm_month2 <- clean_df2('maternal_mortality_year_month_21')
 df_mm_month <- rbind(df_mm_month1, df_mm_month2)
 
-df_mmno_month1 <- clean_df2('maternal_mortality_spec_year_month')
-df_mmno_month2 <- clean_df2('maternal_mortality_spec_year_month_21')
+df_mmno_month1 <- clean_df2('new_other_category/maternal_mortality_spec_year_month')
+df_mmno_month2 <- clean_df2('new_other_category/maternal_mortality_spec_year_month_21')
 df_mmno_month <- rbind(df_mmno_month1, df_mmno_month2)
 
 df_nat_month1 <- read.csv('data/compare_periods/Monthly/natality_year_month_03_06.txt', sep = "\t") %>%
@@ -128,7 +128,7 @@ df_mmno_month %>%
        x = "Month",
        title = "Rates of Maternal and Pregnancy-Related Deaths by Month (2003-2021)") +
   theme(axis.text.x = element_text(angle = 60, hjust=1))
-ggsave('figs/plt_mat_spec_month_line.png')
+ggsave('figs/plt_mat_spec_new_other_month_line.png')
 
 df_mm_month_all %>%
   ggplot(aes(x=Year.Month, y=Deaths.by.Births, group=Type, colour=Type)) +
@@ -137,43 +137,43 @@ df_mm_month_all %>%
   labs(y = "Rate per 100,000 Live Births", 
        title = "Rates of Maternal Deaths by Month (2003-2021)") +
   theme(axis.text.x = element_text(angle = 60, hjust=1))
-ggsave('figs/plt_mat_month_cont_line.png') 
+ggsave('figs/plt_mat_new_other_month_cont_line.png') 
 
 # WEEKLY ---------------------------------------------------------
-
-# Import and omit NA
-clean_df2 <- function(fname) {
-  df <- read.csv(str_interp('data/${fname}.txt'), sep = "\t")
-  subset(df, select = -c(Notes, Population, Crude.Rate)) %>%
-    na.omit() %>%
-    filter((MMWR.Week != '') & (Deaths != 'Suppressed')) %>%
-    separate(MMWR.Week.Code, c('Year','Week')) %>%
-    mutate(Week = as.numeric(Week)) %>%
-    filter(Year != 2023) %>% 
-    group_by(Year) %>% 
-    complete(Week = full_seq(1:52, 1)) %>%
-    subset(select = -c(MMWR.Week)) %>%
-    mutate(Year.Week = str_c(Year, '-', Week)) %>%
-    mutate(Deaths = as.numeric(Deaths)) 
-}
-
-df_mm_weekly <- clean_df2('maternal_mortality_weekly')
-df_mmno_weekly <- clean_df2('maternal_mortality_spec_weekly')
-df_mmot_weekly <- clean_df2('other_mat_mortality_weekly')
-df_pr_weekly <- clean_df2('pregrel_mortality_weekly')
-
-xscale = case_when(df_mm_weekly$Week %in% c(1, 30) ~ df_mm_weekly$Year.Week,
-                   df_mm_weekly$Week != 1 ~ "")
-
-df_mm_weekly %>%
-  arrange(Year,Week) %>%
-  ggplot(aes(x=Year.Week, y=Deaths, group = 1)) +
-  geom_line(color="steelblue") +
-  theme_minimal() + 
-  labs(y = "Count of Deaths", 
-       x = "Week",
-       title = "Weekly Maternal Deaths (2018-2022)") +
-  theme(axis.text.x = element_text(angle = 60, hjust=1)) +
-  scale_x_discrete(breaks = xscale)
-ggsave('figs/plt_mat_weekly.png')
+# 
+# # Import and omit NA
+# clean_df2 <- function(fname) {
+#   df <- read.csv(str_interp('data/${fname}.txt'), sep = "\t")
+#   subset(df, select = -c(Notes, Population, Crude.Rate)) %>%
+#     na.omit() %>%
+#     filter((MMWR.Week != '') & (Deaths != 'Suppressed')) %>%
+#     separate(MMWR.Week.Code, c('Year','Week')) %>%
+#     mutate(Week = as.numeric(Week)) %>%
+#     filter(Year != 2023) %>% 
+#     group_by(Year) %>% 
+#     complete(Week = full_seq(1:52, 1)) %>%
+#     subset(select = -c(MMWR.Week)) %>%
+#     mutate(Year.Week = str_c(Year, '-', Week)) %>%
+#     mutate(Deaths = as.numeric(Deaths)) 
+# }
+# 
+# df_mm_weekly <- clean_df2('maternal_mortality_weekly')
+# df_mmno_weekly <- clean_df2('maternal_mortality_spec_weekly')
+# df_mmot_weekly <- clean_df2('other_mat_mortality_weekly')
+# df_pr_weekly <- clean_df2('pregrel_mortality_weekly')
+# 
+# xscale = case_when(df_mm_weekly$Week %in% c(1, 30) ~ df_mm_weekly$Year.Week,
+#                    df_mm_weekly$Week != 1 ~ "")
+# 
+# df_mm_weekly %>%
+#   arrange(Year,Week) %>%
+#   ggplot(aes(x=Year.Week, y=Deaths, group = 1)) +
+#   geom_line(color="steelblue") +
+#   theme_minimal() + 
+#   labs(y = "Count of Deaths", 
+#        x = "Week",
+#        title = "Weekly Maternal Deaths (2018-2022)") +
+#   theme(axis.text.x = element_text(angle = 60, hjust=1)) +
+#   scale_x_discrete(breaks = xscale)
+# ggsave('figs/plt_mat_weekly.png')
 
