@@ -12,7 +12,7 @@ if (any(installed_packages == FALSE)) {
 ## Packages loading
 invisible(lapply(packages, library, character.only = TRUE))
 
-setwd('/Users/rpark/Desktop/Research/2. Fetal Maternal Mortality/FetalMaternalMortality')
+setwd('/Users/rpark/Desktop/Research/Rotations/2. Fetal Maternal Mortality/FetalMaternalMortality')
 
 # clean datafiles ---------------------------------------------------------
 
@@ -152,6 +152,8 @@ df_nat_race1 <- clean_bridged_race(df_nat_race1, Mother.s.Bridged.Race)
 df_nat_race_age1 <- clean_bridged_race(df_nat_race_age1, Mother.s.Bridged.Race, Age.of.Mother.9.Code)
 df_nat_race_year1 <- clean_bridged_race(df_nat_race_year1, Mother.s.Bridged.Race, Year)
 df_nat_race_03_10 <- clean_bridged_race(df_nat_race_03_10, Mother.s.Bridged.Race)
+df_nat_race_11_19 <- clean_bridged_race(df_nat_race_11_19, Mother.s.Bridged.Race) %>%
+  filter(Mother.s.Race != 'More than one race')
 
 clean_single_race <- function(df, ...) {
   df2 = df %>% filter((Mother.s.Single.Race != '') & 
@@ -200,8 +202,6 @@ clean_single_race <- function(df, ...) {
 df_nat_race2 <- clean_single_race(df_nat_race2, Mother.s.Single.Race)
 df_nat_race_age2 <- clean_single_race(df_nat_race_age2, Mother.s.Single.Race, Age.of.Mother.9.Code)
 df_nat_race_year2 <- clean_single_race(df_nat_race_year2, Mother.s.Single.Race, Year)
-df_nat_race_11_19 <- clean_single_race(df_nat_race_11_19, Mother.s.Single.Race) %>%
-  filter(Mother.s.Race != 'More than one race')
 df_nat_race_20_21 <- clean_single_race(df_nat_race_20_21, Mother.s.Single.Race) %>%
   filter(Mother.s.Race != 'More than one race')
 
