@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2024-01-11T20:55:56.452Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="RhnKRzQGat6-4YEimYaG" version="21.6.5" type="device">
+  <diagram name="Page-1" id="_L1hR86C_RX8YBDcgZMw">
+    <mxGraphModel dx="1829" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9bFKJf7jt7tsK9c-KYOL-1" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-803" y="150" width="780" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ruu2yCZ05jIw62aEe82-5" value="&lt;b&gt;O96&lt;/b&gt; Death from any obstetric cause occurring more than&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;42 days&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;but less than one year after delivery&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;O97&lt;/b&gt; Death from sequelae of obstetric causes&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-693" y="255" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9bFKJf7jt7tsK9c-KYOL-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Pregnancy-Related Deaths&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-533" y="200" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9bFKJf7jt7tsK9c-KYOL-3" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-763" y="315" width="700" height="445" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ruu2yCZ05jIw62aEe82-6" value="&lt;b&gt;O00-O08&lt;/b&gt; Pregnancy with abortive outcome&lt;br&gt;&lt;b&gt;O10-O16&lt;/b&gt; Oedema, proteineuria and hypertensive disorders in pregnancy, childbirth and the puerperium&lt;br&gt;&lt;b&gt;O20-O29 &lt;/b&gt;Other maternal disorders predominantly related to pregnancy&amp;nbsp;&lt;br&gt;&lt;b&gt;O30-O48&lt;/b&gt; Maternal care related to the fetus and amniotic cavity and possible delivery problems&lt;br&gt;&lt;b&gt;O60-O75&lt;/b&gt; Complications of labour and delivery&lt;br&gt;&lt;b&gt;O80-O84&lt;/b&gt; Delivery&lt;br&gt;&lt;b&gt;O85-O92 &lt;/b&gt;Complications predominantly related to the puerperium&lt;br&gt;&lt;b&gt;O98&lt;/b&gt; Maternal infectious and parasitic diseases classifiable elsewhere but complicating pregnancy,&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;childbirth and the puerperium" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-693" y="422" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9bFKJf7jt7tsK9c-KYOL-5" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-653" y="570" width="480" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="9bFKJf7jt7tsK9c-KYOL-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Maternal Deaths&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-488" y="360" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ruu2yCZ05jIw62aEe82-8" value="&lt;b&gt;O26.8 &lt;/b&gt;Other specified pregnancy-related conditions&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;O95&amp;nbsp;&lt;/b&gt;Obstetric death of unspecified cause&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;O99&lt;/b&gt; Other maternal diseases classifiable elsewhere but complicating pregnancy,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;    &lt;/span&gt;&lt;/span&gt;childbirth and the&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;puerperium&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-623" y="645" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9bFKJf7jt7tsK9c-KYOL-6" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Unspecified Maternal Deaths&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-533" y="608" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mP0duVOM92CfklTS1lpr-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mP0duVOM92CfklTS1lpr-1" target="mP0duVOM92CfklTS1lpr-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mP0duVOM92CfklTS1lpr-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0;" parent="1" vertex="1">
+          <mxGeometry x="-136" y="205" width="26" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mP0duVOM92CfklTS1lpr-2" value="Late Maternal Deaths" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;rounded=1;fillColor=#4D9900;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-83" y="235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mP0duVOM92CfklTS1lpr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mP0duVOM92CfklTS1lpr-4" target="mP0duVOM92CfklTS1lpr-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mP0duVOM92CfklTS1lpr-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0;" parent="1" vertex="1">
+          <mxGeometry x="-133" y="435" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mP0duVOM92CfklTS1lpr-5" value="Cause-Specific Maternal Deaths" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;rounded=1;fillColor=#EA6B66;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-83" y="465" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mP0duVOM92CfklTS1lpr-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mP0duVOM92CfklTS1lpr-8" target="mP0duVOM92CfklTS1lpr-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mP0duVOM92CfklTS1lpr-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0;" parent="1" vertex="1">
+          <mxGeometry x="-133" y="615" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mP0duVOM92CfklTS1lpr-9" value="Unspecified Maternal Deaths" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;rounded=1;fillColor=#CC99FF;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-83" y="645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mP0duVOM92CfklTS1lpr-12" value="Maternal Deaths" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;rounded=1;fillColor=#00CCCC;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="90" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mP0duVOM92CfklTS1lpr-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mP0duVOM92CfklTS1lpr-13" target="mP0duVOM92CfklTS1lpr-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mP0duVOM92CfklTS1lpr-13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0;" parent="1" vertex="1">
+          <mxGeometry x="37" y="500" width="20" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
