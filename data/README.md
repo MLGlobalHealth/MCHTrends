@@ -2,9 +2,9 @@
 
 All data are publicly available to download from CDC WONDER (https://wonder.cdc.gov). Data used in this study are provided in the `cdc_wonder_links.txt` file.
 
-Maternal deaths data are extracted from the Provisional Mortality Statistics tables, available for 1999-2023. Fetal deaths data are extracted from the Fetal Deaths table, available for 2005-2023. Natality data (to index deaths by live births) are extracted from three Natality datasets covering 1995-2023. 
+Maternal deaths data are extracted from the Provisional Mortality Statistics tables, available for 1999-2023. Fetal deaths data are extracted from the Fetal Deaths table, available for 2005-2021. Natality data (to index deaths by live births) are extracted from three Natality datasets covering 1995-2023. 
 
-The death counts are aggregated (separately or in combination) by year, age, racial/ethnic group, state and census region.
+The death counts are aggregated (separately or in combination) by year, age, racial/ethnic group, and census region.
 
 ---
 ## Natality Data
