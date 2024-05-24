@@ -81,30 +81,21 @@ df_nat_year4b <- clean_nat('natality_yearly_07_22_above_35', '>35')
 df_nat_year5a <- clean_nat23('natality_yearly_first_half_23_below_35', '<35')
 df_nat_year5b <- clean_nat23('natality_yearly_first_half_23_above_35', '>35')
 
-
 df_nat_year_age <- rbind(df_nat_year1a, df_nat_year1b, 
                          df_nat_year2a, df_nat_year2b, 
                          df_nat_year3a, df_nat_year3b,
                          df_nat_year4a, df_nat_year4b,
                          df_nat_year5a, df_nat_year5b) 
 
+df_nat_year_age_tot <- df_nat_year_age %>%
+  group_by(Year) %>%
+  summarise(Total = sum(Births))
+
+df_nat_year_age_rate <- merge(df_nat_year_age, df_nat_year_age_tot, by='Year') %>%
+  mutate(rate = Births/Total)
 
 df_mmno_age <- merge(df_mmno, df_nat_year_age, on=c(Year,age_group))
 df_mmno_age$Deaths.by.Births = df_mmno_age$Deaths/df_mmno_age$Births*100000
-
-mort_gt_35_2000 = 97/228
-mort_lt_35_2000 = 1-mort_gt_35_2000
-
-df_mmno_age <- df_mmno_age %>%
-  mutate(Wgt.Deaths.by.Births = case_when(
-  age_group == '<35' ~ Deaths.by.Births*mort_lt_35_2000,
-  age_group == '>35' ~ Deaths.by.Births*mort_gt_35_2000)) %>%
-  group_by(Year, Type) %>%
-  summarise(
-    Births=sum(Births),
-    Deaths=sum(Deaths),
-    Wgt.Deaths.by.Births=sum(Wgt.Deaths.by.Births)
-    ) 
 
 # CI -----------------------------------------------------------
 
@@ -116,13 +107,63 @@ byars_conf_interval <- function(x, n, mult=100000, alpha=0.05) {
   return(data.frame(lower = as.numeric(lower*mult), upper = as.numeric(upper*mult)))
 }
 
-df_mat_ci <- byars_conf_interval(df_mmno_age$Deaths, df_mmno_age$Births, 100000)
+df_mat_ci <- byars_conf_interval(df_mmno_age$Deaths, df_mmno_age$Births)
 df_mmno_age <- cbind(df_mmno_age, df_mat_ci)
+
+# Weighting ------------------------------------------------------
+
+mort_lt_35_2000 = 3503621/4045691
+mort_gt_35_2000 = 1-mort_lt_35_2000
+
+mort_lt_35_2022 = 7.479385
+mort_gt_35_2022 = 21.060789
+
+lower_lt_35_2022 = 6.519374
+lower_gt_35_2022 = 17.885344
+
+upper_lt_35_2022 = 8.54094
+upper_gt_35_2022 = 24.63738
+
+df_nat_year_age_rate <- df_nat_year_age_rate %>%
+  mutate(Wgt.Deaths.by.Births = case_when(
+    age_group == '<35' ~ rate*mort_lt_35_2022,
+    age_group == '>35' ~ rate*mort_gt_35_2022)) %>%
+  mutate(Wgt.Lower = case_when(
+    age_group == '<35' ~ rate*lower_lt_35_2022,
+    age_group == '>35' ~ rate*lower_gt_35_2022)) %>%
+  mutate(Wgt.Upper = case_when(
+    age_group == '<35' ~ rate*upper_lt_35_2022,
+    age_group == '>35' ~ rate*upper_gt_35_2022)) %>%
+  group_by(Year) %>%
+  summarise(
+    Wgt.Deaths.by.Births=sum(Wgt.Deaths.by.Births),
+    Wgt.Lower=sum(Wgt.Lower),
+    Wgt.Upper=sum(Wgt.Upper)
+  ) 
+
+df_mmno_age <- df_mmno_age %>%
+  mutate(Wgt.Deaths.by.Births = case_when(
+  age_group == '<35' ~ Deaths.by.Births*mort_lt_35_2000,
+  age_group == '>35' ~ Deaths.by.Births*mort_gt_35_2000)) %>%
+  mutate(Wgt.Lower = case_when(
+    age_group == '<35' ~ lower*mort_lt_35_2000,
+    age_group == '>35' ~ lower*mort_gt_35_2000)) %>%
+  mutate(Wgt.Upper = case_when(
+    age_group == '<35' ~ upper*mort_lt_35_2000,
+    age_group == '>35' ~ upper*mort_gt_35_2000)) %>%
+  group_by(Year, Type) %>%
+  summarise(
+    Births=sum(Births),
+    Deaths=sum(Deaths),
+    Wgt.Deaths.by.Births=sum(Wgt.Deaths.by.Births),
+    Wgt.Lower=sum(Wgt.Lower),
+    Wgt.Upper=sum(Wgt.Upper)
+    ) 
 
 # Plot ---------------------------------------------------------
 
 # colour blind friendly palette from here: https://jfly.uni-koeln.de/color/
-cbPalette <- c("#009E73", "#E69F00", "#D55E00", "#56B4E9", "#F0E442", "#999999")
+cbPalette <- c("#CC79A7","#009E73", "#E69F00", "#D55E00", "#56B4E9", "#F0E442", "#999999")
 
 df_mmno_age %>%
   ggplot(aes(x=Year, y=Wgt.Deaths.by.Births, group=Type, colour=Type, linetype=Type)) +
@@ -130,7 +171,7 @@ df_mmno_age %>%
   theme_minimal() + 
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   labs(y = "Rate per 100,000 Live Births") +
-  theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) +
-  # geom_ribbon(aes(ymin=lower, ymax=upper, group=Type, fill=Type), alpha=0.2, color = NA, show.legend = FALSE) +
+  theme(plot.caption=element_text(hjust = 0), axis.title.x=element_blank(),legend.position = "none") + guides(fill=guide_legend(title="")) +
+  geom_ribbon(aes(ymin=Wgt.Lower, ymax=Wgt.Upper, group=Type, fill=Type), alpha=0.2, color = NA, show.legend = FALSE) +
   scale_color_manual(values = cbPalette) + scale_fill_manual(values = cbPalette) 
 ggsave('figs/plt_mat_year_age_wgt_line.png')

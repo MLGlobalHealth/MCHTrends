@@ -124,7 +124,7 @@ df_long_mat_year %>%
        title = "Rates of Maternal Deaths by Year (2018-2023)",
        subtitle = "Count of Deaths Above Each Bar",
        caption = "Note: The 2022 count is provisional. The 2023 count is provisional and partial. We take deaths in the first half of 2023 and double the count to approximate the yearly mortality.") + 
-  theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) 
+  theme(plot.caption=element_text(hjust = 0), axis.title.x=element_blank()) + guides(fill=guide_legend(title="")) 
 ggsave("figs/plt_mat_five_year_bar.png")
 
 df_inf3 %>%
@@ -137,7 +137,7 @@ df_inf3 %>%
        title = "Rates of Infant Deaths by Year (2018-2023)",
        subtitle = "Count of Deaths Above Each Bar",
        caption = "Note: The 2022 count is provisional. The 2023 count is provisional and partial. We take deaths in the first half of 2023 and double the count to approximate the yearly mortality.") + 
-  theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) 
+  theme(plot.caption=element_text(hjust = 0), axis.title.x=element_blank()) + guides(fill=guide_legend(title="")) 
 ggsave("figs/plt_inf_five_year_bar.png")
 
 df_fet3 %>%
@@ -148,6 +148,7 @@ df_fet3 %>%
   theme_minimal() + 
   labs(y = "Rate per 100,000 Live Births", 
        title = "Rates of Fetal Deaths by Year (2017-2021)",
-       subtitle = "Count of Deaths Above Each Bar") 
+       subtitle = "Count of Deaths Above Each Bar") +
+  theme(axis.title.x=element_blank())
 ggsave("figs/plt_fet_five_year_bar.png")
 
