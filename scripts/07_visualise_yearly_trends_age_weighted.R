@@ -142,36 +142,65 @@ df_nat_year_age_rate <- df_nat_year_age_rate %>%
   ) 
 
 df_mmno_age <- df_mmno_age %>%
-  mutate(Wgt.Deaths.by.Births = case_when(
+  mutate(Deaths.by.Births = case_when(
   age_group == '<35' ~ Deaths.by.Births*mort_lt_35_2000,
   age_group == '>35' ~ Deaths.by.Births*mort_gt_35_2000)) %>%
-  mutate(Wgt.Lower = case_when(
+  mutate(lower = case_when(
     age_group == '<35' ~ lower*mort_lt_35_2000,
     age_group == '>35' ~ lower*mort_gt_35_2000)) %>%
-  mutate(Wgt.Upper = case_when(
+  mutate(upper = case_when(
     age_group == '<35' ~ upper*mort_lt_35_2000,
     age_group == '>35' ~ upper*mort_gt_35_2000)) %>%
   group_by(Year, Type) %>%
   summarise(
     Births=sum(Births),
     Deaths=sum(Deaths),
-    Wgt.Deaths.by.Births=sum(Wgt.Deaths.by.Births),
-    Wgt.Lower=sum(Wgt.Lower),
-    Wgt.Upper=sum(Wgt.Upper)
+    Deaths.by.Births=sum(Deaths.by.Births),
+    lower=sum(lower),
+    upper=sum(upper)
     ) 
+
+# Merge with the yearly plots
+
+load("data/mat_all_yearly_clean.Rda")
+
+df_mat_all_year <- df_mat_all_year %>%
+  filter(Type == 'Cause-Specific Maternal')
+
+df_mat_all_year$Type = 'Raw'
+
+df_mat_all_year_ci <- byars_conf_interval(df_mat_all_year$Deaths, df_mat_all_year$Births)
+df_mat_all_year <- cbind(df_mat_all_year, df_mat_all_year_ci)
+df_mat_all_year$Type = 'Age-Adjusted'
+
+df_all <- rbind(df_mmno_age, df_mat_all_year)
 
 # Plot ---------------------------------------------------------
 
 # colour blind friendly palette from here: https://jfly.uni-koeln.de/color/
 cbPalette <- c("#CC79A7","#009E73", "#E69F00", "#D55E00", "#56B4E9", "#F0E442", "#999999")
 
-df_mmno_age %>%
-  ggplot(aes(x=Year, y=Wgt.Deaths.by.Births, group=Type, colour=Type, linetype=Type)) +
+df_all %>%
+  ggplot(aes(x=Year, y=Deaths.by.Births, group=Type, colour=Type, linetype=Type)) +
   geom_line() +
   theme_minimal() + 
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   labs(y = "Rate per 100,000 Live Births") +
-  theme(plot.caption=element_text(hjust = 0), axis.title.x=element_blank(),legend.position = "none") + guides(fill=guide_legend(title="")) +
-  geom_ribbon(aes(ymin=Wgt.Lower, ymax=Wgt.Upper, group=Type, fill=Type), alpha=0.2, color = NA, show.legend = FALSE) +
+  theme(plot.caption=element_text(hjust = 0), axis.title.x=element_blank()) + guides(fill=guide_legend(title="")) +
+  geom_ribbon(aes(ymin=lower, ymax=upper, group=Type, fill=Type), alpha=0.2, color = NA, show.legend = FALSE) +
   scale_color_manual(values = cbPalette) + scale_fill_manual(values = cbPalette) 
 ggsave('figs/plt_mat_year_age_wgt_line.png')
+
+# df_mmno_mrg <- merge(df_mmno, df_nat_year_age, by=c('Year','age_group'))
+# df_mmno_mrg$rate = df_mmno_mrg$Deaths / df_mmno_mrg$Births * 100000
+# 
+# df_mmno_mrg %>%
+#   ggplot(aes(x=Year, y=rate, group=age_group, colour=age_group, linetype=age_group)) +
+#   geom_line() +
+#   theme_minimal() +
+#   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+#   labs(y="Death Rate per 100,000") +
+#   theme(plot.caption=element_text(hjust = 0), axis.title.x=element_blank()) + guides(fill=guide_legend(title="")) +
+#   #geom_ribbon(aes(ymin=lower, ymax=upper, group=Type, fill=Type), alpha=0.2, color = NA, show.legend = FALSE) +
+#   scale_color_manual(values = cbPalette) + scale_fill_manual(values = cbPalette)
+

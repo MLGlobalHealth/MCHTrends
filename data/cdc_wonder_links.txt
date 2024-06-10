@@ -10,7 +10,7 @@ https://wonder.cdc.gov/controller/saved/D66/D374F211
 https://wonder.cdc.gov/controller/saved/D66/D374F212
 https://wonder.cdc.gov/controller/saved/D66/D367F077
 https://wonder.cdc.gov/controller/saved/D192/D367F073
-https://wonder.cdc.gov/controller/saved/D10/D374F057
+https://wonder.cdc.gov/controller/saved/D10/D394F959
 https://wonder.cdc.gov/controller/saved/D27/D374F055
 https://wonder.cdc.gov/controller/saved/D27/D367F064 
 https://wonder.cdc.gov/controller/saved/D66/D374F142
@@ -21,7 +21,7 @@ https://wonder.cdc.gov/controller/saved/D192/D367F072
 https://wonder.cdc.gov/controller/saved/D27/D367F065
 https://wonder.cdc.gov/controller/saved/D66/D367F079
 https://wonder.cdc.gov/controller/saved/D192/D367F071
-https://wonder.cdc.gov/controller/saved/D10/D349F472
+https://wonder.cdc.gov/controller/saved/D10/D394F957
 https://wonder.cdc.gov/controller/saved/D27/D349F471
 https://wonder.cdc.gov/controller/saved/D66/D367F061
 https://wonder.cdc.gov/controller/saved/D192/D367F074
@@ -135,3 +135,6 @@ https://wonder.cdc.gov/controller/saved/D176/D374F248
 https://wonder.cdc.gov/controller/saved/D176/D374F250 
 https://wonder.cdc.gov/controller/saved/D176/D374F252 
 https://wonder.cdc.gov/controller/saved/D176/D374F254 
+https://wonder.cdc.gov/controller/saved/D77/D394F919
+https://wonder.cdc.gov/controller/saved/D77/D394F921
+https://wonder.cdc.gov/controller/saved/D176/D394F922

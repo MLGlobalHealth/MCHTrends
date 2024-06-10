@@ -14,7 +14,7 @@ if (any(installed_packages == FALSE)) {
 ## Packages loading
 invisible(lapply(packages, library, character.only = TRUE))
 
-setwd('/Users/rpark/Desktop/Research/2. Fetal Maternal Mortality/FetalMaternalMortality')
+setwd('/Users/rpark/Desktop/Research/Rotations/2. Fetal Maternal Mortality/FetalMaternalMortality')
 
 # clean datafiles ---------------------------------------------------------
 
@@ -32,7 +32,7 @@ df_inf2b <- clean_df('infant_mortality_race_18_19') %>%
 df_inf_covid <- clean_df('infant_mortality_race_20_22') %>%
   rename(Race = Single.Race.6, Race.Code = Single.Race.6.Code)
 
-load(file="data/natality_race_00_10_clean.Rda")
+load(file="data/natality_race_01_10_clean.Rda")
 load(file="data/natality_race_11_19_clean.Rda")
 load(file="data/natality_race_20_22_clean.Rda")
 
@@ -72,7 +72,7 @@ mrg_births <- function(df_mort, df_nat) {
                   by=c('Mother.s.Race'))
 }
 
-df_inf1 <- mrg_births(df_inf1, df_nat_race_00_10)
+df_inf1 <- mrg_births(df_inf1, df_nat_race_01_10)
 df_inf2 <- mrg_births(df_inf2, df_nat_race_11_19)
 df_inf_covid <- mrg_births(df_inf_covid, df_nat_race_20_22)
 
@@ -83,14 +83,14 @@ create_crude <- function(df, rate, label) {
     # subset(select = -c(Births, Deaths))
 }
 
-df_crude_inf1 <- create_crude(df_inf1, Rate.00.10, 'Infant Mortality')
+df_crude_inf1 <- create_crude(df_inf1, Rate.01.10, 'Infant Mortality')
 df_crude_inf2 <- create_crude(df_inf2, Rate.11.19, 'Infant Mortality')
 df_crude_inf <- merge(df_crude_inf1, df_crude_inf2, by=c('Mother.s.Race', 'Type'))
 
 df_crude_inf_covid <- create_crude(df_inf_covid, Rate.Covid, 'Infant Mortality')
 df_crude_inf_covid_chg <- merge(df_crude_inf2, df_crude_inf_covid, by=c('Mother.s.Race', 'Type'))
 
-df_crude_inf$Pct.Change = (df_crude_inf$Rate.11.19-df_crude_inf$Rate.00.10)/df_crude_inf$Rate.00.10*100
+df_crude_inf$Pct.Change = (df_crude_inf$Rate.11.19-df_crude_inf$Rate.01.10)/df_crude_inf$Rate.01.10*100
 df_crude_inf_covid_chg$Pct.Change = (df_crude_inf_covid_chg$Rate.Covid-df_crude_inf_covid_chg$Rate.11.19)/df_crude_inf_covid_chg$Rate.11.19*100
 
 # compute CIs ---------------------------------------------------------
@@ -115,7 +115,7 @@ byars_conf_interval <- function(race, x, n, mult=1000, alpha=0.05) {
 }
 
 df_ci_00_10 <- distinct(byars_conf_interval(df_crude_long$Mother.s.Race, df_crude_long$Deaths.x, df_crude_long$Births.x, 1000))
-df_ci_00_10$time_period <- 'Rate.00.10'
+df_ci_00_10$time_period <- 'Rate.01.10'
 
 df_ci_11_19 <- distinct(byars_conf_interval(df_crude_long$Mother.s.Race, df_crude_long$Deaths.y, df_crude_long$Births.y, 1000))
 df_ci_11_19$time_period <- 'Rate.11.19'
@@ -132,7 +132,7 @@ df_crude_covid_long <- rbind(df_crude_long_mrg2,df_crude_long_mrg3)
 df_crude_all <- distinct(rbind(df_crude_long, df_crude_covid_long))
 df_crude_all <- df_crude_all %>%
   mutate(Period = case_when(
-    time_period == 'Rate.00.10' ~ "2000-2010",
+    time_period == 'Rate.01.10' ~ "2001-2010",
     time_period == 'Rate.11.19' ~ "2011-2019",
     time_period == 'Rate.Covid' ~ "2020-2022",
   ))

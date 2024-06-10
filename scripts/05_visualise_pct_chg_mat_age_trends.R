@@ -14,7 +14,7 @@ if (any(installed_packages == FALSE)) {
 ## Packages loading
 invisible(lapply(packages, library, character.only = TRUE))
 
-setwd('/Users/rpark/Desktop/Research/2. Fetal Maternal Mortality/FetalMaternalMortality')
+setwd('/Users/rpark/Desktop/Research/Rotations/2. Fetal Maternal Mortality/FetalMaternalMortality')
 
 # clean datafiles ---------------------------------------------------------
 
@@ -67,7 +67,7 @@ clean_nat_df <- function(fname, age_var, age_var_code) {
     ) 
 }
 
-df_nat1 <- clean_nat_df('natality_age_year_census_00_02', 
+df_nat1 <- clean_nat_df('natality_age_year_census_01_02', 
                         Age.of.Mother, Age.of.Mother.Code) 
 df_nat2 <- clean_nat_df('natality_age_year_census_03_06', 
                         Age.of.Mother.9, Age.of.Mother.9.Code) 
@@ -118,28 +118,28 @@ create_crude <- function(df, rate, label) {
     # subset(select = -c(Births, Deaths))
 }
 
-df_crude_mm1 <- create_crude(df_mm1, Rate.00.10, 'Maternal')
+df_crude_mm1 <- create_crude(df_mm1, Rate.01.10, 'Maternal')
 df_crude_mm2 <- create_crude(df_mm2, Rate.11.19, 'Maternal')
 df_crude_mm <- merge(df_crude_mm1, df_crude_mm2, by=c('Five.Year.Age.Groups', 'Type'))
 
 df_crude_mm_covid <- create_crude(df_mm_covid, Rate.Covid, 'Maternal')
 df_crude_mm_covid_chg <- merge(df_crude_mm2, df_crude_mm_covid, by=c('Five.Year.Age.Groups', 'Type'))
 
-df_crude_mmno1 <- create_crude(df_mmno1, Rate.00.10, 'Cause-Specific Maternal')
+df_crude_mmno1 <- create_crude(df_mmno1, Rate.01.10, 'Cause-Specific Maternal')
 df_crude_mmno2 <- create_crude(df_mmno2, Rate.11.19, 'Cause-Specific Maternal')
 df_crude_mmno <- merge(df_crude_mmno1, df_crude_mmno2, by=c('Five.Year.Age.Groups', 'Type'))
 
 df_crude_mmno_covid <- create_crude(df_mmno_covid, Rate.Covid, 'Cause-Specific Maternal')
 df_crude_mmno_covid_chg <- merge(df_crude_mmno2, df_crude_mmno_covid, by=c('Five.Year.Age.Groups', 'Type'))
 
-df_crude_mmot1 <- create_crude(df_mmot1, Rate.00.10, 'Unspecified Maternal')
+df_crude_mmot1 <- create_crude(df_mmot1, Rate.01.10, 'Unspecified Maternal')
 df_crude_mmot2 <- create_crude(df_mmot2, Rate.11.19, 'Unspecified Maternal')
 df_crude_mmot <- merge(df_crude_mmot1, df_crude_mmot2, by=c('Five.Year.Age.Groups', 'Type'))
 
 df_crude_mmot_covid <- create_crude(df_mmot_covid, Rate.Covid, 'Unspecified Maternal')
 df_crude_mmot_covid_chg <- merge(df_crude_mmot2, df_crude_mmot_covid, by=c('Five.Year.Age.Groups', 'Type'))
 
-df_crude_pr1 <- create_crude(df_pr1, Rate.00.10, 'Late Maternal')
+df_crude_pr1 <- create_crude(df_pr1, Rate.01.10, 'Late Maternal')
 df_crude_pr2 <- create_crude(df_pr2, Rate.11.19, 'Late Maternal')
 df_crude_pr <- merge(df_crude_pr1, df_crude_pr2, by=c('Five.Year.Age.Groups', 'Type'))
 
@@ -147,7 +147,7 @@ df_crude_pr_covid <- create_crude(df_pr_covid, Rate.Covid, 'Late Maternal')
 df_crude_pr_covid_chg <- merge(df_crude_pr2, df_crude_pr_covid, by=c('Five.Year.Age.Groups', 'Type'))
 
 df_crude <- rbind(df_crude_mm, df_crude_mmno, df_crude_mmot, df_crude_pr)
-df_crude$Pct.Change = (df_crude$Rate.11.19-df_crude$Rate.00.10)/df_crude$Rate.00.10*100
+df_crude$Pct.Change = (df_crude$Rate.11.19-df_crude$Rate.01.10)/df_crude$Rate.01.10*100
 
 df_crude_covid <- rbind(df_crude_mm_covid_chg, df_crude_mmno_covid_chg, df_crude_mmot_covid_chg, df_crude_pr_covid_chg)
 df_crude_covid$Pct.Change = (df_crude_covid$Rate.Covid-df_crude_covid$Rate.11.19)/df_crude_covid$Rate.11.19*100
@@ -178,7 +178,7 @@ byars_conf_interval <- function(age, x, n, mult=100000, alpha=0.05) {
 }
 
 df_ci_00_10 <- distinct(byars_conf_interval(df_crude_long$Five.Year.Age.Groups, df_crude_long$Deaths.x, df_crude_long$Births.x, 100000))
-df_ci_00_10$time_period <- 'Rate.00.10'
+df_ci_00_10$time_period <- 'Rate.01.10'
 
 df_ci_11_19 <- distinct(byars_conf_interval(df_crude_long$Five.Year.Age.Groups, df_crude_long$Deaths.y, df_crude_long$Births.y, 100000))
 df_ci_11_19$time_period <- 'Rate.11.19'
@@ -195,7 +195,7 @@ df_crude_covid_long <- rbind(df_crude_long_mrg2,df_crude_long_mrg3)
 df_crude_all <- distinct(rbind(df_crude_long, df_crude_covid_long))
 df_crude_all <- df_crude_all %>%
   mutate(Period = case_when(
-    time_period == 'Rate.00.10' ~ "2000-2010",
+    time_period == 'Rate.01.10' ~ "2001-2010",
     time_period == 'Rate.11.19' ~ "2011-2019",
     time_period == 'Rate.Covid' ~ "2020-2022",
   ))
