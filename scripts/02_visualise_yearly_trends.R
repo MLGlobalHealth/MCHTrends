@@ -86,7 +86,7 @@ save(df_inf_all_year, file="data/inf_all_yearly_clean.Rda")
 
 # Fetal ---------------------------------------------------------
 
-df_fet_all_year <- read.csv('data/fetal_mortality_yearly_05_21.txt', sep = "\t")
+df_fet_all_year <- read.csv('data/fetal_mortality_yearly_05_22.txt', sep = "\t")
 df_fet_all_year <- subset(df_fet_all_year, select = -c(Notes)) %>%
   na.omit()
 df_fet_all_year <- merge(df_fet_all_year, df_nat_year, on=Year)

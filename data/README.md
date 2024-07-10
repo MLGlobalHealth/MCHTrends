@@ -103,7 +103,7 @@ By census:
 ---
 ## Fetal Mortality
 
-- 2005-2021: https://wonder.cdc.gov/controller/saved/D133/D374F186
+- 2005-2021: https://wonder.cdc.gov/controller/saved/D133/D398F673
 
 ---
 
