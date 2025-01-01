@@ -1,0 +1,58 @@
+"Notes"	"Age of Mother 9"	"Age of Mother 9 Code"	"Census Region of Residence"	"Census Region of Residence Code"	Births
+	"15-19 years"	"15-19"	"Census Region 1: Northeast"	"CENS-R1"	6948
+	"15-19 years"	"15-19"	"Census Region 2: Midwest"	"CENS-R2"	13667
+	"15-19 years"	"15-19"	"Census Region 3: South"	"CENS-R3"	35229
+	"15-19 years"	"15-19"	"Census Region 4: West"	"CENS-R4"	12873
+"Total"	"15-19 years"	"15-19"			68717
+	"20-24 years"	"20-24"	"Census Region 1: Northeast"	"CENS-R1"	36056
+	"20-24 years"	"20-24"	"Census Region 2: Midwest"	"CENS-R2"	63159
+	"20-24 years"	"20-24"	"Census Region 3: South"	"CENS-R3"	140793
+	"20-24 years"	"20-24"	"Census Region 4: West"	"CENS-R4"	61117
+"Total"	"20-24 years"	"20-24"			301125
+	"25-29 years"	"25-29"	"Census Region 1: Northeast"	"CENS-R1"	66467
+	"25-29 years"	"25-29"	"Census Region 2: Midwest"	"CENS-R2"	106572
+	"25-29 years"	"25-29"	"Census Region 3: South"	"CENS-R3"	202780
+	"25-29 years"	"25-29"	"Census Region 4: West"	"CENS-R4"	105925
+"Total"	"25-29 years"	"25-29"			481744
+	"30-34 years"	"30-34"	"Census Region 1: Northeast"	"CENS-R1"	96265
+	"30-34 years"	"30-34"	"Census Region 2: Midwest"	"CENS-R2"	112214
+	"30-34 years"	"30-34"	"Census Region 3: South"	"CENS-R3"	201986
+	"30-34 years"	"30-34"	"Census Region 4: West"	"CENS-R4"	124304
+"Total"	"30-34 years"	"30-34"			534769
+	"35-39 years"	"35-39"	"Census Region 1: Northeast"	"CENS-R1"	58485
+	"35-39 years"	"35-39"	"Census Region 2: Midwest"	"CENS-R2"	53792
+	"35-39 years"	"35-39"	"Census Region 3: South"	"CENS-R3"	104509
+	"35-39 years"	"35-39"	"Census Region 4: West"	"CENS-R4"	74811
+"Total"	"35-39 years"	"35-39"			291597
+	"40-44 years"	"40-44"	"Census Region 1: Northeast"	"CENS-R1"	13648
+	"40-44 years"	"40-44"	"Census Region 2: Midwest"	"CENS-R2"	10759
+	"40-44 years"	"40-44"	"Census Region 3: South"	"CENS-R3"	23499
+	"40-44 years"	"40-44"	"Census Region 4: West"	"CENS-R4"	18057
+"Total"	"40-44 years"	"40-44"			65963
+"Total"					1743915
+"---"
+"Dataset: Provisional Natality, 2023 through Last Month"
+"Query Parameters:"
+"Title: natality_age_year_census_first_half_23"
+"Age of Mother 9: 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years"
+"Month: January; February; March; April; May; June"
+"Year: 2023"
+"Group By: Age of Mother 9; Census Region of Residence"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 1,000"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/Natality-provisional.html for more information."
+"---"
+"Query Date: Jan 10, 2024 11:09:55 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Natality on CDC WONDER Online Database. Data are from the Natality Records 2023 through Last Month, as"
+"compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed"
+"at http://wonder.cdc.gov/natality-expanded-provisional.html on Jan 10, 2024 11:09:55 PM"
+"---"
+Caveats:
+"1. Each birth record represents one liveborn infant."
+"2. Data are provisional and subject to change."
+"3. Births occurring through November 30, 2023 as of December 28, 2023."

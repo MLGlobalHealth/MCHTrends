@@ -1,0 +1,141 @@
+"Notes"	"Census Region"	"Census Region Code"	"Year"	"Year Code"	"Age of Mother 9"	"Age of Mother 9 Code"	Births
+	"Census Region 1: Northeast"	"CENS-R1"	"2003"	"2003"	"15-19 years"	"15-19"	48627
+	"Census Region 1: Northeast"	"CENS-R1"	"2003"	"2003"	"20-24 years"	"20-24"	131793
+	"Census Region 1: Northeast"	"CENS-R1"	"2003"	"2003"	"25-29 years"	"25-29"	172249
+	"Census Region 1: Northeast"	"CENS-R1"	"2003"	"2003"	"30-34 years"	"30-34"	200036
+	"Census Region 1: Northeast"	"CENS-R1"	"2003"	"2003"	"35-39 years"	"35-39"	108805
+	"Census Region 1: Northeast"	"CENS-R1"	"2003"	"2003"	"40-44 years"	"40-44"	24098
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2003"	"2003"			685608
+	"Census Region 1: Northeast"	"CENS-R1"	"2004"	"2004"	"15-19 years"	"15-19"	47763
+	"Census Region 1: Northeast"	"CENS-R1"	"2004"	"2004"	"20-24 years"	"20-24"	129280
+	"Census Region 1: Northeast"	"CENS-R1"	"2004"	"2004"	"25-29 years"	"25-29"	172128
+	"Census Region 1: Northeast"	"CENS-R1"	"2004"	"2004"	"30-34 years"	"30-34"	194084
+	"Census Region 1: Northeast"	"CENS-R1"	"2004"	"2004"	"35-39 years"	"35-39"	108691
+	"Census Region 1: Northeast"	"CENS-R1"	"2004"	"2004"	"40-44 years"	"40-44"	24267
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2004"	"2004"			676213
+	"Census Region 1: Northeast"	"CENS-R1"	"2005"	"2005"	"15-19 years"	"15-19"	47696
+	"Census Region 1: Northeast"	"CENS-R1"	"2005"	"2005"	"20-24 years"	"20-24"	129736
+	"Census Region 1: Northeast"	"CENS-R1"	"2005"	"2005"	"25-29 years"	"25-29"	173030
+	"Census Region 1: Northeast"	"CENS-R1"	"2005"	"2005"	"30-34 years"	"30-34"	186674
+	"Census Region 1: Northeast"	"CENS-R1"	"2005"	"2005"	"35-39 years"	"35-39"	107858
+	"Census Region 1: Northeast"	"CENS-R1"	"2005"	"2005"	"40-44 years"	"40-44"	24326
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2005"	"2005"			669320
+	"Census Region 1: Northeast"	"CENS-R1"	"2006"	"2006"	"15-19 years"	"15-19"	49392
+	"Census Region 1: Northeast"	"CENS-R1"	"2006"	"2006"	"20-24 years"	"20-24"	134585
+	"Census Region 1: Northeast"	"CENS-R1"	"2006"	"2006"	"25-29 years"	"25-29"	178048
+	"Census Region 1: Northeast"	"CENS-R1"	"2006"	"2006"	"30-34 years"	"30-34"	183398
+	"Census Region 1: Northeast"	"CENS-R1"	"2006"	"2006"	"35-39 years"	"35-39"	109189
+	"Census Region 1: Northeast"	"CENS-R1"	"2006"	"2006"	"40-44 years"	"40-44"	24192
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2006"	"2006"			678804
+"Total"	"Census Region 1: Northeast"	"CENS-R1"					2709945
+	"Census Region 2: Midwest"	"CENS-R2"	"2003"	"2003"	"15-19 years"	"15-19"	85720
+	"Census Region 2: Midwest"	"CENS-R2"	"2003"	"2003"	"20-24 years"	"20-24"	225241
+	"Census Region 2: Midwest"	"CENS-R2"	"2003"	"2003"	"25-29 years"	"25-29"	249408
+	"Census Region 2: Midwest"	"CENS-R2"	"2003"	"2003"	"30-34 years"	"30-34"	213826
+	"Census Region 2: Midwest"	"CENS-R2"	"2003"	"2003"	"35-39 years"	"35-39"	94321
+	"Census Region 2: Midwest"	"CENS-R2"	"2003"	"2003"	"40-44 years"	"40-44"	18712
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2003"	"2003"			887228
+	"Census Region 2: Midwest"	"CENS-R2"	"2004"	"2004"	"15-19 years"	"15-19"	85455
+	"Census Region 2: Midwest"	"CENS-R2"	"2004"	"2004"	"20-24 years"	"20-24"	223756
+	"Census Region 2: Midwest"	"CENS-R2"	"2004"	"2004"	"25-29 years"	"25-29"	253048
+	"Census Region 2: Midwest"	"CENS-R2"	"2004"	"2004"	"30-34 years"	"30-34"	210402
+	"Census Region 2: Midwest"	"CENS-R2"	"2004"	"2004"	"35-39 years"	"35-39"	94846
+	"Census Region 2: Midwest"	"CENS-R2"	"2004"	"2004"	"40-44 years"	"40-44"	19258
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2004"	"2004"			886765
+	"Census Region 2: Midwest"	"CENS-R2"	"2005"	"2005"	"15-19 years"	"15-19"	84525
+	"Census Region 2: Midwest"	"CENS-R2"	"2005"	"2005"	"20-24 years"	"20-24"	223200
+	"Census Region 2: Midwest"	"CENS-R2"	"2005"	"2005"	"25-29 years"	"25-29"	258960
+	"Census Region 2: Midwest"	"CENS-R2"	"2005"	"2005"	"30-34 years"	"30-34"	204387
+	"Census Region 2: Midwest"	"CENS-R2"	"2005"	"2005"	"35-39 years"	"35-39"	95410
+	"Census Region 2: Midwest"	"CENS-R2"	"2005"	"2005"	"40-44 years"	"40-44"	19247
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2005"	"2005"			885729
+	"Census Region 2: Midwest"	"CENS-R2"	"2006"	"2006"	"15-19 years"	"15-19"	87255
+	"Census Region 2: Midwest"	"CENS-R2"	"2006"	"2006"	"20-24 years"	"20-24"	228590
+	"Census Region 2: Midwest"	"CENS-R2"	"2006"	"2006"	"25-29 years"	"25-29"	267726
+	"Census Region 2: Midwest"	"CENS-R2"	"2006"	"2006"	"30-34 years"	"30-34"	201712
+	"Census Region 2: Midwest"	"CENS-R2"	"2006"	"2006"	"35-39 years"	"35-39"	96841
+	"Census Region 2: Midwest"	"CENS-R2"	"2006"	"2006"	"40-44 years"	"40-44"	18861
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2006"	"2006"			900985
+"Total"	"Census Region 2: Midwest"	"CENS-R2"					3560707
+	"Census Region 3: South"	"CENS-R3"	"2003"	"2003"	"15-19 years"	"15-19"	183602
+	"Census Region 3: South"	"CENS-R3"	"2003"	"2003"	"20-24 years"	"20-24"	424092
+	"Census Region 3: South"	"CENS-R3"	"2003"	"2003"	"25-29 years"	"25-29"	394119
+	"Census Region 3: South"	"CENS-R3"	"2003"	"2003"	"30-34 years"	"30-34"	324097
+	"Census Region 3: South"	"CENS-R3"	"2003"	"2003"	"35-39 years"	"35-39"	144797
+	"Census Region 3: South"	"CENS-R3"	"2003"	"2003"	"40-44 years"	"40-44"	30026
+"Total"	"Census Region 3: South"	"CENS-R3"	"2003"	"2003"			1500733
+	"Census Region 3: South"	"CENS-R3"	"2004"	"2004"	"15-19 years"	"15-19"	185046
+	"Census Region 3: South"	"CENS-R3"	"2004"	"2004"	"20-24 years"	"20-24"	428921
+	"Census Region 3: South"	"CENS-R3"	"2004"	"2004"	"25-29 years"	"25-29"	404173
+	"Census Region 3: South"	"CENS-R3"	"2004"	"2004"	"30-34 years"	"30-34"	322934
+	"Census Region 3: South"	"CENS-R3"	"2004"	"2004"	"35-39 years"	"35-39"	148675
+	"Census Region 3: South"	"CENS-R3"	"2004"	"2004"	"40-44 years"	"40-44"	31470
+"Total"	"Census Region 3: South"	"CENS-R3"	"2004"	"2004"			1521219
+	"Census Region 3: South"	"CENS-R3"	"2005"	"2005"	"15-19 years"	"15-19"	185031
+	"Census Region 3: South"	"CENS-R3"	"2005"	"2005"	"20-24 years"	"20-24"	433182
+	"Census Region 3: South"	"CENS-R3"	"2005"	"2005"	"25-29 years"	"25-29"	417467
+	"Census Region 3: South"	"CENS-R3"	"2005"	"2005"	"30-34 years"	"30-34"	321682
+	"Census Region 3: South"	"CENS-R3"	"2005"	"2005"	"35-39 years"	"35-39"	153484
+	"Census Region 3: South"	"CENS-R3"	"2005"	"2005"	"40-44 years"	"40-44"	32152
+"Total"	"Census Region 3: South"	"CENS-R3"	"2005"	"2005"			1542998
+	"Census Region 3: South"	"CENS-R3"	"2006"	"2006"	"15-19 years"	"15-19"	195645
+	"Census Region 3: South"	"CENS-R3"	"2006"	"2006"	"20-24 years"	"20-24"	453729
+	"Census Region 3: South"	"CENS-R3"	"2006"	"2006"	"25-29 years"	"25-29"	440023
+	"Census Region 3: South"	"CENS-R3"	"2006"	"2006"	"30-34 years"	"30-34"	323921
+	"Census Region 3: South"	"CENS-R3"	"2006"	"2006"	"35-39 years"	"35-39"	160853
+	"Census Region 3: South"	"CENS-R3"	"2006"	"2006"	"40-44 years"	"40-44"	32704
+"Total"	"Census Region 3: South"	"CENS-R3"	"2006"	"2006"			1606875
+"Total"	"Census Region 3: South"	"CENS-R3"					6171825
+	"Census Region 4: West"	"CENS-R4"	"2003"	"2003"	"15-19 years"	"15-19"	96631
+	"Census Region 4: West"	"CENS-R4"	"2003"	"2003"	"20-24 years"	"20-24"	251179
+	"Census Region 4: West"	"CENS-R4"	"2003"	"2003"	"25-29 years"	"25-29"	270590
+	"Census Region 4: West"	"CENS-R4"	"2003"	"2003"	"30-34 years"	"30-34"	237587
+	"Census Region 4: West"	"CENS-R4"	"2003"	"2003"	"35-39 years"	"35-39"	119719
+	"Census Region 4: West"	"CENS-R4"	"2003"	"2003"	"40-44 years"	"40-44"	28169
+"Total"	"Census Region 4: West"	"CENS-R4"	"2003"	"2003"			1003875
+	"Census Region 4: West"	"CENS-R4"	"2004"	"2004"	"15-19 years"	"15-19"	96998
+	"Census Region 4: West"	"CENS-R4"	"2004"	"2004"	"20-24 years"	"20-24"	252497
+	"Census Region 4: West"	"CENS-R4"	"2004"	"2004"	"25-29 years"	"25-29"	275136
+	"Census Region 4: West"	"CENS-R4"	"2004"	"2004"	"30-34 years"	"30-34"	238243
+	"Census Region 4: West"	"CENS-R4"	"2004"	"2004"	"35-39 years"	"35-39"	123394
+	"Census Region 4: West"	"CENS-R4"	"2004"	"2004"	"40-44 years"	"40-44"	28684
+"Total"	"Census Region 4: West"	"CENS-R4"	"2004"	"2004"			1014952
+	"Census Region 4: West"	"CENS-R4"	"2005"	"2005"	"15-19 years"	"15-19"	97341
+	"Census Region 4: West"	"CENS-R4"	"2005"	"2005"	"20-24 years"	"20-24"	254270
+	"Census Region 4: West"	"CENS-R4"	"2005"	"2005"	"25-29 years"	"25-29"	282139
+	"Census Region 4: West"	"CENS-R4"	"2005"	"2005"	"30-34 years"	"30-34"	237948
+	"Census Region 4: West"	"CENS-R4"	"2005"	"2005"	"35-39 years"	"35-39"	126404
+	"Census Region 4: West"	"CENS-R4"	"2005"	"2005"	"40-44 years"	"40-44"	28942
+"Total"	"Census Region 4: West"	"CENS-R4"	"2005"	"2005"			1027044
+	"Census Region 4: West"	"CENS-R4"	"2006"	"2006"	"15-19 years"	"15-19"	103144
+	"Census Region 4: West"	"CENS-R4"	"2006"	"2006"	"20-24 years"	"20-24"	263533
+	"Census Region 4: West"	"CENS-R4"	"2006"	"2006"	"25-29 years"	"25-29"	296102
+	"Census Region 4: West"	"CENS-R4"	"2006"	"2006"	"30-34 years"	"30-34"	241227
+	"Census Region 4: West"	"CENS-R4"	"2006"	"2006"	"35-39 years"	"35-39"	131733
+	"Census Region 4: West"	"CENS-R4"	"2006"	"2006"	"40-44 years"	"40-44"	29782
+"Total"	"Census Region 4: West"	"CENS-R4"	"2006"	"2006"			1065521
+"Total"	"Census Region 4: West"	"CENS-R4"					4111392
+"Total"							16553869
+"---"
+"Dataset: Natality, 2003-2006"
+"Query Parameters:"
+"Title: natality_age_year_census_03_06"
+"Age of Mother 9: 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years"
+"Group By: Census Region; Year; Age of Mother 9"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 1,000"
+"Population Option: No populations shown because rates were not selected."
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/Natality.html for more information."
+"---"
+"Query Date: Jan 10, 2024 11:07:47 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Natality on CDC WONDER Online Database. Data are from the Natality Records 2003-2006, as compiled from data provided by"
+"the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed at"
+"http://wonder.cdc.gov/natality-v2006.html on Jan 10, 2024 11:07:47 PM"
+"---"
+Caveats:
+"1. Each birth record represents one liveborn infant."

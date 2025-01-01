@@ -1,0 +1,79 @@
+"Notes"	"State of Residence"	"State of Residence Code"	Births
+	"Alabama"	"01"	28090
+	"Alaska"	"02"	4434
+	"Arizona"	"04"	37256
+	"Arkansas"	"05"	16984
+	"California"	"06"	192407
+	"Colorado"	"08"	30303
+	"Connecticut"	"09"	16793
+	"Delaware"	"10"	5139
+	"District of Columbia"	"11"	3880
+	"Florida"	"12"	106335
+	"Georgia"	"13"	60347
+	"Hawaii"	"15"	7321
+	"Idaho"	"16"	10929
+	"Illinois"	"17"	60808
+	"Indiana"	"18"	38672
+	"Iowa"	"19"	17734
+	"Kansas"	"20"	16601
+	"Kentucky"	"21"	25369
+	"Louisiana"	"22"	26361
+	"Maine"	"23"	5703
+	"Maryland"	"24"	32122
+	"Massachusetts"	"25"	32681
+	"Michigan"	"26"	48895
+	"Minnesota"	"27"	30592
+	"Mississippi"	"28"	16732
+	"Missouri"	"29"	32517
+	"Montana"	"30"	5416
+	"Nebraska"	"31"	11959
+	"Nevada"	"32"	15363
+	"New Hampshire"	"33"	5847
+	"New Jersey"	"34"	49020
+	"New Mexico"	"35"	10259
+	"New York"	"36"	98687
+	"North Carolina"	"37"	57976
+	"North Dakota"	"38"	4810
+	"Ohio"	"39"	62487
+	"Oklahoma"	"40"	23338
+	"Oregon"	"41"	18560
+	"Pennsylvania"	"42"	61864
+	"Rhode Island"	"44"	4786
+	"South Carolina"	"45"	27923
+	"South Dakota"	"46"	5546
+	"Tennessee"	"47"	40219
+	"Texas"	"48"	184979
+	"Utah"	"49"	22309
+	"Vermont"	"50"	2488
+	"Virginia"	"51"	44853
+	"Washington"	"53"	39546
+	"West Virginia"	"54"	8149
+	"Wisconsin"	"55"	29542
+	"Wyoming"	"56"	2984
+"Total"			1743915
+"---"
+"Dataset: Provisional Natality, 2023 through Last Month"
+"Query Parameters:"
+"Title: natality_state_first_half_23"
+"Age of Mother 9: 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years"
+"Month: January; February; March; April; May; June"
+"Year: 2023"
+"Group By: State of Residence"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 1,000"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/Natality-provisional.html for more information."
+"---"
+"Query Date: Jan 10, 2024 11:05:38 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Natality on CDC WONDER Online Database. Data are from the Natality Records 2023 through Last Month, as"
+"compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed"
+"at http://wonder.cdc.gov/natality-expanded-provisional.html on Jan 10, 2024 11:05:38 PM"
+"---"
+Caveats:
+"1. Each birth record represents one liveborn infant."
+"2. Data are provisional and subject to change."
+"3. Births occurring through November 30, 2023 as of December 28, 2023."

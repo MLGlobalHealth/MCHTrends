@@ -1,0 +1,79 @@
+"Notes"	"Residence Census Region"	"Residence Census Region Code"	"Five-Year Age Groups"	"Five-Year Age Groups Code"	Deaths	Population	Crude Rate
+	"Census Region 1: Northeast"	"CENS-R1"	"30-34 years"	"30-34"	12	Not Applicable	Not Applicable
+	"Census Region 2: Midwest"	"CENS-R2"	"25-29 years"	"25-29"	17	Not Applicable	Not Applicable
+	"Census Region 2: Midwest"	"CENS-R2"	"30-34 years"	"30-34"	24	Not Applicable	Not Applicable
+	"Census Region 2: Midwest"	"CENS-R2"	"35-39 years"	"35-39"	18	Not Applicable	Not Applicable
+	"Census Region 3: South"	"CENS-R3"	"20-24 years"	"20-24"	19	Not Applicable	Not Applicable
+	"Census Region 3: South"	"CENS-R3"	"25-29 years"	"25-29"	44	Not Applicable	Not Applicable
+	"Census Region 3: South"	"CENS-R3"	"30-34 years"	"30-34"	41	Not Applicable	Not Applicable
+	"Census Region 3: South"	"CENS-R3"	"35-39 years"	"35-39"	41	Not Applicable	Not Applicable
+	"Census Region 3: South"	"CENS-R3"	"40-44 years"	"40-44"	20	Not Applicable	Not Applicable
+	"Census Region 4: West"	"CENS-R4"	"20-24 years"	"20-24"	10	Not Applicable	Not Applicable
+	"Census Region 4: West"	"CENS-R4"	"25-29 years"	"25-29"	14	Not Applicable	Not Applicable
+	"Census Region 4: West"	"CENS-R4"	"30-34 years"	"30-34"	14	Not Applicable	Not Applicable
+	"Census Region 4: West"	"CENS-R4"	"35-39 years"	"35-39"	13	Not Applicable	Not Applicable
+"---"
+"Dataset: Provisional Mortality Statistics, 2018 through Last Week"
+"Query Parameters:"
+"Title: maternal_mortality_age_census_first_half_23"
+"Five-Year Age Groups: 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years"
+"Gender: Female"
+"UCD - ICD-10 Codes: A34 (Obstetrical tetanus); O00-O07 (Pregnancy with abortive outcome); O10-O16 (Oedema, proteinuria and"
+"hypertensive disorders in pregnancy, childbirth and the puerperium); O20-O29 (Other maternal disorders predominantly related to"
+"pregnancy); O30-O48 (Maternal care related to the fetus and amniotic cavity and possible delivery problems); O60-O75"
+"(Complications of labour and delivery); O85-O92 (Complications predominantly related to the puerperium); O95 (Obstetric death of"
+"unspecified cause); O98.0 (Tuberculosis complicating pregnancy, childbirth and the puerperium); O98.1 (Syphilis complicating"
+"pregnancy, childbirth and the puerperium); O98.2 (Gonorrhoea complicating pregnancy, childbirth and the puerperium); O98.3"
+"(Other infections with a predominantly sexual mode of transmission complicating pregnancy, childbirth and the puerperium); O98.4"
+"(Viral hepatitis complicating pregnancy, childbirth and the puerperium); O98.5 (Other viral diseases complicating pregnancy,"
+"childbirth and the puerperium); O98.6 (Protozoal diseases complicating pregnancy, childbirth and the puerperium); O98.7 (Human"
+"immunodeficiency [HIV] disease complicating pregnancy, childbirth and the puerperium); O98.8 (Other maternal infectious and"
+"parasitic diseases complicating pregnancy, childbirth and the puerperium); O98.9 (Unspecified maternal infectious or parasitic"
+"disease complicating pregnancy, childbirth and the puerperium); O99.0 (Anaemia complicating pregnancy, childbirth and the"
+"puerperium); O99.1 (Other diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism"
+"complicating pregnancy, childbirth and the puerperium); O99.2 (Endocrine, nutritional and metabolic diseases complicating"
+"pregnancy, childbirth and the puerperium); O99.3 (Mental disorders and diseases of the nervous system complicating pregnancy,"
+"childbirth and the puerperium); O99.4 (Diseases of the circulatory system complicating pregnancy, childbirth and the"
+"puerperium); O99.5 (Diseases of the respiratory system complicating pregnancy, childbirth and the puerperium); O99.6 (Diseases"
+"of the digestive system complicating pregnancy, childbirth and the puerperium); O99.7 (Diseases of the skin and subcutaneous"
+"tissue complicating pregnancy, childbirth and the puerperium); O99.8 (Other specified diseases and conditions complicating"
+"pregnancy, childbirth and the puerperium)"
+"Year/Month: Jan., 2023 (provisional); Feb., 2023 (provisional); Mar., 2023 (provisional); Apr., 2023 (provisional); May, 2023"
+"(provisional); Jun., 2023 (provisional)"
+"Group By: Residence Census Region; Five-Year Age Groups"
+"Show Totals: Disabled"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-provisional.html for more information."
+"---"
+"Query Date: Jan 10, 2024 11:47:23 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Mortality on CDC WONDER Online Database. Data are from the final Multiple Cause of Death Files, 2018-2021,"
+"and from provisional data for years 2022-2023, as compiled from data provided by the 57 vital statistics jurisdictions through"
+"the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/mcd-icd10-provisional.html on Jan 10, 2024 11:47:23"
+"PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"2. Rows with zero Deaths are hidden. Use Quick Options above to show zero rows."
+"3. Rows with suppressed Deaths are hidden. Use Quick Options above to show suppressed rows."
+"---"
+Caveats:
+"1. Population and rates are labeled 'Not Applicable' when location of Death's Occurrence, Autopsy, Place of Death, Weekday or"
+"Month are grouped by or limited, due to lack of a valid population. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#NotApplicableRates."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Assurance of Confidentiality."
+"3. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Unreliable."
+"4. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,"
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Not Stated."
+"5. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#ICD-10 Changes."
+"6. Deaths occurring through December 30, 2023 as of January 7, 2024."

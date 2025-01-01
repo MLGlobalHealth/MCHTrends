@@ -1,0 +1,85 @@
+"Notes"	"Mother's Race"	"Mother's Race Code"	"Mother's Hispanic Origin"	"Mother's Hispanic Origin Code"	Births
+	"American Indian or Alaska Native"	"1002-5"	"Mexican"	"2148-5"	3318
+	"American Indian or Alaska Native"	"1002-5"	"Puerto Rican"	"2180-8"	305
+	"American Indian or Alaska Native"	"1002-5"	"Cuban"	"2182-4"	65
+	"American Indian or Alaska Native"	"1002-5"	"Central or South American"	"4"	1083
+	"American Indian or Alaska Native"	"1002-5"	"Other and Unknown Hispanic"	"5"	1135
+	"American Indian or Alaska Native"	"1002-5"	"Non-Hispanic other races"	"8"	76141
+	"American Indian or Alaska Native"	"1002-5"	"Origin unknown or not stated"	"9"	1849
+	"Black or African American"	"2054-5"	"Mexican"	"2148-5"	3345
+	"Black or African American"	"2054-5"	"Puerto Rican"	"2180-8"	4696
+	"Black or African American"	"2054-5"	"Cuban"	"2182-4"	758
+	"Black or African American"	"2054-5"	"Central or South American"	"4"	15358
+	"Black or African American"	"2054-5"	"Other and Unknown Hispanic"	"5"	2393
+	"Black or African American"	"2054-5"	"Non-Hispanic Black"	"7"	1160671
+	"Black or African American"	"2054-5"	"Origin unknown or not stated"	"9"	4896
+	"Chinese"	"2034-7"	"Mexican"	"2148-5"	94
+	"Chinese"	"2034-7"	"Puerto Rican"	"2180-8"	43
+	"Chinese"	"2034-7"	"Central or South American"	"4"	104
+	"Chinese"	"2034-7"	"Other and Unknown Hispanic"	"5"	134
+	"Chinese"	"2034-7"	"Non-Hispanic other races"	"8"	64094
+	"Chinese"	"2034-7"	"Origin unknown or not stated"	"9"	402
+	"Filipino"	"2036-2"	"Mexican"	"2148-5"	617
+	"Filipino"	"2036-2"	"Puerto Rican"	"2180-8"	287
+	"Filipino"	"2036-2"	"Cuban"	"2182-4"	17
+	"Filipino"	"2036-2"	"Central or South American"	"4"	111
+	"Filipino"	"2036-2"	"Other and Unknown Hispanic"	"5"	1399
+	"Filipino"	"2036-2"	"Non-Hispanic other races"	"8"	62353
+	"Filipino"	"2036-2"	"Origin unknown or not stated"	"9"	517
+	"Hawaiian"	"2076-8"	"Mexican"	"2148-5"	310
+	"Hawaiian"	"2076-8"	"Puerto Rican"	"2180-8"	814
+	"Hawaiian"	"2076-8"	"Cuban"	"2182-4"	12
+	"Hawaiian"	"2076-8"	"Central or South American"	"4"	19
+	"Hawaiian"	"2076-8"	"Other and Unknown Hispanic"	"5"	1137
+	"Hawaiian"	"2076-8"	"Non-Hispanic other races"	"8"	10797
+	"Hawaiian"	"2076-8"	"Origin unknown or not stated"	"9"	52
+	"Japanese"	"2039-6"	"Mexican"	"2148-5"	207
+	"Japanese"	"2039-6"	"Puerto Rican"	"2180-8"	85
+	"Japanese"	"2039-6"	"Central or South American"	"4"	28
+	"Japanese"	"2039-6"	"Other and Unknown Hispanic"	"5"	139
+	"Japanese"	"2039-6"	"Non-Hispanic other races"	"8"	17690
+	"Japanese"	"2039-6"	"Origin unknown or not stated"	"9"	106
+	"Other Asian "	"2028-9"	"Mexican"	"2148-5"	774
+	"Other Asian "	"2028-9"	"Puerto Rican"	"2180-8"	211
+	"Other Asian "	"2028-9"	"Cuban"	"2182-4"	26
+	"Other Asian "	"2028-9"	"Central or South American"	"4"	790
+	"Other Asian "	"2028-9"	"Other and Unknown Hispanic"	"5"	765
+	"Other Asian "	"2028-9"	"Non-Hispanic other races"	"8"	244173
+	"Other Asian "	"2028-9"	"Origin unknown or not stated"	"9"	1835
+	"White"	"2106-3"	"Mexican"	"2148-5"	1225202
+	"White"	"2106-3"	"Puerto Rican"	"2180-8"	108039
+	"White"	"2106-3"	"Cuban"	"2182-4"	27267
+	"White"	"2106-3"	"Central or South American"	"4"	229147
+	"White"	"2106-3"	"Other and Unknown Hispanic"	"5"	91817
+	"White"	"2106-3"	"Non-Hispanic White"	"6"	4614640
+	"White"	"2106-3"	"Origin unknown or not stated"	"9"	39715
+"---"
+"Dataset: Natality, 1995-2002"
+"Query Parameters:"
+"Title: natality_race_01_02"
+"Age of Mother: 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years"
+"Year: 2001; 2002"
+"Group By: Mother's Race; Mother's Hispanic Origin"
+"Show Totals: Disabled"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/Natality.html for more information."
+"---"
+"Query Date: Jun 10, 2024 1:39:05 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Natality on CDC WONDER Online Database. Data are from the Natality Records 1995-2002, as compiled from data provided by"
+"the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed at"
+"http://wonder.cdc.gov/natality-v2002.html on Jun 10, 2024 1:39:05 PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"2. Rows with zero Births are hidden. Use Quick Options above to show zero rows."
+"3. Rows with suppressed Births are hidden. Use Quick Options above to show suppressed rows."
+"---"
+Caveats:
+"1. Each birth record represents one liveborn infant."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/Natality.html#Assurance of Confidentiality."

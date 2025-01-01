@@ -1,0 +1,55 @@
+"Notes"	"Mother's Single Race 6"	"Mother's Single Race 6 Code"	"Mother's Hispanic Origin"	"Mother's Hispanic Origin Code"	Births
+	"American Indian or Alaska Native"	"1002-5"	"Hispanic or Latino"	"2135-2"	4826
+	"American Indian or Alaska Native"	"1002-5"	"Not Hispanic or Latino"	"2186-5"	12013
+	"American Indian or Alaska Native"	"1002-5"	"Unknown or Not Stated"	"9"	263
+"Total"	"American Indian or Alaska Native"	"1002-5"			17102
+	"Asian"	"A"	"Hispanic or Latino"	"2135-2"	3745
+	"Asian"	"A"	"Not Hispanic or Latino"	"2186-5"	104786
+	"Asian"	"A"	"Unknown or Not Stated"	"9"	2802
+"Total"	"Asian"	"A"			111333
+	"Black or African American"	"2054-5"	"Hispanic or Latino"	"2135-2"	27874
+	"Black or African American"	"2054-5"	"Not Hispanic or Latino"	"2186-5"	239779
+	"Black or African American"	"2054-5"	"Unknown or Not Stated"	"9"	2198
+"Total"	"Black or African American"	"2054-5"			269851
+	"Native Hawaiian or Other Pacific Islander"	"NHOPI"	"Hispanic or Latino"	"2135-2"	1779
+	"Native Hawaiian or Other Pacific Islander"	"NHOPI"	"Not Hispanic or Latino"	"2186-5"	4947
+	"Native Hawaiian or Other Pacific Islander"	"NHOPI"	"Unknown or Not Stated"	"9"	191
+"Total"	"Native Hawaiian or Other Pacific Islander"	"NHOPI"			6917
+	"White"	"2106-3"	"Hispanic or Latino"	"2135-2"	402062
+	"White"	"2106-3"	"Not Hispanic or Latino"	"2186-5"	873773
+	"White"	"2106-3"	"Unknown or Not Stated"	"9"	11615
+"Total"	"White"	"2106-3"			1287450
+	"More than one race"	"M"	"Hispanic or Latino"	"2135-2"	8186
+	"More than one race"	"M"	"Not Hispanic or Latino"	"2186-5"	42875
+	"More than one race"	"M"	"Unknown or Not Stated"	"9"	201
+"Total"	"More than one race"	"M"			51262
+"Total"					1743915
+"---"
+"Dataset: Provisional Natality, 2023 through Last Month"
+"Query Parameters:"
+"Title: natality_race_first_half_23"
+"Age of Mother 9: 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years"
+"Month: January; February; March; April; May; June"
+"Year: 2023"
+"Group By: Mother's Single Race 6; Mother's Hispanic Origin"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 1,000"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/Natality-provisional.html for more information."
+"---"
+"Query Date: Jan 10, 2024 11:02:25 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Natality on CDC WONDER Online Database. Data are from the Natality Records 2023 through Last Month, as"
+"compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed"
+"at http://wonder.cdc.gov/natality-expanded-provisional.html on Jan 10, 2024 11:02:25 PM"
+"---"
+Messages:
+"1. Rows with zero Births are hidden. Use Quick Options above to show zero rows."
+"---"
+Caveats:
+"1. Each birth record represents one liveborn infant."
+"2. Data are provisional and subject to change."
+"3. Births occurring through November 30, 2023 as of December 28, 2023."

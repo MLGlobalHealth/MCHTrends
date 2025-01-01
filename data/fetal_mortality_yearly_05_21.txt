@@ -1,0 +1,44 @@
+"Notes"	"Year"	"Year Code"	Fetal Deaths
+	"2005"	"2005"	25708
+	"2006"	"2006"	25795
+	"2007"	"2007"	26417
+	"2008"	"2008"	26130
+	"2009"	"2009"	24685
+	"2010"	"2010"	24108
+	"2011"	"2011"	24135
+	"2012"	"2012"	23933
+	"2013"	"2013"	23431
+	"2014"	"2014"	23855
+	"2015"	"2015"	23616
+	"2016"	"2016"	23736
+	"2017"	"2017"	22673
+	"2018"	"2018"	22312
+	"2019"	"2019"	21366
+	"2020"	"2020"	20716
+	"2021"	"2021"	20972
+"Total"			403588
+"---"
+"Dataset: Fetal Deaths, 2005-2021"
+"Query Parameters:"
+"Title: fetal_deaths_05_21"
+"Age of Mother 9: 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years"
+"Group By: Year"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/fetal-deaths.html for more information."
+"---"
+"Query Date: Jan 11, 2024 5:06:23 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Fetal Deaths on CDC WONDER Online Database. Data are from the Fetal Death Records 2005-2021, as compiled from data"
+"provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed at"
+"http://wonder.cdc.gov/fetal-deaths-current.html on Jan 11, 2024 5:06:23 PM"
+"---"
+Caveats:
+"1. Beginning in 2014, NCHS changed the standard for gestational period from the Last Menstrual Period (LMP) based gestational"
+"age to the Obstetric/clinical Estimate (OE) based gestational age. This change has resulted in a discontinuity in identifying"
+"fetal deaths at 20 weeks or greater for inclusion in this dataset. Refer to the User Guide to the Fetal Death Public Use File:"
+"https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm. and the Measuring Gestational Age in Vital Statistics Data:"
+"Transitioning to the Obstetric Estimate: https://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_05.pdf. report for more information."

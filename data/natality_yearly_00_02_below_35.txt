@@ -1,0 +1,29 @@
+"Notes"	"Year"	"Year Code"	Births
+	"2000"	"2000"	3503621
+	"2001"	"2001"	3468533
+	"2002"	"2002"	3459209
+"Total"			10431363
+"---"
+"Dataset: Natality, 1995-2002"
+"Query Parameters:"
+"Title: natality_yearly_00_02_below_35"
+"Age of Mother: 15-19 years; 20-24 years; 25-29 years; 30-34 years"
+"Year: 2000; 2001; 2002"
+"Group By: Year"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/Natality.html for more information."
+"---"
+"Query Date: Apr 10, 2024 9:08:27 AM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Natality on CDC WONDER Online Database. Data are from the Natality Records 1995-2002, as compiled from data provided by"
+"the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed at"
+"http://wonder.cdc.gov/natality-v2002.html on Apr 10, 2024 9:08:27 AM"
+"---"
+Caveats:
+"1. Each birth record represents one liveborn infant."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/Natality.html#Assurance of Confidentiality."

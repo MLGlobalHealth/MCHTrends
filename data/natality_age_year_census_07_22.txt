@@ -1,0 +1,511 @@
+"Notes"	"Census Region"	"Census Region Code"	"Year"	"Year Code"	"Age of Mother 9"	"Age of Mother 9 Code"	Births	Female Population	Fertility Rate
+	"Census Region 1: Northeast"	"CENS-R1"	"2007"	"2007"	"15-19 years"	"15-19"	50283	1930373	26.05
+	"Census Region 1: Northeast"	"CENS-R1"	"2007"	"2007"	"20-24 years"	"20-24"	136134	1800783	75.60
+	"Census Region 1: Northeast"	"CENS-R1"	"2007"	"2007"	"25-29 years"	"25-29"	183217	1760604	104.06
+	"Census Region 1: Northeast"	"CENS-R1"	"2007"	"2007"	"30-34 years"	"30-34"	183725	1677059	109.55
+	"Census Region 1: Northeast"	"CENS-R1"	"2007"	"2007"	"35-39 years"	"35-39"	107152	1934857	55.38
+	"Census Region 1: Northeast"	"CENS-R1"	"2007"	"2007"	"40-44 years"	"40-44"	24042	2114984	11.37
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2007"	"2007"			684553	11218660	61.02
+	"Census Region 1: Northeast"	"CENS-R1"	"2008"	"2008"	"15-19 years"	"15-19"	49011	1930948	25.38
+	"Census Region 1: Northeast"	"CENS-R1"	"2008"	"2008"	"20-24 years"	"20-24"	134120	1821887	73.62
+	"Census Region 1: Northeast"	"CENS-R1"	"2008"	"2008"	"25-29 years"	"25-29"	180231	1790084	100.68
+	"Census Region 1: Northeast"	"CENS-R1"	"2008"	"2008"	"30-34 years"	"30-34"	181487	1682865	107.84
+	"Census Region 1: Northeast"	"CENS-R1"	"2008"	"2008"	"35-39 years"	"35-39"	104224	1886900	55.24
+	"Census Region 1: Northeast"	"CENS-R1"	"2008"	"2008"	"40-44 years"	"40-44"	24046	2063660	11.65
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2008"	"2008"			673119	11176344	60.23
+	"Census Region 1: Northeast"	"CENS-R1"	"2009"	"2009"	"15-19 years"	"15-19"	45907	1919120	23.92
+	"Census Region 1: Northeast"	"CENS-R1"	"2009"	"2009"	"20-24 years"	"20-24"	130177	1858289	70.05
+	"Census Region 1: Northeast"	"CENS-R1"	"2009"	"2009"	"25-29 years"	"25-29"	177629	1806981	98.30
+	"Census Region 1: Northeast"	"CENS-R1"	"2009"	"2009"	"30-34 years"	"30-34"	182887	1707179	107.13
+	"Census Region 1: Northeast"	"CENS-R1"	"2009"	"2009"	"35-39 years"	"35-39"	100061	1832098	54.62
+	"Census Region 1: Northeast"	"CENS-R1"	"2009"	"2009"	"40-44 years"	"40-44"	24115	2008600	12.01
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2009"	"2009"			660776	11132267	59.36
+	"Census Region 1: Northeast"	"CENS-R1"	"2010"	"2010"	"15-19 years"	"15-19"	41992	1898710	22.12
+	"Census Region 1: Northeast"	"CENS-R1"	"2010"	"2010"	"20-24 years"	"20-24"	125073	1885969	66.32
+	"Census Region 1: Northeast"	"CENS-R1"	"2010"	"2010"	"25-29 years"	"25-29"	172965	1816845	95.20
+	"Census Region 1: Northeast"	"CENS-R1"	"2010"	"2010"	"30-34 years"	"30-34"	184116	1725791	106.68
+	"Census Region 1: Northeast"	"CENS-R1"	"2010"	"2010"	"35-39 years"	"35-39"	97952	1784767	54.88
+	"Census Region 1: Northeast"	"CENS-R1"	"2010"	"2010"	"40-44 years"	"40-44"	23976	1983663	12.09
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2010"	"2010"			646074	11095745	58.23
+	"Census Region 1: Northeast"	"CENS-R1"	"2011"	"2011"	"15-19 years"	"15-19"	38092	1864970	20.42
+	"Census Region 1: Northeast"	"CENS-R1"	"2011"	"2011"	"20-24 years"	"20-24"	121864	1900042	64.14
+	"Census Region 1: Northeast"	"CENS-R1"	"2011"	"2011"	"25-29 years"	"25-29"	173690	1838305	94.48
+	"Census Region 1: Northeast"	"CENS-R1"	"2011"	"2011"	"30-34 years"	"30-34"	186854	1763516	105.96
+	"Census Region 1: Northeast"	"CENS-R1"	"2011"	"2011"	"35-39 years"	"35-39"	96725	1711224	56.52
+	"Census Region 1: Northeast"	"CENS-R1"	"2011"	"2011"	"40-44 years"	"40-44"	23822	1964289	12.13
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2011"	"2011"			641047	11042346	58.05
+	"Census Region 1: Northeast"	"CENS-R1"	"2012"	"2012"	"15-19 years"	"15-19"	35070	1852426	18.93
+	"Census Region 1: Northeast"	"CENS-R1"	"2012"	"2012"	"20-24 years"	"20-24"	119474	1910860	62.52
+	"Census Region 1: Northeast"	"CENS-R1"	"2012"	"2012"	"25-29 years"	"25-29"	171278	1861286	92.02
+	"Census Region 1: Northeast"	"CENS-R1"	"2012"	"2012"	"30-34 years"	"30-34"	189177	1793699	105.47
+	"Census Region 1: Northeast"	"CENS-R1"	"2012"	"2012"	"35-39 years"	"35-39"	97534	1691243	57.67
+	"Census Region 1: Northeast"	"CENS-R1"	"2012"	"2012"	"40-44 years"	"40-44"	23857	1931593	12.35
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2012"	"2012"			636390	11041107	57.64
+	"Census Region 1: Northeast"	"CENS-R1"	"2013"	"2013"	"15-19 years"	"15-19"	30546	1820315	16.78
+	"Census Region 1: Northeast"	"CENS-R1"	"2013"	"2013"	"20-24 years"	"20-24"	113846	1919372	59.31
+	"Census Region 1: Northeast"	"CENS-R1"	"2013"	"2013"	"25-29 years"	"25-29"	168924	1885953	89.57
+	"Census Region 1: Northeast"	"CENS-R1"	"2013"	"2013"	"30-34 years"	"30-34"	192143	1820985	105.52
+	"Census Region 1: Northeast"	"CENS-R1"	"2013"	"2013"	"35-39 years"	"35-39"	99116	1691579	58.59
+	"Census Region 1: Northeast"	"CENS-R1"	"2013"	"2013"	"40-44 years"	"40-44"	23373	1879204	12.44
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2013"	"2013"			627948	11017408	57.00
+	"Census Region 1: Northeast"	"CENS-R1"	"2014"	"2014"	"15-19 years"	"15-19"	27384	1802513	15.19
+	"Census Region 1: Northeast"	"CENS-R1"	"2014"	"2014"	"20-24 years"	"20-24"	110062	1933249	56.93
+	"Census Region 1: Northeast"	"CENS-R1"	"2014"	"2014"	"25-29 years"	"25-29"	171739	1914560	89.70
+	"Census Region 1: Northeast"	"CENS-R1"	"2014"	"2014"	"30-34 years"	"30-34"	197515	1840114	107.34
+	"Census Region 1: Northeast"	"CENS-R1"	"2014"	"2014"	"35-39 years"	"35-39"	102334	1713348	59.73
+	"Census Region 1: Northeast"	"CENS-R1"	"2014"	"2014"	"40-44 years"	"40-44"	23182	1829170	12.67
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2014"	"2014"			632216	11032954	57.30
+	"Census Region 1: Northeast"	"CENS-R1"	"2015"	"2015"	"15-19 years"	"15-19"	24780	1789532	13.85
+	"Census Region 1: Northeast"	"CENS-R1"	"2015"	"2015"	"20-24 years"	"20-24"	104920	1919952	54.65
+	"Census Region 1: Northeast"	"CENS-R1"	"2015"	"2015"	"25-29 years"	"25-29"	170575	1935890	88.11
+	"Census Region 1: Northeast"	"CENS-R1"	"2015"	"2015"	"30-34 years"	"30-34"	198754	1851636	107.34
+	"Census Region 1: Northeast"	"CENS-R1"	"2015"	"2015"	"35-39 years"	"35-39"	105899	1742579	60.77
+	"Census Region 1: Northeast"	"CENS-R1"	"2015"	"2015"	"40-44 years"	"40-44"	23413	1770219	13.23
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2015"	"2015"			628341	11009808	57.07
+	"Census Region 1: Northeast"	"CENS-R1"	"2016"	"2016"	"15-19 years"	"15-19"	22169	1774406	12.49
+	"Census Region 1: Northeast"	"CENS-R1"	"2016"	"2016"	"20-24 years"	"20-24"	98700	1897337	52.02
+	"Census Region 1: Northeast"	"CENS-R1"	"2016"	"2016"	"25-29 years"	"25-29"	169434	1941684	87.26
+	"Census Region 1: Northeast"	"CENS-R1"	"2016"	"2016"	"30-34 years"	"30-34"	200532	1859062	107.87
+	"Census Region 1: Northeast"	"CENS-R1"	"2016"	"2016"	"35-39 years"	"35-39"	108600	1761258	61.66
+	"Census Region 1: Northeast"	"CENS-R1"	"2016"	"2016"	"40-44 years"	"40-44"	23424	1700486	13.77
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2016"	"2016"			622859	10934233	56.96
+	"Census Region 1: Northeast"	"CENS-R1"	"2017"	"2017"	"15-19 years"	"15-19"	20573	1759395	11.69
+	"Census Region 1: Northeast"	"CENS-R1"	"2017"	"2017"	"20-24 years"	"20-24"	93805	1879570	49.91
+	"Census Region 1: Northeast"	"CENS-R1"	"2017"	"2017"	"25-29 years"	"25-29"	165089	1964819	84.02
+	"Census Region 1: Northeast"	"CENS-R1"	"2017"	"2017"	"30-34 years"	"30-34"	198907	1878456	105.89
+	"Census Region 1: Northeast"	"CENS-R1"	"2017"	"2017"	"35-39 years"	"35-39"	110620	1787369	61.89
+	"Census Region 1: Northeast"	"CENS-R1"	"2017"	"2017"	"40-44 years"	"40-44"	24004	1680856	14.28
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2017"	"2017"			612998	10950465	55.98
+	"Census Region 1: Northeast"	"CENS-R1"	"2018"	"2018"	"15-19 years"	"15-19"	19232	1734508	11.09
+	"Census Region 1: Northeast"	"CENS-R1"	"2018"	"2018"	"20-24 years"	"20-24"	89017	1830480	48.63
+	"Census Region 1: Northeast"	"CENS-R1"	"2018"	"2018"	"25-29 years"	"25-29"	159400	1945762	81.92
+	"Census Region 1: Northeast"	"CENS-R1"	"2018"	"2018"	"30-34 years"	"30-34"	199375	1875504	106.30
+	"Census Region 1: Northeast"	"CENS-R1"	"2018"	"2018"	"35-39 years"	"35-39"	113029	1789974	63.15
+	"Census Region 1: Northeast"	"CENS-R1"	"2018"	"2018"	"40-44 years"	"40-44"	24837	1663419	14.93
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2018"	"2018"			604890	10839647	55.80
+	"Census Region 1: Northeast"	"CENS-R1"	"2019"	"2019"	"15-19 years"	"15-19"	18132	1718143	10.55
+	"Census Region 1: Northeast"	"CENS-R1"	"2019"	"2019"	"20-24 years"	"20-24"	85436	1794831	47.60
+	"Census Region 1: Northeast"	"CENS-R1"	"2019"	"2019"	"25-29 years"	"25-29"	154755	1929884	80.19
+	"Census Region 1: Northeast"	"CENS-R1"	"2019"	"2019"	"30-34 years"	"30-34"	198916	1891074	105.19
+	"Census Region 1: Northeast"	"CENS-R1"	"2019"	"2019"	"35-39 years"	"35-39"	113119	1794110	63.05
+	"Census Region 1: Northeast"	"CENS-R1"	"2019"	"2019"	"40-44 years"	"40-44"	25192	1669442	15.09
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2019"	"2019"			595550	10797484	55.16
+	"Census Region 1: Northeast"	"CENS-R1"	"2020"	"2020"	"15-19 years"	"15-19"	16397	1694434	9.68
+	"Census Region 1: Northeast"	"CENS-R1"	"2020"	"2020"	"20-24 years"	"20-24"	80350	1771741	45.35
+	"Census Region 1: Northeast"	"CENS-R1"	"2020"	"2020"	"25-29 years"	"25-29"	144617	1899604	76.13
+	"Census Region 1: Northeast"	"CENS-R1"	"2020"	"2020"	"30-34 years"	"30-34"	195190	1908200	102.29
+	"Census Region 1: Northeast"	"CENS-R1"	"2020"	"2020"	"35-39 years"	"35-39"	112367	1798114	62.49
+	"Census Region 1: Northeast"	"CENS-R1"	"2020"	"2020"	"40-44 years"	"40-44"	25237	1685545	14.97
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2020"	"2020"			574158	10757638	53.37
+	"Census Region 1: Northeast"	"CENS-R1"	"2021"	"2021"	"15-19 years"	"15-19"	15365	Not Available	Not Available
+	"Census Region 1: Northeast"	"CENS-R1"	"2021"	"2021"	"20-24 years"	"20-24"	77306	Not Available	Not Available
+	"Census Region 1: Northeast"	"CENS-R1"	"2021"	"2021"	"25-29 years"	"25-29"	143721	Not Available	Not Available
+	"Census Region 1: Northeast"	"CENS-R1"	"2021"	"2021"	"30-34 years"	"30-34"	205177	Not Available	Not Available
+	"Census Region 1: Northeast"	"CENS-R1"	"2021"	"2021"	"35-39 years"	"35-39"	119879	Not Available	Not Available
+	"Census Region 1: Northeast"	"CENS-R1"	"2021"	"2021"	"40-44 years"	"40-44"	26380	Not Available	Not Available
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2021"	"2021"			587828	Not Available	Not Available
+	"Census Region 1: Northeast"	"CENS-R1"	"2022"	"2022"	"15-19 years"	"15-19"	14675	Not Available	Not Available
+	"Census Region 1: Northeast"	"CENS-R1"	"2022"	"2022"	"20-24 years"	"20-24"	75811	Not Available	Not Available
+	"Census Region 1: Northeast"	"CENS-R1"	"2022"	"2022"	"25-29 years"	"25-29"	140222	Not Available	Not Available
+	"Census Region 1: Northeast"	"CENS-R1"	"2022"	"2022"	"30-34 years"	"30-34"	201311	Not Available	Not Available
+	"Census Region 1: Northeast"	"CENS-R1"	"2022"	"2022"	"35-39 years"	"35-39"	122076	Not Available	Not Available
+	"Census Region 1: Northeast"	"CENS-R1"	"2022"	"2022"	"40-44 years"	"40-44"	27931	Not Available	Not Available
+"Total"	"Census Region 1: Northeast"	"CENS-R1"	"2022"	"2022"			582026	Not Available	Not Available
+"Total"	"Census Region 1: Northeast"	"CENS-R1"					10010773	154046106	64.99
+	"Census Region 2: Midwest"	"CENS-R2"	"2007"	"2007"	"15-19 years"	"15-19"	89543	2386817	37.52
+	"Census Region 2: Midwest"	"CENS-R2"	"2007"	"2007"	"20-24 years"	"20-24"	226687	2256818	100.45
+	"Census Region 2: Midwest"	"CENS-R2"	"2007"	"2007"	"25-29 years"	"25-29"	271558	2160008	125.72
+	"Census Region 2: Midwest"	"CENS-R2"	"2007"	"2007"	"30-34 years"	"30-34"	202197	2015028	100.34
+	"Census Region 2: Midwest"	"CENS-R2"	"2007"	"2007"	"35-39 years"	"35-39"	95422	2213670	43.11
+	"Census Region 2: Midwest"	"CENS-R2"	"2007"	"2007"	"40-44 years"	"40-44"	18453	2367087	7.80
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2007"	"2007"			903860	13399428	67.46
+	"Census Region 2: Midwest"	"CENS-R2"	"2008"	"2008"	"15-19 years"	"15-19"	87355	2384252	36.64
+	"Census Region 2: Midwest"	"CENS-R2"	"2008"	"2008"	"20-24 years"	"20-24"	220653	2246482	98.22
+	"Census Region 2: Midwest"	"CENS-R2"	"2008"	"2008"	"25-29 years"	"25-29"	268333	2189268	122.57
+	"Census Region 2: Midwest"	"CENS-R2"	"2008"	"2008"	"30-34 years"	"30-34"	202019	2018043	100.11
+	"Census Region 2: Midwest"	"CENS-R2"	"2008"	"2008"	"35-39 years"	"35-39"	91997	2182658	42.15
+	"Census Region 2: Midwest"	"CENS-R2"	"2008"	"2008"	"40-44 years"	"40-44"	18485	2288418	8.08
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2008"	"2008"			888842	13309121	66.78
+	"Census Region 2: Midwest"	"CENS-R2"	"2009"	"2009"	"15-19 years"	"15-19"	83176	2367965	35.13
+	"Census Region 2: Midwest"	"CENS-R2"	"2009"	"2009"	"20-24 years"	"20-24"	211624	2248494	94.12
+	"Census Region 2: Midwest"	"CENS-R2"	"2009"	"2009"	"25-29 years"	"25-29"	262117	2198322	119.24
+	"Census Region 2: Midwest"	"CENS-R2"	"2009"	"2009"	"30-34 years"	"30-34"	203223	2047045	99.28
+	"Census Region 2: Midwest"	"CENS-R2"	"2009"	"2009"	"35-39 years"	"35-39"	88579	2135202	41.49
+	"Census Region 2: Midwest"	"CENS-R2"	"2009"	"2009"	"40-44 years"	"40-44"	18492	2225102	8.31
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2009"	"2009"			867211	13222130	65.59
+	"Census Region 2: Midwest"	"CENS-R2"	"2010"	"2010"	"15-19 years"	"15-19"	75328	2341446	32.17
+	"Census Region 2: Midwest"	"CENS-R2"	"2010"	"2010"	"20-24 years"	"20-24"	200044	2255993	88.67
+	"Census Region 2: Midwest"	"CENS-R2"	"2010"	"2010"	"25-29 years"	"25-29"	254818	2193063	116.19
+	"Census Region 2: Midwest"	"CENS-R2"	"2010"	"2010"	"30-34 years"	"30-34"	205597	2076654	99.00
+	"Census Region 2: Midwest"	"CENS-R2"	"2010"	"2010"	"35-39 years"	"35-39"	86443	2094587	41.27
+	"Census Region 2: Midwest"	"CENS-R2"	"2010"	"2010"	"40-44 years"	"40-44"	18538	2198931	8.43
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2010"	"2010"			840768	13160674	63.88
+	"Census Region 2: Midwest"	"CENS-R2"	"2011"	"2011"	"15-19 years"	"15-19"	67351	2302418	29.25
+	"Census Region 2: Midwest"	"CENS-R2"	"2011"	"2011"	"20-24 years"	"20-24"	194746	2291829	84.97
+	"Census Region 2: Midwest"	"CENS-R2"	"2011"	"2011"	"25-29 years"	"25-29"	253651	2184827	116.10
+	"Census Region 2: Midwest"	"CENS-R2"	"2011"	"2011"	"30-34 years"	"30-34"	211395	2130963	99.20
+	"Census Region 2: Midwest"	"CENS-R2"	"2011"	"2011"	"35-39 years"	"35-39"	86477	2016264	42.89
+	"Census Region 2: Midwest"	"CENS-R2"	"2011"	"2011"	"40-44 years"	"40-44"	18700	2199408	8.50
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2011"	"2011"			832320	13125709	63.41
+	"Census Region 2: Midwest"	"CENS-R2"	"2012"	"2012"	"15-19 years"	"15-19"	62596	2257966	27.72
+	"Census Region 2: Midwest"	"CENS-R2"	"2012"	"2012"	"20-24 years"	"20-24"	194393	2329923	83.43
+	"Census Region 2: Midwest"	"CENS-R2"	"2012"	"2012"	"25-29 years"	"25-29"	251903	2172746	115.94
+	"Census Region 2: Midwest"	"CENS-R2"	"2012"	"2012"	"30-34 years"	"30-34"	216187	2164328	99.89
+	"Census Region 2: Midwest"	"CENS-R2"	"2012"	"2012"	"35-39 years"	"35-39"	87104	1994979	43.66
+	"Census Region 2: Midwest"	"CENS-R2"	"2012"	"2012"	"40-44 years"	"40-44"	18597	2182764	8.52
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2012"	"2012"			830780	13102706	63.41
+	"Census Region 2: Midwest"	"CENS-R2"	"2013"	"2013"	"15-19 years"	"15-19"	56032	2236817	25.05
+	"Census Region 2: Midwest"	"CENS-R2"	"2013"	"2013"	"20-24 years"	"20-24"	190804	2360063	80.85
+	"Census Region 2: Midwest"	"CENS-R2"	"2013"	"2013"	"25-29 years"	"25-29"	251020	2162242	116.09
+	"Census Region 2: Midwest"	"CENS-R2"	"2013"	"2013"	"30-34 years"	"30-34"	221702	2192396	101.12
+	"Census Region 2: Midwest"	"CENS-R2"	"2013"	"2013"	"35-39 years"	"35-39"	90609	2005410	45.18
+	"Census Region 2: Midwest"	"CENS-R2"	"2013"	"2013"	"40-44 years"	"40-44"	18451	2154621	8.56
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2013"	"2013"			828618	13111549	63.20
+	"Census Region 2: Midwest"	"CENS-R2"	"2014"	"2014"	"15-19 years"	"15-19"	50984	2219167	22.97
+	"Census Region 2: Midwest"	"CENS-R2"	"2014"	"2014"	"20-24 years"	"20-24"	187300	2376276	78.82
+	"Census Region 2: Midwest"	"CENS-R2"	"2014"	"2014"	"25-29 years"	"25-29"	254734	2174650	117.14
+	"Census Region 2: Midwest"	"CENS-R2"	"2014"	"2014"	"30-34 years"	"30-34"	230805	2202887	104.77
+	"Census Region 2: Midwest"	"CENS-R2"	"2014"	"2014"	"35-39 years"	"35-39"	94448	2034718	46.42
+	"Census Region 2: Midwest"	"CENS-R2"	"2014"	"2014"	"40-44 years"	"40-44"	18177	2112415	8.60
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2014"	"2014"			836448	13120113	63.75
+	"Census Region 2: Midwest"	"CENS-R2"	"2015"	"2015"	"15-19 years"	"15-19"	47009	2214606	21.23
+	"Census Region 2: Midwest"	"CENS-R2"	"2015"	"2015"	"20-24 years"	"20-24"	180837	2358328	76.68
+	"Census Region 2: Midwest"	"CENS-R2"	"2015"	"2015"	"25-29 years"	"25-29"	256270	2194662	116.77
+	"Census Region 2: Midwest"	"CENS-R2"	"2015"	"2015"	"30-34 years"	"30-34"	233104	2197274	106.09
+	"Census Region 2: Midwest"	"CENS-R2"	"2015"	"2015"	"35-39 years"	"35-39"	98401	2076807	47.38
+	"Census Region 2: Midwest"	"CENS-R2"	"2015"	"2015"	"40-44 years"	"40-44"	18176	2057775	8.83
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2015"	"2015"			833797	13099452	63.65
+	"Census Region 2: Midwest"	"CENS-R2"	"2016"	"2016"	"15-19 years"	"15-19"	42732	2206788	19.36
+	"Census Region 2: Midwest"	"CENS-R2"	"2016"	"2016"	"20-24 years"	"20-24"	170453	2320191	73.47
+	"Census Region 2: Midwest"	"CENS-R2"	"2016"	"2016"	"25-29 years"	"25-29"	255335	2226917	114.66
+	"Census Region 2: Midwest"	"CENS-R2"	"2016"	"2016"	"30-34 years"	"30-34"	236462	2185559	108.19
+	"Census Region 2: Midwest"	"CENS-R2"	"2016"	"2016"	"35-39 years"	"35-39"	102421	2115319	48.42
+	"Census Region 2: Midwest"	"CENS-R2"	"2016"	"2016"	"40-44 years"	"40-44"	18646	1988502	9.38
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2016"	"2016"			826049	13043276	63.33
+	"Census Region 2: Midwest"	"CENS-R2"	"2017"	"2017"	"15-19 years"	"15-19"	40142	2197743	18.27
+	"Census Region 2: Midwest"	"CENS-R2"	"2017"	"2017"	"20-24 years"	"20-24"	162459	2294275	70.81
+	"Census Region 2: Midwest"	"CENS-R2"	"2017"	"2017"	"25-29 years"	"25-29"	250198	2266539	110.39
+	"Census Region 2: Midwest"	"CENS-R2"	"2017"	"2017"	"30-34 years"	"30-34"	233001	2171323	107.31
+	"Census Region 2: Midwest"	"CENS-R2"	"2017"	"2017"	"35-39 years"	"35-39"	103779	2152766	48.21
+	"Census Region 2: Midwest"	"CENS-R2"	"2017"	"2017"	"40-44 years"	"40-44"	18786	1971198	9.53
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2017"	"2017"			808365	13053844	61.93
+	"Census Region 2: Midwest"	"CENS-R2"	"2018"	"2018"	"15-19 years"	"15-19"	37180	2186275	17.01
+	"Census Region 2: Midwest"	"CENS-R2"	"2018"	"2018"	"20-24 years"	"20-24"	154895	2270011	68.24
+	"Census Region 2: Midwest"	"CENS-R2"	"2018"	"2018"	"25-29 years"	"25-29"	247201	2294050	107.76
+	"Census Region 2: Midwest"	"CENS-R2"	"2018"	"2018"	"30-34 years"	"30-34"	232369	2168841	107.14
+	"Census Region 2: Midwest"	"CENS-R2"	"2018"	"2018"	"35-39 years"	"35-39"	105795	2181190	48.50
+	"Census Region 2: Midwest"	"CENS-R2"	"2018"	"2018"	"40-44 years"	"40-44"	19275	1980381	9.73
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2018"	"2018"			796715	13080748	60.91
+	"Census Region 2: Midwest"	"CENS-R2"	"2019"	"2019"	"15-19 years"	"15-19"	35369	2177369	16.24
+	"Census Region 2: Midwest"	"CENS-R2"	"2019"	"2019"	"20-24 years"	"20-24"	149302	2243813	66.54
+	"Census Region 2: Midwest"	"CENS-R2"	"2019"	"2019"	"25-29 years"	"25-29"	240148	2294871	104.65
+	"Census Region 2: Midwest"	"CENS-R2"	"2019"	"2019"	"30-34 years"	"30-34"	231539	2177862	106.31
+	"Census Region 2: Midwest"	"CENS-R2"	"2019"	"2019"	"35-39 years"	"35-39"	106600	2187601	48.73
+	"Census Region 2: Midwest"	"CENS-R2"	"2019"	"2019"	"40-44 years"	"40-44"	19800	2005409	9.87
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2019"	"2019"			782758	13086925	59.81
+	"Census Region 2: Midwest"	"CENS-R2"	"2020"	"2020"	"15-19 years"	"15-19"	32346	2160052	14.97
+	"Census Region 2: Midwest"	"CENS-R2"	"2020"	"2020"	"20-24 years"	"20-24"	140151	2233528	62.75
+	"Census Region 2: Midwest"	"CENS-R2"	"2020"	"2020"	"25-29 years"	"25-29"	228856	2271103	100.77
+	"Census Region 2: Midwest"	"CENS-R2"	"2020"	"2020"	"30-34 years"	"30-34"	226770	2196716	103.23
+	"Census Region 2: Midwest"	"CENS-R2"	"2020"	"2020"	"35-39 years"	"35-39"	104594	2183534	47.90
+	"Census Region 2: Midwest"	"CENS-R2"	"2020"	"2020"	"40-44 years"	"40-44"	19925	2044790	9.74
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2020"	"2020"			752642	13089723	57.50
+	"Census Region 2: Midwest"	"CENS-R2"	"2021"	"2021"	"15-19 years"	"15-19"	29529	Not Available	Not Available
+	"Census Region 2: Midwest"	"CENS-R2"	"2021"	"2021"	"20-24 years"	"20-24"	135546	Not Available	Not Available
+	"Census Region 2: Midwest"	"CENS-R2"	"2021"	"2021"	"25-29 years"	"25-29"	227568	Not Available	Not Available
+	"Census Region 2: Midwest"	"CENS-R2"	"2021"	"2021"	"30-34 years"	"30-34"	235045	Not Available	Not Available
+	"Census Region 2: Midwest"	"CENS-R2"	"2021"	"2021"	"35-39 years"	"35-39"	110033	Not Available	Not Available
+	"Census Region 2: Midwest"	"CENS-R2"	"2021"	"2021"	"40-44 years"	"40-44"	20733	Not Available	Not Available
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2021"	"2021"			758454	Not Available	Not Available
+	"Census Region 2: Midwest"	"CENS-R2"	"2022"	"2022"	"15-19 years"	"15-19"	28770	Not Available	Not Available
+	"Census Region 2: Midwest"	"CENS-R2"	"2022"	"2022"	"20-24 years"	"20-24"	131565	Not Available	Not Available
+	"Census Region 2: Midwest"	"CENS-R2"	"2022"	"2022"	"25-29 years"	"25-29"	220957	Not Available	Not Available
+	"Census Region 2: Midwest"	"CENS-R2"	"2022"	"2022"	"30-34 years"	"30-34"	232239	Not Available	Not Available
+	"Census Region 2: Midwest"	"CENS-R2"	"2022"	"2022"	"35-39 years"	"35-39"	110441	Not Available	Not Available
+	"Census Region 2: Midwest"	"CENS-R2"	"2022"	"2022"	"40-44 years"	"40-44"	21804	Not Available	Not Available
+"Total"	"Census Region 2: Midwest"	"CENS-R2"	"2022"	"2022"			745776	Not Available	Not Available
+"Total"	"Census Region 2: Midwest"	"CENS-R2"					13133403	184005398	71.38
+	"Census Region 3: South"	"CENS-R3"	"2007"	"2007"	"15-19 years"	"15-19"	200327	3895881	51.42
+	"Census Region 3: South"	"CENS-R3"	"2007"	"2007"	"20-24 years"	"20-24"	457534	3800421	120.39
+	"Census Region 3: South"	"CENS-R3"	"2007"	"2007"	"25-29 years"	"25-29"	452575	3809173	118.81
+	"Census Region 3: South"	"CENS-R3"	"2007"	"2007"	"30-34 years"	"30-34"	329668	3574090	92.24
+	"Census Region 3: South"	"CENS-R3"	"2007"	"2007"	"35-39 years"	"35-39"	163684	3904765	41.92
+	"Census Region 3: South"	"CENS-R3"	"2007"	"2007"	"40-44 years"	"40-44"	33047	4057632	8.14
+"Total"	"Census Region 3: South"	"CENS-R3"	"2007"	"2007"			1636835	23041962	71.04
+	"Census Region 3: South"	"CENS-R3"	"2008"	"2008"	"15-19 years"	"15-19"	196348	3943000	49.80
+	"Census Region 3: South"	"CENS-R3"	"2008"	"2008"	"20-24 years"	"20-24"	444591	3834281	115.95
+	"Census Region 3: South"	"CENS-R3"	"2008"	"2008"	"25-29 years"	"25-29"	449193	3874861	115.92
+	"Census Region 3: South"	"CENS-R3"	"2008"	"2008"	"30-34 years"	"30-34"	328456	3601694	91.19
+	"Census Region 3: South"	"CENS-R3"	"2008"	"2008"	"35-39 years"	"35-39"	161292	3919659	41.15
+	"Census Region 3: South"	"CENS-R3"	"2008"	"2008"	"40-44 years"	"40-44"	33375	3985002	8.38
+"Total"	"Census Region 3: South"	"CENS-R3"	"2008"	"2008"			1613255	23158497	69.66
+	"Census Region 3: South"	"CENS-R3"	"2009"	"2009"	"15-19 years"	"15-19"	186447	3960040	47.08
+	"Census Region 3: South"	"CENS-R3"	"2009"	"2009"	"20-24 years"	"20-24"	428261	3885583	110.22
+	"Census Region 3: South"	"CENS-R3"	"2009"	"2009"	"25-29 years"	"25-29"	440150	3908162	112.62
+	"Census Region 3: South"	"CENS-R3"	"2009"	"2009"	"30-34 years"	"30-34"	327737	3671079	89.28
+	"Census Region 3: South"	"CENS-R3"	"2009"	"2009"	"35-39 years"	"35-39"	157766	3894038	40.51
+	"Census Region 3: South"	"CENS-R3"	"2009"	"2009"	"40-44 years"	"40-44"	33390	3920263	8.52
+"Total"	"Census Region 3: South"	"CENS-R3"	"2009"	"2009"			1573751	23239165	67.72
+	"Census Region 3: South"	"CENS-R3"	"2010"	"2010"	"15-19 years"	"15-19"	166489	3946409	42.19
+	"Census Region 3: South"	"CENS-R3"	"2010"	"2010"	"20-24 years"	"20-24"	404350	3934998	102.76
+	"Census Region 3: South"	"CENS-R3"	"2010"	"2010"	"25-29 years"	"25-29"	427601	3908127	109.41
+	"Census Region 3: South"	"CENS-R3"	"2010"	"2010"	"30-34 years"	"30-34"	330502	3742139	88.32
+	"Census Region 3: South"	"CENS-R3"	"2010"	"2010"	"35-39 years"	"35-39"	154791	3855114	40.15
+	"Census Region 3: South"	"CENS-R3"	"2010"	"2010"	"40-44 years"	"40-44"	34349	3908912	8.79
+"Total"	"Census Region 3: South"	"CENS-R3"	"2010"	"2010"			1518082	23295699	65.17
+	"Census Region 3: South"	"CENS-R3"	"2011"	"2011"	"15-19 years"	"15-19"	149941	3865607	38.79
+	"Census Region 3: South"	"CENS-R3"	"2011"	"2011"	"20-24 years"	"20-24"	394464	4062820	97.09
+	"Census Region 3: South"	"CENS-R3"	"2011"	"2011"	"25-29 years"	"25-29"	426237	3935806	108.30
+	"Census Region 3: South"	"CENS-R3"	"2011"	"2011"	"30-34 years"	"30-34"	340152	3849593	88.36
+	"Census Region 3: South"	"CENS-R3"	"2011"	"2011"	"35-39 years"	"35-39"	154796	3751452	41.26
+	"Census Region 3: South"	"CENS-R3"	"2011"	"2011"	"40-44 years"	"40-44"	35330	3962955	8.92
+"Total"	"Census Region 3: South"	"CENS-R3"	"2011"	"2011"			1500920	23428233	64.06
+	"Census Region 3: South"	"CENS-R3"	"2012"	"2012"	"15-19 years"	"15-19"	139052	3826898	36.34
+	"Census Region 3: South"	"CENS-R3"	"2012"	"2012"	"20-24 years"	"20-24"	392379	4148388	94.59
+	"Census Region 3: South"	"CENS-R3"	"2012"	"2012"	"25-29 years"	"25-29"	427123	3958043	107.91
+	"Census Region 3: South"	"CENS-R3"	"2012"	"2012"	"30-34 years"	"30-34"	351350	3924882	89.52
+	"Census Region 3: South"	"CENS-R3"	"2012"	"2012"	"35-39 years"	"35-39"	157667	3729429	42.28
+	"Census Region 3: South"	"CENS-R3"	"2012"	"2012"	"40-44 years"	"40-44"	35646	3995540	8.92
+"Total"	"Census Region 3: South"	"CENS-R3"	"2012"	"2012"			1503217	23583180	63.74
+	"Census Region 3: South"	"CENS-R3"	"2013"	"2013"	"15-19 years"	"15-19"	125655	3815411	32.93
+	"Census Region 3: South"	"CENS-R3"	"2013"	"2013"	"20-24 years"	"20-24"	388020	4175216	92.93
+	"Census Region 3: South"	"CENS-R3"	"2013"	"2013"	"25-29 years"	"25-29"	431553	3987188	108.23
+	"Census Region 3: South"	"CENS-R3"	"2013"	"2013"	"30-34 years"	"30-34"	362331	3988577	90.84
+	"Census Region 3: South"	"CENS-R3"	"2013"	"2013"	"35-39 years"	"35-39"	161385	3743370	43.11
+	"Census Region 3: South"	"CENS-R3"	"2013"	"2013"	"40-44 years"	"40-44"	36296	4002804	9.07
+"Total"	"Census Region 3: South"	"CENS-R3"	"2013"	"2013"			1505240	23712566	63.48
+	"Census Region 3: South"	"CENS-R3"	"2014"	"2014"	"15-19 years"	"15-19"	115857	3831013	30.24
+	"Census Region 3: South"	"CENS-R3"	"2014"	"2014"	"20-24 years"	"20-24"	384567	4192487	91.73
+	"Census Region 3: South"	"CENS-R3"	"2014"	"2014"	"25-29 years"	"25-29"	445685	4080066	109.23
+	"Census Region 3: South"	"CENS-R3"	"2014"	"2014"	"30-34 years"	"30-34"	380688	4049741	94.00
+	"Census Region 3: South"	"CENS-R3"	"2014"	"2014"	"35-39 years"	"35-39"	172058	3805788	45.21
+	"Census Region 3: South"	"CENS-R3"	"2014"	"2014"	"40-44 years"	"40-44"	36671	3986163	9.20
+"Total"	"Census Region 3: South"	"CENS-R3"	"2014"	"2014"			1535526	23945258	64.13
+	"Census Region 3: South"	"CENS-R3"	"2015"	"2015"	"15-19 years"	"15-19"	107785	3875359	27.81
+	"Census Region 3: South"	"CENS-R3"	"2015"	"2015"	"20-24 years"	"20-24"	374395	4150641	90.20
+	"Census Region 3: South"	"CENS-R3"	"2015"	"2015"	"25-29 years"	"25-29"	454364	4186952	108.52
+	"Census Region 3: South"	"CENS-R3"	"2015"	"2015"	"30-34 years"	"30-34"	389474	4082506	95.40
+	"Census Region 3: South"	"CENS-R3"	"2015"	"2015"	"35-39 years"	"35-39"	180081	3897541	46.20
+	"Census Region 3: South"	"CENS-R3"	"2015"	"2015"	"40-44 years"	"40-44"	37934	3939155	9.63
+"Total"	"Census Region 3: South"	"CENS-R3"	"2015"	"2015"			1544033	24132154	63.98
+	"Census Region 3: South"	"CENS-R3"	"2016"	"2016"	"15-19 years"	"15-19"	99892	3912364	25.53
+	"Census Region 3: South"	"CENS-R3"	"2016"	"2016"	"20-24 years"	"20-24"	354227	4078755	86.85
+	"Census Region 3: South"	"CENS-R3"	"2016"	"2016"	"25-29 years"	"25-29"	453136	4280810	105.85
+	"Census Region 3: South"	"CENS-R3"	"2016"	"2016"	"30-34 years"	"30-34"	396292	4103720	96.57
+	"Census Region 3: South"	"CENS-R3"	"2016"	"2016"	"35-39 years"	"35-39"	188264	3984812	47.25
+	"Census Region 3: South"	"CENS-R3"	"2016"	"2016"	"40-44 years"	"40-44"	38290	3852347	9.94
+"Total"	"Census Region 3: South"	"CENS-R3"	"2016"	"2016"			1530101	24212808	63.19
+	"Census Region 3: South"	"CENS-R3"	"2017"	"2017"	"15-19 years"	"15-19"	92934	3942019	23.58
+	"Census Region 3: South"	"CENS-R3"	"2017"	"2017"	"20-24 years"	"20-24"	339660	4034021	84.20
+	"Census Region 3: South"	"CENS-R3"	"2017"	"2017"	"25-29 years"	"25-29"	446992	4367569	102.34
+	"Census Region 3: South"	"CENS-R3"	"2017"	"2017"	"30-34 years"	"30-34"	391387	4130090	94.76
+	"Census Region 3: South"	"CENS-R3"	"2017"	"2017"	"35-39 years"	"35-39"	190514	4073039	46.77
+	"Census Region 3: South"	"CENS-R3"	"2017"	"2017"	"40-44 years"	"40-44"	38712	3845577	10.07
+"Total"	"Census Region 3: South"	"CENS-R3"	"2017"	"2017"			1500199	24392315	61.50
+	"Census Region 3: South"	"CENS-R3"	"2018"	"2018"	"15-19 years"	"15-19"	86939	3963260	21.94
+	"Census Region 3: South"	"CENS-R3"	"2018"	"2018"	"20-24 years"	"20-24"	324332	4025564	80.57
+	"Census Region 3: South"	"CENS-R3"	"2018"	"2018"	"25-29 years"	"25-29"	441390	4406613	100.17
+	"Census Region 3: South"	"CENS-R3"	"2018"	"2018"	"30-34 years"	"30-34"	393983	4167570	94.54
+	"Census Region 3: South"	"CENS-R3"	"2018"	"2018"	"35-39 years"	"35-39"	196360	4147551	47.34
+	"Census Region 3: South"	"CENS-R3"	"2018"	"2018"	"40-44 years"	"40-44"	39884	3863612	10.32
+"Total"	"Census Region 3: South"	"CENS-R3"	"2018"	"2018"			1482888	24574170	60.34
+	"Census Region 3: South"	"CENS-R3"	"2019"	"2019"	"15-19 years"	"15-19"	84230	3972572	21.20
+	"Census Region 3: South"	"CENS-R3"	"2019"	"2019"	"20-24 years"	"20-24"	318574	4010458	79.44
+	"Census Region 3: South"	"CENS-R3"	"2019"	"2019"	"25-29 years"	"25-29"	435769	4389441	99.28
+	"Census Region 3: South"	"CENS-R3"	"2019"	"2019"	"30-34 years"	"30-34"	395418	4232006	93.44
+	"Census Region 3: South"	"CENS-R3"	"2019"	"2019"	"35-39 years"	"35-39"	199647	4184976	47.71
+	"Census Region 3: South"	"CENS-R3"	"2019"	"2019"	"40-44 years"	"40-44"	41021	3905854	10.50
+"Total"	"Census Region 3: South"	"CENS-R3"	"2019"	"2019"			1474659	24695307	59.71
+	"Census Region 3: South"	"CENS-R3"	"2020"	"2020"	"15-19 years"	"15-19"	79038	3974650	19.89
+	"Census Region 3: South"	"CENS-R3"	"2020"	"2020"	"20-24 years"	"20-24"	304108	4048638	75.11
+	"Census Region 3: South"	"CENS-R3"	"2020"	"2020"	"25-29 years"	"25-29"	418030	4339940	96.32
+	"Census Region 3: South"	"CENS-R3"	"2020"	"2020"	"30-34 years"	"30-34"	391660	4330838	90.44
+	"Census Region 3: South"	"CENS-R3"	"2020"	"2020"	"35-39 years"	"35-39"	197800	4209188	46.99
+	"Census Region 3: South"	"CENS-R3"	"2020"	"2020"	"40-44 years"	"40-44"	41799	3990635	10.47
+"Total"	"Census Region 3: South"	"CENS-R3"	"2020"	"2020"			1432435	24893889	57.54
+	"Census Region 3: South"	"CENS-R3"	"2021"	"2021"	"15-19 years"	"15-19"	74199	Not Available	Not Available
+	"Census Region 3: South"	"CENS-R3"	"2021"	"2021"	"20-24 years"	"20-24"	299077	Not Available	Not Available
+	"Census Region 3: South"	"CENS-R3"	"2021"	"2021"	"25-29 years"	"25-29"	420971	Not Available	Not Available
+	"Census Region 3: South"	"CENS-R3"	"2021"	"2021"	"30-34 years"	"30-34"	410432	Not Available	Not Available
+	"Census Region 3: South"	"CENS-R3"	"2021"	"2021"	"35-39 years"	"35-39"	207898	Not Available	Not Available
+	"Census Region 3: South"	"CENS-R3"	"2021"	"2021"	"40-44 years"	"40-44"	44425	Not Available	Not Available
+"Total"	"Census Region 3: South"	"CENS-R3"	"2021"	"2021"			1457002	Not Available	Not Available
+	"Census Region 3: South"	"CENS-R3"	"2022"	"2022"	"15-19 years"	"15-19"	72953	Not Available	Not Available
+	"Census Region 3: South"	"CENS-R3"	"2022"	"2022"	"20-24 years"	"20-24"	298366	Not Available	Not Available
+	"Census Region 3: South"	"CENS-R3"	"2022"	"2022"	"25-29 years"	"25-29"	426107	Not Available	Not Available
+	"Census Region 3: South"	"CENS-R3"	"2022"	"2022"	"30-34 years"	"30-34"	421301	Not Available	Not Available
+	"Census Region 3: South"	"CENS-R3"	"2022"	"2022"	"35-39 years"	"35-39"	216909	Not Available	Not Available
+	"Census Region 3: South"	"CENS-R3"	"2022"	"2022"	"40-44 years"	"40-44"	47505	Not Available	Not Available
+"Total"	"Census Region 3: South"	"CENS-R3"	"2022"	"2022"			1483141	Not Available	Not Available
+"Total"	"Census Region 3: South"	"CENS-R3"					24291284	334305203	72.66
+	"Census Region 4: West"	"CENS-R4"	"2007"	"2007"	"15-19 years"	"15-19"	104746	2518255	41.59
+	"Census Region 4: West"	"CENS-R4"	"2007"	"2007"	"20-24 years"	"20-24"	261999	2412141	108.62
+	"Census Region 4: West"	"CENS-R4"	"2007"	"2007"	"25-29 years"	"25-29"	301058	2499474	120.45
+	"Census Region 4: West"	"CENS-R4"	"2007"	"2007"	"30-34 years"	"30-34"	246341	2293157	107.42
+	"Census Region 4: West"	"CENS-R4"	"2007"	"2007"	"35-39 years"	"35-39"	133656	2449547	54.56
+	"Census Region 4: West"	"CENS-R4"	"2007"	"2007"	"40-44 years"	"40-44"	29637	2459460	12.05
+"Total"	"Census Region 4: West"	"CENS-R4"	"2007"	"2007"			1077437	14632034	73.64
+	"Census Region 4: West"	"CENS-R4"	"2008"	"2008"	"15-19 years"	"15-19"	102044	2546948	40.07
+	"Census Region 4: West"	"CENS-R4"	"2008"	"2008"	"20-24 years"	"20-24"	252820	2436916	103.75
+	"Census Region 4: West"	"CENS-R4"	"2008"	"2008"	"25-29 years"	"25-29"	298017	2539319	117.36
+	"Census Region 4: West"	"CENS-R4"	"2008"	"2008"	"30-34 years"	"30-34"	244754	2323277	105.35
+	"Census Region 4: West"	"CENS-R4"	"2008"	"2008"	"35-39 years"	"35-39"	131362	2448592	53.65
+	"Census Region 4: West"	"CENS-R4"	"2008"	"2008"	"40-44 years"	"40-44"	30067	2420844	12.42
+"Total"	"Census Region 4: West"	"CENS-R4"	"2008"	"2008"			1059064	14715896	71.97
+	"Census Region 4: West"	"CENS-R4"	"2009"	"2009"	"15-19 years"	"15-19"	94272	2557446	36.86
+	"Census Region 4: West"	"CENS-R4"	"2009"	"2009"	"20-24 years"	"20-24"	235920	2467047	95.63
+	"Census Region 4: West"	"CENS-R4"	"2009"	"2009"	"25-29 years"	"25-29"	286891	2553406	112.36
+	"Census Region 4: West"	"CENS-R4"	"2009"	"2009"	"30-34 years"	"30-34"	241399	2375256	101.63
+	"Census Region 4: West"	"CENS-R4"	"2009"	"2009"	"35-39 years"	"35-39"	127697	2430831	52.53
+	"Census Region 4: West"	"CENS-R4"	"2009"	"2009"	"40-44 years"	"40-44"	29830	2395476	12.45
+"Total"	"Census Region 4: West"	"CENS-R4"	"2009"	"2009"			1016009	14779462	68.74
+	"Census Region 4: West"	"CENS-R4"	"2010"	"2010"	"15-19 years"	"15-19"	83869	2550112	32.89
+	"Census Region 4: West"	"CENS-R4"	"2010"	"2010"	"20-24 years"	"20-24"	222221	2494863	89.07
+	"Census Region 4: West"	"CENS-R4"	"2010"	"2010"	"25-29 years"	"25-29"	278329	2548223	109.22
+	"Census Region 4: West"	"CENS-R4"	"2010"	"2010"	"30-34 years"	"30-34"	241955	2421015	99.94
+	"Census Region 4: West"	"CENS-R4"	"2010"	"2010"	"35-39 years"	"35-39"	125684	2403152	52.30
+	"Census Region 4: West"	"CENS-R4"	"2010"	"2010"	"40-44 years"	"40-44"	30182	2405481	12.55
+"Total"	"Census Region 4: West"	"CENS-R4"	"2010"	"2010"			982240	14822846	66.27
+	"Census Region 4: West"	"CENS-R4"	"2011"	"2011"	"15-19 years"	"15-19"	74388	2492102	29.85
+	"Census Region 4: West"	"CENS-R4"	"2011"	"2011"	"20-24 years"	"20-24"	214126	2586441	82.79
+	"Census Region 4: West"	"CENS-R4"	"2011"	"2011"	"25-29 years"	"25-29"	274005	2559341	107.06
+	"Census Region 4: West"	"CENS-R4"	"2011"	"2011"	"30-34 years"	"30-34"	248281	2483984	99.95
+	"Census Region 4: West"	"CENS-R4"	"2011"	"2011"	"35-39 years"	"35-39"	125851	2354058	53.46
+	"Census Region 4: West"	"CENS-R4"	"2011"	"2011"	"40-44 years"	"40-44"	31068	2444834	12.71
+"Total"	"Census Region 4: West"	"CENS-R4"	"2011"	"2011"			967719	14920760	64.86
+	"Census Region 4: West"	"CENS-R4"	"2012"	"2012"	"15-19 years"	"15-19"	68670	2460551	27.91
+	"Census Region 4: West"	"CENS-R4"	"2012"	"2012"	"20-24 years"	"20-24"	210565	2644576	79.62
+	"Census Region 4: West"	"CENS-R4"	"2012"	"2012"	"25-29 years"	"25-29"	273596	2561365	106.82
+	"Census Region 4: West"	"CENS-R4"	"2012"	"2012"	"30-34 years"	"30-34"	256702	2534180	101.30
+	"Census Region 4: West"	"CENS-R4"	"2012"	"2012"	"35-39 years"	"35-39"	130013	2357935	55.14
+	"Census Region 4: West"	"CENS-R4"	"2012"	"2012"	"40-44 years"	"40-44"	31479	2459330	12.80
+"Total"	"Census Region 4: West"	"CENS-R4"	"2012"	"2012"			971025	15017937	64.66
+	"Census Region 4: West"	"CENS-R4"	"2013"	"2013"	"15-19 years"	"15-19"	60872	2440231	24.95
+	"Census Region 4: West"	"CENS-R4"	"2013"	"2013"	"20-24 years"	"20-24"	204075	2661822	76.67
+	"Census Region 4: West"	"CENS-R4"	"2013"	"2013"	"25-29 years"	"25-29"	269280	2584936	104.17
+	"Census Region 4: West"	"CENS-R4"	"2013"	"2013"	"30-34 years"	"30-34"	260751	2580819	101.03
+	"Census Region 4: West"	"CENS-R4"	"2013"	"2013"	"35-39 years"	"35-39"	132763	2378142	55.83
+	"Census Region 4: West"	"CENS-R4"	"2013"	"2013"	"40-44 years"	"40-44"	31364	2452299	12.79
+"Total"	"Census Region 4: West"	"CENS-R4"	"2013"	"2013"			959105	15098249	63.52
+	"Census Region 4: West"	"CENS-R4"	"2014"	"2014"	"15-19 years"	"15-19"	54853	2430931	22.56
+	"Census Region 4: West"	"CENS-R4"	"2014"	"2014"	"20-24 years"	"20-24"	200638	2670735	75.12
+	"Census Region 4: West"	"CENS-R4"	"2014"	"2014"	"25-29 years"	"25-29"	273234	2657273	102.82
+	"Census Region 4: West"	"CENS-R4"	"2014"	"2014"	"30-34 years"	"30-34"	272050	2626999	103.56
+	"Census Region 4: West"	"CENS-R4"	"2014"	"2014"	"35-39 years"	"35-39"	139908	2427960	57.62
+	"Census Region 4: West"	"CENS-R4"	"2014"	"2014"	"40-44 years"	"40-44"	31991	2444342	13.09
+"Total"	"Census Region 4: West"	"CENS-R4"	"2014"	"2014"			972674	15258240	63.75
+	"Census Region 4: West"	"CENS-R4"	"2015"	"2015"	"15-19 years"	"15-19"	50141	2431539	20.62
+	"Census Region 4: West"	"CENS-R4"	"2015"	"2015"	"20-24 years"	"20-24"	190357	2642538	72.04
+	"Census Region 4: West"	"CENS-R4"	"2015"	"2015"	"25-29 years"	"25-29"	271102	2734651	99.14
+	"Census Region 4: West"	"CENS-R4"	"2015"	"2015"	"30-34 years"	"30-34"	273361	2654493	102.98
+	"Census Region 4: West"	"CENS-R4"	"2015"	"2015"	"35-39 years"	"35-39"	143615	2484234	57.81
+	"Census Region 4: West"	"CENS-R4"	"2015"	"2015"	"40-44 years"	"40-44"	32325	2417896	13.37
+"Total"	"Census Region 4: West"	"CENS-R4"	"2015"	"2015"			960901	15365351	62.54
+	"Census Region 4: West"	"CENS-R4"	"2016"	"2016"	"15-19 years"	"15-19"	45016	2434595	18.49
+	"Census Region 4: West"	"CENS-R4"	"2016"	"2016"	"20-24 years"	"20-24"	180598	2593680	69.63
+	"Census Region 4: West"	"CENS-R4"	"2016"	"2016"	"25-29 years"	"25-29"	271217	2809999	96.52
+	"Census Region 4: West"	"CENS-R4"	"2016"	"2016"	"30-34 years"	"30-34"	277756	2669754	104.04
+	"Census Region 4: West"	"CENS-R4"	"2016"	"2016"	"35-39 years"	"35-39"	148203	2536074	58.44
+	"Census Region 4: West"	"CENS-R4"	"2016"	"2016"	"40-44 years"	"40-44"	32780	2378595	13.78
+"Total"	"Census Region 4: West"	"CENS-R4"	"2016"	"2016"			955570	15422697	61.96
+	"Census Region 4: West"	"CENS-R4"	"2017"	"2017"	"15-19 years"	"15-19"	40728	2432012	16.75
+	"Census Region 4: West"	"CENS-R4"	"2017"	"2017"	"20-24 years"	"20-24"	168856	2561627	65.92
+	"Census Region 4: West"	"CENS-R4"	"2017"	"2017"	"25-29 years"	"25-29"	261298	2869303	91.07
+	"Census Region 4: West"	"CENS-R4"	"2017"	"2017"	"30-34 years"	"30-34"	268622	2703212	99.37
+	"Census Region 4: West"	"CENS-R4"	"2017"	"2017"	"35-39 years"	"35-39"	149883	2602838	57.58
+	"Census Region 4: West"	"CENS-R4"	"2017"	"2017"	"40-44 years"	"40-44"	33311	2392627	13.92
+"Total"	"Census Region 4: West"	"CENS-R4"	"2017"	"2017"			922698	15561619	59.29
+	"Census Region 4: West"	"CENS-R4"	"2018"	"2018"	"15-19 years"	"15-19"	36520	2438270	14.98
+	"Census Region 4: West"	"CENS-R4"	"2018"	"2018"	"20-24 years"	"20-24"	157931	2545977	62.03
+	"Census Region 4: West"	"CENS-R4"	"2018"	"2018"	"25-29 years"	"25-29"	251500	2896493	86.83
+	"Census Region 4: West"	"CENS-R4"	"2018"	"2018"	"30-34 years"	"30-34"	264970	2732232	96.98
+	"Census Region 4: West"	"CENS-R4"	"2018"	"2018"	"35-39 years"	"35-39"	151602	2654682	57.11
+	"Census Region 4: West"	"CENS-R4"	"2018"	"2018"	"40-44 years"	"40-44"	33385	2409479	13.86
+"Total"	"Census Region 4: West"	"CENS-R4"	"2018"	"2018"			895908	15677133	57.15
+	"Census Region 4: West"	"CENS-R4"	"2019"	"2019"	"15-19 years"	"15-19"	33943	2440879	13.91
+	"Census Region 4: West"	"CENS-R4"	"2019"	"2019"	"20-24 years"	"20-24"	151030	2519086	59.95
+	"Census Region 4: West"	"CENS-R4"	"2019"	"2019"	"25-29 years"	"25-29"	247425	2890250	85.61
+	"Census Region 4: West"	"CENS-R4"	"2019"	"2019"	"30-34 years"	"30-34"	263408	2775753	94.90
+	"Census Region 4: West"	"CENS-R4"	"2019"	"2019"	"35-39 years"	"35-39"	153232	2685893	57.05
+	"Census Region 4: West"	"CENS-R4"	"2019"	"2019"	"40-44 years"	"40-44"	34139	2433779	14.03
+"Total"	"Census Region 4: West"	"CENS-R4"	"2019"	"2019"			883177	15745640	56.09
+	"Census Region 4: West"	"CENS-R4"	"2020"	"2020"	"15-19 years"	"15-19"	30262	2437196	12.42
+	"Census Region 4: West"	"CENS-R4"	"2020"	"2020"	"20-24 years"	"20-24"	140986	2508002	56.21
+	"Census Region 4: West"	"CENS-R4"	"2020"	"2020"	"25-29 years"	"25-29"	232899	2845470	81.85
+	"Census Region 4: West"	"CENS-R4"	"2020"	"2020"	"30-34 years"	"30-34"	256364	2833396	90.48
+	"Census Region 4: West"	"CENS-R4"	"2020"	"2020"	"35-39 years"	"35-39"	149298	2699880	55.30
+	"Census Region 4: West"	"CENS-R4"	"2020"	"2020"	"40-44 years"	"40-44"	33609	2478638	13.56
+"Total"	"Census Region 4: West"	"CENS-R4"	"2020"	"2020"			843418	15802582	53.37
+	"Census Region 4: West"	"CENS-R4"	"2021"	"2021"	"15-19 years"	"15-19"	27880	Not Available	Not Available
+	"Census Region 4: West"	"CENS-R4"	"2021"	"2021"	"20-24 years"	"20-24"	136555	Not Available	Not Available
+	"Census Region 4: West"	"CENS-R4"	"2021"	"2021"	"25-29 years"	"25-29"	231729	Not Available	Not Available
+	"Census Region 4: West"	"CENS-R4"	"2021"	"2021"	"30-34 years"	"30-34"	264401	Not Available	Not Available
+	"Census Region 4: West"	"CENS-R4"	"2021"	"2021"	"35-39 years"	"35-39"	154369	Not Available	Not Available
+	"Census Region 4: West"	"CENS-R4"	"2021"	"2021"	"40-44 years"	"40-44"	34794	Not Available	Not Available
+"Total"	"Census Region 4: West"	"CENS-R4"	"2021"	"2021"			849728	Not Available	Not Available
+	"Census Region 4: West"	"CENS-R4"	"2022"	"2022"	"15-19 years"	"15-19"	27391	Not Available	Not Available
+	"Census Region 4: West"	"CENS-R4"	"2022"	"2022"	"20-24 years"	"20-24"	132943	Not Available	Not Available
+	"Census Region 4: West"	"CENS-R4"	"2022"	"2022"	"25-29 years"	"25-29"	226131	Not Available	Not Available
+	"Census Region 4: West"	"CENS-R4"	"2022"	"2022"	"30-34 years"	"30-34"	263936	Not Available	Not Available
+	"Census Region 4: West"	"CENS-R4"	"2022"	"2022"	"35-39 years"	"35-39"	157172	Not Available	Not Available
+	"Census Region 4: West"	"CENS-R4"	"2022"	"2022"	"40-44 years"	"40-44"	36875	Not Available	Not Available
+"Total"	"Census Region 4: West"	"CENS-R4"	"2022"	"2022"			844448	Not Available	Not Available
+"Total"	"Census Region 4: West"	"CENS-R4"					15161121	212820446	71.24
+"Total"							62596581	885177153	70.72
+"---"
+"Dataset: Natality, 2007-2022"
+"Query Parameters:"
+"Title: natality_age_year_census_07_22"
+"Age of Mother 9: 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years"
+"Year: 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022"
+"Group By: Census Region; Year; Age of Mother 9"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 1,000"
+"Population Option: Default intercensal populations for years 2007-2009"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/Natality.html for more information."
+"---"
+"Query Date: Jan 10, 2024 11:08:50 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Natality on CDC WONDER Online Database. Data are from the Natality Records 2007-2022, as compiled from data provided by"
+"the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed at"
+"http://wonder.cdc.gov/natality-current.html on Jan 10, 2024 11:08:50 PM"
+"---"
+Caveats:
+"1. 'Not Available' appears when the denominator population for a rate measure is not available."
+"2. Each birth record represents one liveborn infant."
+"3. Fertility rates are calculated as the number of births divided by the number of females age 15 - 44 years old in the given"
+"year(s). When the numerator is sub-set by mother's age, mother's race, mother's hispanicity, location, or year of birth, then"
+"the same sub-set for age, race, hispanicity, location and year applies to the denominator population. However, if you sub-set"
+"mother's age selecting some years not in the 15 - 44 range, those years of mother's age ouside this range will not be included"
+"in the denominator population. If you sub-set mother's age selecting only years outside the 15 - 44 range, ""Not Available"" is"
+"reported for the denominator population. Single race categories are not available for births before year 2016. Bridged race"
+"categories are not available for births after year 2019."
+"4. Birth rates and fertility rates are calculated using the following populations: The populations for year 2021 are from the"
+"postcensal single race series of July 1st estimates of the resident population, released by Census Bureau on June 30, 2022. The"
+"2021 population estimates are based on the Blended Base produced by the US Census Bureau in lieu of the April 1, 2020 decennial"
+"population count. Bridged race population figures are not available for year 2021. The populations for year 2020 are from the"
+"postcensal single-race series of July 1st estimates of the resident population, released by Census Bureau on July 27, 2021; and"
+"the postcensal bridged-race series of July 1st estimates of the resident population, released by NCHS on September 22, 2021 (for"
+"fertility rate denominators by detailed age groups). The populations for year 2019 are from the postcensal single-race series of"
+"July 1st estimates of the resident population, released by Census Bureau on June 25, 2020; and the postcensal bridged-race"
+"series of July 1st estimates of the resident population, released by NCHS on July 9, 2020. The populations for year 2018 are"
+"from the postcensal single-race series of July 1st estimates of the resident population, released by Census Bureau on June 21,"
+"2019; and the postcensal bridged-race series of July 1st estimates of the resident population, released by NCHS on June 27,"
+"2019. The populations for year 2017 are from the postcensal single-race series of July 1st estimates of the resident population,"
+"released by Census Bureau on June 21, 2018; and the postcensal bridged-race series of July 1st estimates of the resident"
+"population, released by NCHS on June 27, 2018. The populations for year 2016 are from the postcensal single-race series of July"
+"1st estimates of the resident population, released by Census Bureau on June 22, 2017; and the postcensal bridged-race series of"
+"July 1st estimates of the resident population, released by NCHS on June 26, 2017. The populations for year 2015 are from the"
+"postcensal bridged-race series of July 1st estimates of the resident population, released by NCHS on June 28, 2016. The"
+"populations for year 2014 are from the postcensal bridged-race series of July 1st estimates of the resident population, released"
+"by NCHS on June 30, 2015. The populations for year 2013 are from the postcensal bridged-race series of July 1st estimates of the"
+"resident population, released by NCHS on June 26, 2014. The populations for year 2012 are from the postcensal bridged-race"
+"series of July 1st estimates of the resident population, released by NCHS on June 13, 2013. The populations for year 2011 are"
+"from the postcensal bridged-race series of July 1st estimates of the resident population, released by NCHS on July 18, 2012. The"
+"populations for year 2010 are the bridged-race April 1, 2010 Census counts. The populations for years 2007-2009 are from the"
+"revised intercensal bridged-race series of July 1st estimates of the resident population, released by NCHS on October 26, 2012."
+"More information: http://wonder.cdc.gov/wonder/help/Natality.html#Denominator-Population-Sources."
