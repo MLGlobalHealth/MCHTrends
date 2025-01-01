@@ -26,7 +26,7 @@ By age:
 - 2023 (Jan to June): https://wonder.cdc.gov/controller/saved/D192/D367F073
 
 By racial/ethnic group: 
-- 2000-2002: https://wonder.cdc.gov/controller/saved/D10/D374F057
+- 2001-2002: https://wonder.cdc.gov/controller/saved/D10/D394F959
 - 2003-2004: https://wonder.cdc.gov/controller/saved/D27/D374F055
 - 2005-2006: https://wonder.cdc.gov/controller/saved/D27/D367F064 
 - 2005-2010: https://wonder.cdc.gov/controller/saved/D66/D374F142
@@ -41,7 +41,7 @@ By state:
 - 2023 (Jan to June): https://wonder.cdc.gov/controller/saved/D192/D367F071
 
 By age, year, census:
-- 2000-2002: https://wonder.cdc.gov/controller/saved/D10/D349F472
+- 2001-2002: https://wonder.cdc.gov/controller/saved/D10/D394F957
 - 2003-2006: https://wonder.cdc.gov/controller/saved/D27/D349F471
 - 2007-2022: https://wonder.cdc.gov/controller/saved/D66/D367F061
 - 2023 (Jan to June): https://wonder.cdc.gov/controller/saved/D192/D367F074
@@ -71,8 +71,14 @@ By year:
 We also examine maternal mortality excluding the "other maternal/pregnancy-related causes" categories (ICD-10 codes O26.8, O95 & O99) and specifically trends in those categories:
 
 - Maternal mortality excl. other (2000-2002): https://wonder.cdc.gov/controller/saved/D77/D374F171
+- Maternal mortality excl. other - age adj (2000-2002): 
+https://wonder.cdc.gov/controller/saved/D77/D394F919
 - Maternal mortality excl. other (2003-2017): https://wonder.cdc.gov/controller/saved/D77/D367F101
+- Maternal mortality excl. other - age adj (2003-2017):
+https://wonder.cdc.gov/controller/saved/D77/D394F921
 - Maternal mortality excl. other (2018-2022): https://wonder.cdc.gov/controller/saved/D176/D367F102
+- Maternal mortality excl. other - age adj (2018-2022):
+https://wonder.cdc.gov/controller/saved/D176/D394F922
 - Maternal mortality excl. other (Jan-June 2023): https://wonder.cdc.gov/controller/saved/D176/D367F104
 
 - O26.8, O95 & O99 (2000-2002): https://wonder.cdc.gov/controller/saved/D77/D374F172
@@ -97,7 +103,7 @@ By census:
 ---
 ## Fetal Mortality
 
-- 2005-2021: https://wonder.cdc.gov/controller/saved/D133/D374F186
+- 2005-2021: https://wonder.cdc.gov/controller/saved/D133/D398F673
 
 ---
 

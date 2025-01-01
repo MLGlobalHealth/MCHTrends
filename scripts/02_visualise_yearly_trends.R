@@ -41,7 +41,7 @@ df_mmno4 <- clean_df('maternal_mortality_spec_yearly_first_half_23') %>%
   mutate(Deaths = Deaths * 2)
 
 df_mmno <- rbind(df_mmno1, df_mmno2, df_mmno3, df_mmno4)
-df_mmno$Type = 'Cause-Specific Maternal'
+df_mmno$Type = 'Maternal Excl. Cause Unspecified'
 
 df_mmot1 <- clean_df('other_mat_mortality_yearly_00_02')
 df_mmot2 <- clean_df('other_mat_mortality_yearly_03_17')
@@ -86,7 +86,7 @@ save(df_inf_all_year, file="data/inf_all_yearly_clean.Rda")
 
 # Fetal ---------------------------------------------------------
 
-df_fet_all_year <- read.csv('data/fetal_mortality_yearly_05_21.txt', sep = "\t")
+df_fet_all_year <- read.csv('data/fetal_mortality_yearly_05_22.txt', sep = "\t")
 df_fet_all_year <- subset(df_fet_all_year, select = -c(Notes)) %>%
   na.omit()
 df_fet_all_year <- merge(df_fet_all_year, df_nat_year, on=Year)
@@ -94,36 +94,55 @@ df_fet_all_year$Deaths.by.Births = df_fet_all_year$Fetal.Deaths/df_fet_all_year$
 df_fet_all_year$Year <- as.character(df_fet_all_year$Year)
 save(df_fet_all_year, file="data/fet_all_yearly_clean.Rda")
 
+# CI -----------------------------------------------------------
+
+byars_conf_interval <- function(x, n, mult=100000, alpha=0.05) {
+  O <- x
+  z <- qnorm(1 - alpha/2)
+  lower <- (O*(1 - (1/(9*O)) - (z/(3*sqrt(O))))**3)/n
+  upper <- ((O+1)*(1 - (1/(9*(O+1))) + (z/(3*sqrt(O+1))))**3)/n
+  return(data.frame(lower = as.numeric(lower*mult), upper = as.numeric(upper*mult)))
+}
+
+df_mat_ci <- byars_conf_interval(df_mat_all_year$Deaths, df_mat_all_year$Births, 100000)
+df_mat_all_year <- cbind(df_mat_all_year, df_mat_ci)
+
+df_inf_ci <- byars_conf_interval(df_inf_all_year$Deaths, df_inf_all_year$Births, 1000)
+df_inf_all_year <- cbind(df_inf_all_year, df_inf_ci)
+df_inf_all_year$Type <- "Infant"
+
+df_fet_ci <- byars_conf_interval(df_fet_all_year$Fetal.Deaths, df_fet_all_year$Births, 1000)
+df_fet_all_year <- cbind(df_fet_all_year, df_fet_ci)
+df_fet_all_year$Type <- "Fetal"
+df_fet_all_year <- rename(df_fet_all_year, Deaths = Fetal.Deaths)
+
+df_inf_fet_all_year <- rbind(df_inf_all_year, df_fet_all_year)
+
 # Plot ---------------------------------------------------------
 
+# colour blind friendly palette from here: https://jfly.uni-koeln.de/color/
+cbPalette <- c("#CC79A7", "#0072B2", "#009E73", "#E69F00", "#D55E00", "#56B4E9", "#F0E442", "#999999")
+
 df_mat_all_year %>%
-  ggplot(aes(x=Year, y=Deaths.by.Births, group=Type, colour=Type)) +
-  geom_line() +
+  ggplot(aes(x=Year, y=Deaths.by.Births, group=Type, colour=Type, linetype=Type)) +
+  geom_line() + geom_point() +
   theme_minimal() + 
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  labs(y = "Rate per 100,000 Live Births", 
-       title = "Rates of Maternal and Pregnancy-Related Deaths by Year (2001-2023)",
-       caption = "Note: The 2022 count is provisional. The 2023 count is provisional and partial. We take deaths in the first half of 2023 and double the count to approximate the yearly mortality.") +
-  theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) 
+  labs(y = "Rate per 100,000 Live Births") +
+  theme(plot.caption=element_text(hjust = 0), axis.title.x=element_blank()) + guides(fill=guide_legend(title="")) +
+  geom_ribbon(aes(ymin=lower, ymax=upper, group=Type, fill=Type), alpha=0.2, color = NA, show.legend = FALSE) +
+  scale_color_manual(values = cbPalette) + scale_fill_manual(values = cbPalette) 
 ggsave('figs/plt_mat_year_line.png')
 
-df_inf_all_year %>%
-  ggplot(aes(x=Year, y=Deaths.by.Births, group=1)) +
-  geom_line(colour="red") +
+cbPalette2 <- c("#D55E00", "#56B4E9")
+
+df_inf_fet_all_year %>%
+  ggplot(aes(x=Year, y=Deaths.by.Births, group=Type, colour=Type, linetype=Type)) +
+  geom_line() + geom_point() +
   theme_minimal() + 
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  labs(y = "Rate per 1,000 Live Births", 
-       title = "Rates of Infant Deaths by Year (2001-2023)",
-       caption = "Note: The 2022 count is provisional. The 2023 count is provisional and partial. We take deaths in the first half of 2023 and double the count to approximate the yearly mortality.") +
-  theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) 
-ggsave('figs/plt_inf_year_line.png')
-
-df_fet_all_year %>%
-  ggplot(aes(x=Year, y=Deaths.by.Births, group=1)) +
-  geom_line(colour="steelblue") +
-  theme_minimal() + 
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  labs(y = "Rate per 1,000 Live Births", 
-       title = "Rates of Fetal Deaths by Year (2005-2021)")
-ggsave('figs/plt_fet_year_line.png')
-
+  labs(y = "Rate per 1,000 Live Births") +
+  theme(plot.caption=element_text(hjust = 0), axis.title.x=element_blank()) + guides(fill=guide_legend(title="")) +
+geom_ribbon(aes(ymin=lower, ymax=upper, fill=Type), alpha=0.2, color = NA, show.legend = FALSE) +
+  scale_color_manual(values = cbPalette2) + scale_fill_manual(values = cbPalette2) 
+ggsave('figs/plt_inf_fet_year_line.png')

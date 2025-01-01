@@ -218,44 +218,44 @@ df_nat_race_20_23 <- rbind(df_nat_race_20_22, df_nat_race_23) %>%
   summarise(Births=sum(Births)) %>%
   filter(Mother.s.Race != "More than one race")
 
-df_nat_race_00_02 <- clean_df3('natality_race_00_02')
-df_nat_race_00_02[(df_nat_race_00_02$Mother.s.Hispanic.Origin == 'Origin unknown or not stated') &
-      (df_nat_race_00_02$Mother.s.Race == 'Black or African American'), 
+df_nat_race_01_02 <- clean_df3('natality_race_01_02')
+df_nat_race_01_02[(df_nat_race_01_02$Mother.s.Hispanic.Origin == 'Origin unknown or not stated') &
+      (df_nat_race_01_02$Mother.s.Race == 'Black or African American'), 
       'Mother.s.Race'] = 'Unknown Black'
-df_nat_race_00_02[(df_nat_race_00_02$Mother.s.Hispanic.Origin == 'Non-Hispanic Black') &
-                    (df_nat_race_00_02$Mother.s.Race == 'Black or African American'), 
+df_nat_race_01_02[(df_nat_race_01_02$Mother.s.Hispanic.Origin == 'Non-Hispanic Black') &
+                    (df_nat_race_01_02$Mother.s.Race == 'Black or African American'), 
                   'Mother.s.Race'] = 'Non-Hispanic Black'
-df_nat_race_00_02[((df_nat_race_00_02$Mother.s.Hispanic.Origin != 'Non-Hispanic Black') &
-                    (df_nat_race_00_02$Mother.s.Hispanic.Origin != 'Origin unknown or not stated')) &
-                    (df_nat_race_00_02$Mother.s.Race == 'Black or African American'), 
+df_nat_race_01_02[((df_nat_race_01_02$Mother.s.Hispanic.Origin != 'Non-Hispanic Black') &
+                    (df_nat_race_01_02$Mother.s.Hispanic.Origin != 'Origin unknown or not stated')) &
+                    (df_nat_race_01_02$Mother.s.Race == 'Black or African American'), 
                   'Mother.s.Race'] = 'Hispanic'
-df_nat_race_00_02[(df_nat_race_00_02$Mother.s.Hispanic.Origin == 'Origin unknown or not stated') &
-                    (df_nat_race_00_02$Mother.s.Race == 'White'), 
+df_nat_race_01_02[(df_nat_race_01_02$Mother.s.Hispanic.Origin == 'Origin unknown or not stated') &
+                    (df_nat_race_01_02$Mother.s.Race == 'White'), 
                   'Mother.s.Race'] = 'Unknown White'
-df_nat_race_00_02[(df_nat_race_00_02$Mother.s.Hispanic.Origin == 'Non-Hispanic White') &
-                    (df_nat_race_00_02$Mother.s.Race == 'White'), 
+df_nat_race_01_02[(df_nat_race_01_02$Mother.s.Hispanic.Origin == 'Non-Hispanic White') &
+                    (df_nat_race_01_02$Mother.s.Race == 'White'), 
                   'Mother.s.Race'] = 'Non-Hispanic White'
-df_nat_race_00_02[((df_nat_race_00_02$Mother.s.Hispanic.Origin != 'Non-Hispanic White') &
-                     (df_nat_race_00_02$Mother.s.Hispanic.Origin != 'Origin unknown or not stated')) &
-                    (df_nat_race_00_02$Mother.s.Race == 'White'), 
+df_nat_race_01_02[((df_nat_race_01_02$Mother.s.Hispanic.Origin != 'Non-Hispanic White') &
+                     (df_nat_race_01_02$Mother.s.Hispanic.Origin != 'Origin unknown or not stated')) &
+                    (df_nat_race_01_02$Mother.s.Race == 'White'), 
                   'Mother.s.Race'] = 'Hispanic'
-df_nat_race_00_02[((df_nat_race_00_02$Mother.s.Race == 'Chinese') | 
-                     (df_nat_race_00_02$Mother.s.Race == 'Filipino') |
-                     (df_nat_race_00_02$Mother.s.Race == 'Hawaiian') |
-                     (df_nat_race_00_02$Mother.s.Race == 'Japanese') |
-                     (df_nat_race_00_02$Mother.s.Race == 'Other Asian ')), 
+df_nat_race_01_02[((df_nat_race_01_02$Mother.s.Race == 'Chinese') | 
+                     (df_nat_race_01_02$Mother.s.Race == 'Filipino') |
+                     (df_nat_race_01_02$Mother.s.Race == 'Hawaiian') |
+                     (df_nat_race_01_02$Mother.s.Race == 'Japanese') |
+                     (df_nat_race_01_02$Mother.s.Race == 'Other Asian ')), 
                   'Mother.s.Race'] = 'Asian or Pacific Islander'
-df_nat_race_00_02[df_nat_race_00_02$Mother.s.Race == 'American Indian or Alaska Native',
+df_nat_race_01_02[df_nat_race_01_02$Mother.s.Race == 'American Indian or Alaska Native',
                   'Mother.s.Race'] = 'Native American/Alaskan'
 
-df_nat_race_00_02 <- df_nat_race_00_02 %>% group_by(Mother.s.Race) %>% 
+df_nat_race_01_02 <- df_nat_race_01_02 %>% group_by(Mother.s.Race) %>% 
   summarise(Births = sum(Births))
 
-df_nat_race_00_10 <- rbind(df_nat_race_00_02, df_nat_race_03_10) %>% 
+df_nat_race_01_10 <- rbind(df_nat_race_01_02, df_nat_race_03_10) %>% 
   group_by(Mother.s.Race) %>% 
   summarise(Births = sum(Births))
 
-save(df_nat_race_00_10, file="data/natality_race_00_10_clean.Rda")
+save(df_nat_race_01_10, file="data/natality_race_01_10_clean.Rda")
 save(df_nat_race_11_19, file="data/natality_race_11_19_clean.Rda")
 save(df_nat_race_20_22, file="data/natality_race_20_22_clean.Rda")
 save(df_nat_race_20_23, file="data/natality_race_20_23_clean.Rda")
