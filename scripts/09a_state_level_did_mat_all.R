@@ -17,7 +17,7 @@ setwd('/Users/rpark/Desktop/Research/Rotations/2. Fetal Maternal Mortality/Fetal
 
 # Import datafiles
 clean_df <- function(fname) {
-  df <- read.csv(str_interp('data/reg_data/${fname}.txt'), sep = "\t")
+  df <- read.csv(str_interp('data/did_data/${fname}.txt'), sep = "\t")
   subset(df, select = -c(Notes, Crude.Rate, Year.Code)) %>%
     na.omit() %>%
     filter((Year != '')) %>%
@@ -30,7 +30,7 @@ df_national <- rbind(df_national1, df_national2) %>%
   distinct(.keep_all = TRUE)
 
 clean_nat <- function(fname) {
-  df <- read.csv(str_interp('data/reg_data/${fname}.txt'), sep = "\t")
+  df <- read.csv(str_interp('data/did_data/${fname}.txt'), sep = "\t")
   subset(df, select = -c(Notes, Year.Code)) %>%
     na.omit() %>%
     filter((Year != '')) %>%
@@ -38,7 +38,7 @@ clean_nat <- function(fname) {
     filter((Year != '2024 (provisional and partial)'))
 }
 
-mrg_att4 <- mrg_att2[c('Year','prop_treated')]
+# mrg_att4 <- mrg_att2[c('Year','prop_treated')]
 
 df_natality1 <- clean_nat('natality_yearly_19992002')
 df_natality2 <- clean_nat('natality_yearly_20032006')
@@ -48,7 +48,7 @@ df_natality <- rbind(df_natality1, df_natality2, df_natality3) %>%
 
 # Import datafiles
 clean_state_df <- function(state, years) {
-  df1 <- read.csv(str_interp('data/reg_data/maternal_mortality_yearly_${state}_${years}.txt'), sep = "\t")
+  df1 <- read.csv(str_interp('data/did_data/maternal_mortality_yearly_${state}_${years}.txt'), sep = "\t")
   subset(df1, select = -c(Notes, Crude.Rate, Year.Code)) %>%
     na.omit() %>%
     filter((Year != ''))
@@ -197,7 +197,7 @@ df_state_csum <-df_state_sum %>%
     sum_births = sum(Births[checkbox <= Year])
   )
 
-df_state_csum2 <- merge(df_state_sum, df_state_cumsum, on='Year') %>%
+df_state_csum2 <- merge(df_state_sum, df_state_csum, on='Year') %>%
   mutate(prop_treated = sum_births/nat_births) 
 
 df_state_csum2 <- df_state_csum2 %>%
