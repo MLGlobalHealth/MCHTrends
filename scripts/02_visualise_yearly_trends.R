@@ -41,7 +41,7 @@ df_mmno4 <- clean_df('maternal_mortality_spec_yearly_first_half_23') %>%
   mutate(Deaths = Deaths * 2)
 
 df_mmno <- rbind(df_mmno1, df_mmno2, df_mmno3, df_mmno4)
-df_mmno$Type = 'Cause-Specific Maternal'
+df_mmno$Type = 'Maternal Excl. Cause Unspecified'
 
 df_mmot1 <- clean_df('other_mat_mortality_yearly_00_02')
 df_mmot2 <- clean_df('other_mat_mortality_yearly_03_17')
@@ -125,7 +125,7 @@ cbPalette <- c("#CC79A7", "#0072B2", "#009E73", "#E69F00", "#D55E00", "#56B4E9",
 
 df_mat_all_year %>%
   ggplot(aes(x=Year, y=Deaths.by.Births, group=Type, colour=Type, linetype=Type)) +
-  geom_line() +
+  geom_line() + geom_point() +
   theme_minimal() + 
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   labs(y = "Rate per 100,000 Live Births") +
@@ -138,7 +138,7 @@ cbPalette2 <- c("#D55E00", "#56B4E9")
 
 df_inf_fet_all_year %>%
   ggplot(aes(x=Year, y=Deaths.by.Births, group=Type, colour=Type, linetype=Type)) +
-  geom_line() +
+  geom_line() + geom_point() +
   theme_minimal() + 
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   labs(y = "Rate per 1,000 Live Births") +

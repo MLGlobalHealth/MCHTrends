@@ -139,6 +139,9 @@ df_crude_all <- df_crude_all %>%
 
 cbPalette <- c("#CC79A7", "#0072B2", "#009E73", "#E69F00", "#D55E00", "#56B4E9", "#F0E442", "#999999")
 
+df_crude_all[df_crude_all$Mother.s.Race == 'Native American/Alaskan', 
+             'Mother.s.Race'] = 'Native American/Alaska Native'
+
 ggplot(df_crude_all, aes(x = Mother.s.Race, y = value, fill = Period)) +
   geom_bar(stat = "identity", position = position_dodge()) +
   geom_errorbar(aes(ymin = lower, ymax = upper), 

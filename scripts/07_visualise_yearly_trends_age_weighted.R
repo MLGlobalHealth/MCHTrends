@@ -194,12 +194,12 @@ ggsave('figs/plt_mat_year_age_wgt_line.png')
 # df_mmno_mrg <- merge(df_mmno, df_nat_year_age, by=c('Year','age_group'))
 # df_mmno_mrg$rate = df_mmno_mrg$Deaths / df_mmno_mrg$Births * 100000
 # 
-# df_mmno_mrg %>%
-#   ggplot(aes(x=Year, y=rate, group=age_group, colour=age_group, linetype=age_group)) +
+# df_nat_year_age %>%
+#   ggplot(aes(x=Year, y=Births, group=age_group, colour=age_group, linetype=age_group)) +
 #   geom_line() +
 #   theme_minimal() +
 #   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-#   labs(y="Death Rate per 100,000") +
+#   labs(y="Births") +
 #   theme(plot.caption=element_text(hjust = 0), axis.title.x=element_blank()) + guides(fill=guide_legend(title="")) +
 #   #geom_ribbon(aes(ymin=lower, ymax=upper, group=Type, fill=Type), alpha=0.2, color = NA, show.legend = FALSE) +
 #   scale_color_manual(values = cbPalette) + scale_fill_manual(values = cbPalette)

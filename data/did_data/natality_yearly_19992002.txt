@@ -1,0 +1,237 @@
+"Notes"	"Year"	"Year Code"	"State"	"State Code"	Births
+	"1999"	"1999"	"Alabama"	"01"	61871
+	"1999"	"1999"	"Alaska"	"02"	9913
+	"1999"	"1999"	"Arizona"	"04"	80834
+	"1999"	"1999"	"Arkansas"	"05"	36601
+	"1999"	"1999"	"California"	"06"	516569
+	"1999"	"1999"	"Colorado"	"08"	61965
+	"1999"	"1999"	"Connecticut"	"09"	43193
+	"1999"	"1999"	"Delaware"	"10"	10633
+	"1999"	"1999"	"Florida"	"12"	196275
+	"1999"	"1999"	"Georgia"	"13"	126209
+	"1999"	"1999"	"Hawaii"	"15"	16980
+	"1999"	"1999"	"Idaho"	"16"	19818
+	"1999"	"1999"	"Illinois"	"17"	181456
+	"1999"	"1999"	"Indiana"	"18"	85809
+	"1999"	"1999"	"Iowa"	"19"	37484
+	"1999"	"1999"	"Kansas"	"20"	38696
+	"1999"	"1999"	"Kentucky"	"21"	54261
+	"1999"	"1999"	"Louisiana"	"22"	66830
+	"1999"	"1999"	"Maine"	"23"	13593
+	"1999"	"1999"	"Maryland"	"24"	71702
+	"1999"	"1999"	"Massachusetts"	"25"	80742
+	"1999"	"1999"	"Michigan"	"26"	133216
+	"1999"	"1999"	"Minnesota"	"27"	65798
+	"1999"	"1999"	"Mississippi"	"28"	42457
+	"1999"	"1999"	"Missouri"	"29"	75228
+	"1999"	"1999"	"Montana"	"30"	10760
+	"1999"	"1999"	"Nebraska"	"31"	23849
+	"1999"	"1999"	"Nevada"	"32"	29242
+	"1999"	"1999"	"New Hampshire"	"33"	14020
+	"1999"	"1999"	"New Jersey"	"34"	113746
+	"1999"	"1999"	"New Mexico"	"35"	27066
+	"1999"	"1999"	"New York"	"36"	254769
+	"1999"	"1999"	"North Carolina"	"37"	113362
+	"1999"	"1999"	"North Dakota"	"38"	7628
+	"1999"	"1999"	"Ohio"	"39"	152148
+	"1999"	"1999"	"Oklahoma"	"40"	48847
+	"1999"	"1999"	"Oregon"	"41"	45053
+	"1999"	"1999"	"Pennsylvania"	"42"	144935
+	"1999"	"1999"	"Rhode Island"	"44"	12338
+	"1999"	"1999"	"South Carolina"	"45"	54718
+	"1999"	"1999"	"South Dakota"	"46"	10502
+	"1999"	"1999"	"Tennessee"	"47"	77503
+	"1999"	"1999"	"Texas"	"48"	347841
+	"1999"	"1999"	"Utah"	"49"	46197
+	"1999"	"1999"	"Vermont"	"50"	6551
+	"1999"	"1999"	"Virginia"	"51"	95172
+	"1999"	"1999"	"Washington"	"53"	79334
+	"1999"	"1999"	"West Virginia"	"54"	20689
+	"1999"	"1999"	"Wisconsin"	"55"	68020
+	"1999"	"1999"	"Wyoming"	"56"	6119
+"Total"	"1999"	"1999"			3938542
+	"2000"	"2000"	"Alabama"	"01"	63075
+	"2000"	"2000"	"Alaska"	"02"	9951
+	"2000"	"2000"	"Arizona"	"04"	84965
+	"2000"	"2000"	"Arkansas"	"05"	37630
+	"2000"	"2000"	"California"	"06"	530111
+	"2000"	"2000"	"Colorado"	"08"	65225
+	"2000"	"2000"	"Connecticut"	"09"	42893
+	"2000"	"2000"	"Delaware"	"10"	11010
+	"2000"	"2000"	"Florida"	"12"	203397
+	"2000"	"2000"	"Georgia"	"13"	132144
+	"2000"	"2000"	"Hawaii"	"15"	17510
+	"2000"	"2000"	"Idaho"	"16"	20334
+	"2000"	"2000"	"Illinois"	"17"	184461
+	"2000"	"2000"	"Indiana"	"18"	87514
+	"2000"	"2000"	"Iowa"	"19"	38191
+	"2000"	"2000"	"Kansas"	"20"	39571
+	"2000"	"2000"	"Kentucky"	"21"	55873
+	"2000"	"2000"	"Louisiana"	"22"	67592
+	"2000"	"2000"	"Maine"	"23"	13577
+	"2000"	"2000"	"Maryland"	"24"	74040
+	"2000"	"2000"	"Massachusetts"	"25"	81375
+	"2000"	"2000"	"Michigan"	"26"	135801
+	"2000"	"2000"	"Minnesota"	"27"	67417
+	"2000"	"2000"	"Mississippi"	"28"	43822
+	"2000"	"2000"	"Missouri"	"29"	76258
+	"2000"	"2000"	"Montana"	"30"	10938
+	"2000"	"2000"	"Nebraska"	"31"	24590
+	"2000"	"2000"	"Nevada"	"32"	30734
+	"2000"	"2000"	"New Hampshire"	"33"	14582
+	"2000"	"2000"	"New Jersey"	"34"	115320
+	"2000"	"2000"	"New Mexico"	"35"	27121
+	"2000"	"2000"	"New York"	"36"	257868
+	"2000"	"2000"	"North Carolina"	"37"	119892
+	"2000"	"2000"	"North Dakota"	"38"	7671
+	"2000"	"2000"	"Ohio"	"39"	155046
+	"2000"	"2000"	"Oklahoma"	"40"	49635
+	"2000"	"2000"	"Oregon"	"41"	45679
+	"2000"	"2000"	"Pennsylvania"	"42"	145834
+	"2000"	"2000"	"Rhode Island"	"44"	12464
+	"2000"	"2000"	"South Carolina"	"45"	55859
+	"2000"	"2000"	"South Dakota"	"46"	10316
+	"2000"	"2000"	"Tennessee"	"47"	79328
+	"2000"	"2000"	"Texas"	"48"	362061
+	"2000"	"2000"	"Utah"	"49"	47277
+	"2000"	"2000"	"Vermont"	"50"	6488
+	"2000"	"2000"	"Virginia"	"51"	98626
+	"2000"	"2000"	"Washington"	"53"	80793
+	"2000"	"2000"	"West Virginia"	"54"	20819
+	"2000"	"2000"	"Wisconsin"	"55"	69151
+	"2000"	"2000"	"Wyoming"	"56"	6243
+"Total"	"2000"	"2000"			4038072
+	"2001"	"2001"	"Alabama"	"01"	60230
+	"2001"	"2001"	"Alaska"	"02"	9974
+	"2001"	"2001"	"Arizona"	"04"	85306
+	"2001"	"2001"	"Arkansas"	"05"	36876
+	"2001"	"2001"	"California"	"06"	525886
+	"2001"	"2001"	"Colorado"	"08"	66801
+	"2001"	"2001"	"Connecticut"	"09"	42504
+	"2001"	"2001"	"Delaware"	"10"	10705
+	"2001"	"2001"	"Florida"	"12"	205025
+	"2001"	"2001"	"Georgia"	"13"	133034
+	"2001"	"2001"	"Hawaii"	"15"	17024
+	"2001"	"2001"	"Idaho"	"16"	20648
+	"2001"	"2001"	"Illinois"	"17"	183495
+	"2001"	"2001"	"Indiana"	"18"	86278
+	"2001"	"2001"	"Iowa"	"19"	37556
+	"2001"	"2001"	"Kansas"	"20"	38783
+	"2001"	"2001"	"Kentucky"	"21"	54539
+	"2001"	"2001"	"Louisiana"	"22"	65086
+	"2001"	"2001"	"Maine"	"23"	13734
+	"2001"	"2001"	"Maryland"	"24"	72949
+	"2001"	"2001"	"Massachusetts"	"25"	80856
+	"2001"	"2001"	"Michigan"	"26"	133048
+	"2001"	"2001"	"Minnesota"	"27"	67357
+	"2001"	"2001"	"Mississippi"	"28"	42064
+	"2001"	"2001"	"Missouri"	"29"	75283
+	"2001"	"2001"	"Montana"	"30"	10949
+	"2001"	"2001"	"Nebraska"	"31"	24772
+	"2001"	"2001"	"Nevada"	"32"	31273
+	"2001"	"2001"	"New Hampshire"	"33"	14633
+	"2001"	"2001"	"New Jersey"	"34"	115468
+	"2001"	"2001"	"New Mexico"	"35"	27016
+	"2001"	"2001"	"New York"	"36"	253121
+	"2001"	"2001"	"North Carolina"	"37"	117824
+	"2001"	"2001"	"North Dakota"	"38"	7618
+	"2001"	"2001"	"Ohio"	"39"	151159
+	"2001"	"2001"	"Oklahoma"	"40"	49988
+	"2001"	"2001"	"Oregon"	"41"	45189
+	"2001"	"2001"	"Pennsylvania"	"42"	143071
+	"2001"	"2001"	"Rhode Island"	"44"	12672
+	"2001"	"2001"	"South Carolina"	"45"	55542
+	"2001"	"2001"	"South Dakota"	"46"	10456
+	"2001"	"2001"	"Tennessee"	"47"	78071
+	"2001"	"2001"	"Texas"	"48"	364020
+	"2001"	"2001"	"Utah"	"49"	47874
+	"2001"	"2001"	"Vermont"	"50"	6353
+	"2001"	"2001"	"Virginia"	"51"	98623
+	"2001"	"2001"	"Washington"	"53"	79347
+	"2001"	"2001"	"West Virginia"	"54"	20388
+	"2001"	"2001"	"Wisconsin"	"55"	68920
+	"2001"	"2001"	"Wyoming"	"56"	6106
+"Total"	"2001"	"2001"			4005494
+	"2002"	"2002"	"Alabama"	"01"	58756
+	"2002"	"2002"	"Alaska"	"02"	9912
+	"2002"	"2002"	"Arizona"	"04"	87543
+	"2002"	"2002"	"Arkansas"	"05"	37298
+	"2002"	"2002"	"California"	"06"	527453
+	"2002"	"2002"	"Colorado"	"08"	68210
+	"2002"	"2002"	"Connecticut"	"09"	41842
+	"2002"	"2002"	"Delaware"	"10"	11050
+	"2002"	"2002"	"Florida"	"12"	204862
+	"2002"	"2002"	"Georgia"	"13"	132851
+	"2002"	"2002"	"Hawaii"	"15"	17430
+	"2002"	"2002"	"Idaho"	"16"	20928
+	"2002"	"2002"	"Illinois"	"17"	180054
+	"2002"	"2002"	"Indiana"	"18"	84906
+	"2002"	"2002"	"Iowa"	"19"	37508
+	"2002"	"2002"	"Kansas"	"20"	39311
+	"2002"	"2002"	"Kentucky"	"21"	54098
+	"2002"	"2002"	"Louisiana"	"22"	64582
+	"2002"	"2002"	"Maine"	"23"	13535
+	"2002"	"2002"	"Maryland"	"24"	73033
+	"2002"	"2002"	"Massachusetts"	"25"	80398
+	"2002"	"2002"	"Michigan"	"26"	129604
+	"2002"	"2002"	"Minnesota"	"27"	67849
+	"2002"	"2002"	"Mississippi"	"28"	41300
+	"2002"	"2002"	"Missouri"	"29"	75047
+	"2002"	"2002"	"Montana"	"30"	11028
+	"2002"	"2002"	"Nebraska"	"31"	25334
+	"2002"	"2002"	"Nevada"	"32"	32487
+	"2002"	"2002"	"New Hampshire"	"33"	14414
+	"2002"	"2002"	"New Jersey"	"34"	114385
+	"2002"	"2002"	"New Mexico"	"35"	27638
+	"2002"	"2002"	"New York"	"36"	250497
+	"2002"	"2002"	"North Carolina"	"37"	116939
+	"2002"	"2002"	"North Dakota"	"38"	7742
+	"2002"	"2002"	"Ohio"	"39"	148337
+	"2002"	"2002"	"Oklahoma"	"40"	50244
+	"2002"	"2002"	"Oregon"	"41"	45079
+	"2002"	"2002"	"Pennsylvania"	"42"	142433
+	"2002"	"2002"	"Rhode Island"	"44"	12860
+	"2002"	"2002"	"South Carolina"	"45"	54388
+	"2002"	"2002"	"South Dakota"	"46"	10677
+	"2002"	"2002"	"Tennessee"	"47"	77230
+	"2002"	"2002"	"Texas"	"48"	371097
+	"2002"	"2002"	"Utah"	"49"	49114
+	"2002"	"2002"	"Vermont"	"50"	6376
+	"2002"	"2002"	"Virginia"	"51"	99376
+	"2002"	"2002"	"Washington"	"53"	78840
+	"2002"	"2002"	"West Virginia"	"54"	20668
+	"2002"	"2002"	"Wisconsin"	"55"	68386
+	"2002"	"2002"	"Wyoming"	"56"	6534
+"Total"	"2002"	"2002"			4001463
+"Total"					15983571
+"---"
+"Dataset: Natality, 1995-2002"
+"Query Parameters:"
+"Title: natality_yearly_1999_2002"
+"Age of Mother: 15-19 years; 20-24 years; 25-29 years; 30-34 years; 35-39 years; 40-44 years"
+"States: Alabama (01); Alaska (02); Arizona (04); Arkansas (05); California (06); Colorado (08); Connecticut (09); Delaware (10);"
+"Florida (12); Georgia (13); Hawaii (15); Idaho (16); Illinois (17); Indiana (18); Iowa (19); Kansas (20); Kentucky (21);"
+"Louisiana (22); Maine (23); Maryland (24); Massachusetts (25); Michigan (26); Minnesota (27); Mississippi (28); Missouri (29);"
+"Montana (30); Nebraska (31); Nevada (32); New Hampshire (33); New Jersey (34); New Mexico (35); New York (36); North Carolina"
+"(37); North Dakota (38); Ohio (39); Oklahoma (40); Oregon (41); Pennsylvania (42); Rhode Island (44); South Carolina (45); South"
+"Dakota (46); Tennessee (47); Texas (48); Utah (49); Vermont (50); Virginia (51); Washington (53); West Virginia (54); Wisconsin"
+"(55); Wyoming (56)"
+"Year: 1999; 2000; 2001; 2002"
+"Group By: Year; State"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/Natality.html for more information."
+"---"
+"Query Date: Nov 11, 2024 10:49:38 AM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Natality on CDC WONDER Online Database. Data are from the Natality Records 1995-2002, as compiled from data provided by"
+"the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed at"
+"http://wonder.cdc.gov/natality-v2002.html on Nov 11, 2024 10:49:38 AM"
+"---"
+Caveats:
+"1. Each birth record represents one liveborn infant."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/Natality.html#Assurance of Confidentiality."
