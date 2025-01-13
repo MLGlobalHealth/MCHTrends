@@ -157,8 +157,7 @@ ggplot(df_crude_all, aes(x = Census.Region, y = value, fill = Period)) +
   labs(x = "Census Region",
        y = "Rate per 1,000 Live Births") +
   scale_color_manual(values = cbPalette) + scale_fill_manual(values = cbPalette) + 
-  theme_minimal() +
-  theme(axis.title.x=element_blank())
+  theme_minimal() 
 ggsave("figs/plt_pct_chg_cause_spec_inf_census_crude.png")
 
 

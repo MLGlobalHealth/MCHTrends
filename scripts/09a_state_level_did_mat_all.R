@@ -174,7 +174,8 @@ cbPalette <- c("#CC79A7", "#0072B2", "#009E73", "#E69F00", "#D55E00", "#56B4E9",
 ggdid(es) + scale_x_continuous(limits=c(-10,10)) + 
   scale_fill_manual(values = cbPalette) +
   scale_color_manual(values = cbPalette, 
-                     labels = c('Pre', 'Post')) 
+                     labels = c('Pre', 'Post')) +
+  labs(x="Time to/from Exposure")
 ggsave("figs/plt_did_dynamic_mm_all.png")
 
 diffed_state_rate <- diffed_state_rate %>%
@@ -245,14 +246,15 @@ mrg_att3 <- mrg_att2 %>%
 mrg_att3$Variable[mrg_att3$Variable == 'counterfactual'] <- "Counterfactual"
 mrg_att3$Variable[mrg_att3$Variable == 'Rate'] <- "Actual Rate"
 
+
 # Plot the counterfactuals over time
-ggplot(mrg_att3, aes(x = Year, y = Value, color=Variable)) +
+ggplot(mrg_att3 %>% arrange(desc(Variable)), aes(x = Year, y = Value, color=Variable)) +
   geom_point(size = 1.2) +
   ylim(0,35) +
   geom_pointrange(aes(ymin=Value-SE, ymax=Value+SE)) +
   scale_color_manual(values = cbPalette) + scale_fill_manual(values = cbPalette) + 
   labs(
-    title = "Counterfactual Mortality by Year",
+    # title = "Counterfactual Mortality by Year",
     x = "Year",
     y = "Deaths per 100,000") +
   theme_minimal()

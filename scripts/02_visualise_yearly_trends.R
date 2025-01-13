@@ -128,8 +128,8 @@ df_mat_all_year %>%
   geom_line() + geom_point() +
   theme_minimal() + 
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  labs(y = "Rate per 100,000 Live Births") +
-  theme(plot.caption=element_text(hjust = 0), axis.title.x=element_blank()) + guides(fill=guide_legend(title="")) +
+  labs(x='Year', y = "Rate per 100,000 Live Births") +
+  theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) +
   geom_ribbon(aes(ymin=lower, ymax=upper, group=Type, fill=Type), alpha=0.2, color = NA, show.legend = FALSE) +
   scale_color_manual(values = cbPalette) + scale_fill_manual(values = cbPalette) 
 ggsave('figs/plt_mat_year_line.png')
@@ -141,8 +141,8 @@ df_inf_fet_all_year %>%
   geom_line() + geom_point() +
   theme_minimal() + 
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  labs(y = "Rate per 1,000 Live Births") +
-  theme(plot.caption=element_text(hjust = 0), axis.title.x=element_blank()) + guides(fill=guide_legend(title="")) +
+  labs(x='Year', y = "Rate per 1,000 Live Births") +
+  theme(plot.caption=element_text(hjust = 0)) + guides(fill=guide_legend(title="")) +
 geom_ribbon(aes(ymin=lower, ymax=upper, fill=Type), alpha=0.2, color = NA, show.legend = FALSE) +
   scale_color_manual(values = cbPalette2) + scale_fill_manual(values = cbPalette2) 
 ggsave('figs/plt_inf_fet_year_line.png')

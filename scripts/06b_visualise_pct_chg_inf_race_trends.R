@@ -147,11 +147,10 @@ ggplot(df_crude_all, aes(x = Mother.s.Race, y = value, fill = Period)) +
   geom_errorbar(aes(ymin = lower, ymax = upper), 
                 position = position_dodge(width = 0.9), 
                 width = 0.25) +
-  labs(x = "Mother's Racial/Ethnic Group",
+  labs(x = "Mother's Race and Ethnic Group",
        y = "Rate per 1,000 Live Births") +
   scale_color_manual(values = cbPalette) + scale_fill_manual(values = cbPalette) + 
-  theme_minimal() +
-  theme(axis.title.x=element_blank())
+  theme_minimal() 
 ggsave("figs/plt_pct_chg_cause_spec_inf_race_crude.png")
 
 # df_crude_inf %>%
