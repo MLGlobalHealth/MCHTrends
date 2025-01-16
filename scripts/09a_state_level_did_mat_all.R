@@ -175,8 +175,10 @@ ggdid(es) + scale_x_continuous(limits=c(-10,10)) +
   scale_fill_manual(values = cbPalette) +
   scale_color_manual(values = cbPalette, 
                      labels = c('Pre', 'Post')) +
-  labs(x="Time to/from Exposure")
+  labs(title='',
+    x="Time to/from Exposure")
 ggsave("figs/plt_did_dynamic_mm_all.png")
+ggsave("figs/plt_did_dynamic_mm_all.svg")
 
 diffed_state_rate <- diffed_state_rate %>%
   mutate(
@@ -259,6 +261,7 @@ ggplot(mrg_att3 %>% arrange(desc(Variable)), aes(x = Year, y = Value, color=Vari
     y = "Deaths per 100,000") +
   theme_minimal()
 ggsave("figs/plt_did_counterfactual_mm_all.png")
+ggsave("figs/plt_did_counterfactual_mm_all.svg")
 
 # Plot the ATTs
 # ggplot(df_att, aes(x = Year, y = Pred)) +

@@ -54,3 +54,5 @@ df_mmno %>%
   geom_ribbon(aes(ymin=lower, ymax=upper, group=Type, fill=Type), alpha=0.2, color = NA, show.legend = FALSE) +
   scale_color_manual(values = cbPalette) + scale_fill_manual(values = cbPalette) 
 ggsave('figs/plt_mat_year_pop_age_wgt_line.png')
+ggsave('figs/plt_mat_year_pop_age_wgt_line.svg')
+

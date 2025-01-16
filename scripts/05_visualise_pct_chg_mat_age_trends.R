@@ -212,6 +212,7 @@ ggplot(df_crude_all, aes(x = Five.Year.Age.Groups, y = value, fill = Period)) +
   scale_color_manual(values = cbPalette) + scale_fill_manual(values = cbPalette) + 
   theme_minimal() 
 ggsave("figs/plt_pct_chg_cause_spec_mat_age_crude.png")
+ggsave("figs/plt_pct_chg_cause_spec_mat_age_crude.svg")
 
 
 

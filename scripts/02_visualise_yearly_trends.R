@@ -2,7 +2,7 @@
 
 ## Package names
 packages <- c("tidyverse","ggplot2","dplyr","shiny", "zoo",
-              "data.table","ggrepel","directlabels")
+              "data.table","ggrepel","directlabels","svglite")
 
 ## Install packages not yet installed
 installed_packages <- packages %in% rownames(installed.packages())
@@ -133,6 +133,7 @@ df_mat_all_year %>%
   geom_ribbon(aes(ymin=lower, ymax=upper, group=Type, fill=Type), alpha=0.2, color = NA, show.legend = FALSE) +
   scale_color_manual(values = cbPalette) + scale_fill_manual(values = cbPalette) 
 ggsave('figs/plt_mat_year_line.png')
+ggsave('figs/plt_mat_year_line.svg')
 
 cbPalette2 <- c("#D55E00", "#56B4E9")
 
@@ -146,3 +147,4 @@ df_inf_fet_all_year %>%
 geom_ribbon(aes(ymin=lower, ymax=upper, fill=Type), alpha=0.2, color = NA, show.legend = FALSE) +
   scale_color_manual(values = cbPalette2) + scale_fill_manual(values = cbPalette2) 
 ggsave('figs/plt_inf_fet_year_line.png')
+ggsave('figs/plt_inf_fet_year_line.svg')

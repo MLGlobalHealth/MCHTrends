@@ -159,6 +159,7 @@ ggplot(df_crude_all, aes(x = Census.Region, y = value, fill = Period)) +
   scale_color_manual(values = cbPalette) + scale_fill_manual(values = cbPalette) + 
   theme_minimal() 
 ggsave("figs/plt_pct_chg_cause_spec_inf_census_crude.png")
+ggsave("figs/plt_pct_chg_cause_spec_inf_census_crude.svg")
 
 
 # df_crude_inf %>%
