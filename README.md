@@ -1,6 +1,6 @@
 # Trends in Maternal, Fetal, and Infant Mortality in the US, 2000-2023
 
-This repository contains the code and data for "Trends in Maternal, Fetal, and Infant Mortality in the US, 2000-2023" (_JAMA Pediatrics 2025_; see paper [here](https://jamanetwork.com/journals/jamapediatrics/article-abstract/2833316). 
+This repository contains the code and data for "Trends in Maternal, Fetal, and Infant Mortality in the US, 2000-2023" (_JAMA Pediatrics 2025_; see paper [here](https://jamanetwork.com/journals/jamapediatrics/article-abstract/2833316)). 
 
 bibtex: 
 
